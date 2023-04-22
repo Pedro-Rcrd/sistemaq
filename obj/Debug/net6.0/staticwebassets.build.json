@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "U8Im2/+s/B3GrH4bKgVN3AEVN9dDuqoK6LBJqMXaCqw=",
+  "Hash": "5TuGkNIlZ21L4oQX8b8cdZA1W2wDYFqclHQk2o2+7rY=",
   "Source": "systemquchooch",
   "BasePath": "_content/systemquchooch",
   "Mode": "Default",
@@ -83,23 +83,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
-    },
-    {
-      "Identity": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\Sisteam Quchooch\\systemquchooch\\wwwroot\\img\\comunidad.jpg",
-      "SourceId": "systemquchooch",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\Sisteam Quchooch\\systemquchooch\\wwwroot\\",
-      "BasePath": "_content/systemquchooch",
-      "RelativePath": "img/comunidad.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\comunidad.jpg"
     },
     {
       "Identity": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\Sisteam Quchooch\\systemquchooch\\wwwroot\\js\\site.js",

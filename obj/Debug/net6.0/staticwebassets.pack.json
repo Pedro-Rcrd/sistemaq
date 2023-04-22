@@ -13,10 +13,6 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\Sisteam Quchooch\\systemquchooch\\wwwroot\\img\\comunidad.jpg",
-      "PackagePath": "staticwebassets\\img\\comunidad.jpg"
-    },
-    {
       "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\Sisteam Quchooch\\systemquchooch\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
