@@ -1,0 +1,17 @@
+﻿<h1>REGISTROS PRINCIPALES</h1>
+<p>
+    <a class="btn btn-primary" asp-controller="Registro" asp-action="Principal">Principales</a>
+    <a class="btn btn-primary" asp-controller="Registro" asp-action="Auxiliar">Auxiliares</a>
+
+</p>
+
+<div class="col-xl-3 col-md-6">
+    <div class="card bg-dark text-white mb-4">
+        <div class="card-body">IMG</div>
+        <img asp-controller="File" src="@Url.Action("MostrarImagen")" alt="Imagen de ejemplo" />
+        <div class="card-footer d-flex align-items-center justify-content-between">
+            <a class="small text-white stretched-link" asp-controller="Comunidads" asp-action="Index">Comunidades</a>
+            <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+        </div>
+    </div>
+</div>
