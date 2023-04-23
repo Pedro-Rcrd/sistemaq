@@ -15,4 +15,9 @@ html {
 
 body {
   margin-bottom: 60px;
+
+}
+
+.imagen {
+    background-image: url("../images/ironMan.jpg");
 }

@@ -9,25 +9,37 @@ public partial class Estudiante
 
     public int CodigoComunidad { get; set; }
 
-    public string NombreEstudiante { get; set; } = null!;
+    public string Nombre { get; set; } = null!;
 
     public string Apellido { get; set; } = null!;
 
     public DateTime FechaNacimieto { get; set; }
 
-    public bool Genero { get; set; }
+    public string Genero { get; set; } = null!;
 
-    public byte Estado { get; set; }
+    public string Estado { get; set; } = null!;
 
-    public string Sector { get; set; } = null!;
+    public byte Sector { get; set; }
 
     public string NumeroCasa { get; set; } = null!;
 
     public string Descripcion { get; set; } = null!;
 
-    public string Fotografi { get; set; } = null!;
+    public string FotoPerfil { get; set; } = null!;
 
-    public DateTime? FechaCreacion { get; set; }
+    public DateTime FechaCreacion { get; set; }
 
     public virtual Comunidad CodigoComunidadNavigation { get; set; } = null!;
+
+    public virtual ICollection<EstudiantePatrocinador> EstudiantePatrocinadors { get; set; } = new List<EstudiantePatrocinador>();
+
+    public virtual ICollection<EstudianteTutorium> EstudianteTutoria { get; set; } = new List<EstudianteTutorium>();
+
+    public virtual ICollection<FichaCalificacion> FichaCalificacions { get; set; } = new List<FichaCalificacion>();
+
+    public virtual ICollection<Gasto> Gastos { get; set; } = new List<Gasto>();
+
+    public virtual ICollection<HistorialEstudiante> HistorialEstudiantes { get; set; } = new List<HistorialEstudiante>();
+
+    public virtual ICollection<OrdenCompra> OrdenCompras { get; set; } = new List<OrdenCompra>();
 }
