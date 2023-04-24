@@ -1,0 +1,41 @@
+﻿@model IEnumerable<systemquchooch.Models.EstudiantePatrocinador>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CodigoEstudianteNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CodigoPatrocinadorNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CodigoEstudianteNavigation.CodigoEstudiante)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CodigoPatrocinadorNavigation.CodigoPatrocinador)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.CodigoEstudiantePatrocinador">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.CodigoEstudiantePatrocinador">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.CodigoEstudiantePatrocinador">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

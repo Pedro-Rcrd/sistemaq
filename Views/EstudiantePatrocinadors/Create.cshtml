@@ -1,0 +1,36 @@
+﻿@model systemquchooch.Models.EstudiantePatrocinador
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>EstudiantePatrocinador</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CodigoEstudiante" class="control-label"></label>
+                <select asp-for="CodigoEstudiante" class ="form-control" asp-items="ViewBag.CodigoEstudiante"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="CodigoPatrocinador" class="control-label"></label>
+                <select asp-for="CodigoPatrocinador" class ="form-control" asp-items="ViewBag.CodigoPatrocinador"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

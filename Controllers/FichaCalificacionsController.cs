@@ -1,0 +1,179 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
+using systemquchooch.Models;
+
+namespace systemquchooch.Controllers
+{
+    public class FichaCalificacionsController : Controller
+    {
+        private readonly QuchoochContext _context;
+
+        public FichaCalificacionsController(QuchoochContext context)
+        {
+            _context = context;
+        }
+
+        // GET: FichaCalificacions
+        public async Task<IActionResult> Index()
+        {
+            var quchoochContext = _context.FichaCalificacions.Include(f => f.CodigoDesempeñoNavigation).Include(f => f.CodigoEstudianteNavigation).Include(f => f.CodigoPeriodoNavigation);
+            return View(await quchoochContext.ToListAsync());
+        }
+
+        // GET: FichaCalificacions/Details/5
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null || _context.FichaCalificacions == null)
+            {
+                return NotFound();
+            }
+
+            var fichaCalificacion = await _context.FichaCalificacions
+                .Include(f => f.CodigoDesempeñoNavigation)
+                .Include(f => f.CodigoEstudianteNavigation)
+                .Include(f => f.CodigoPeriodoNavigation)
+                .FirstOrDefaultAsync(m => m.CodigoFichaCalificacion == id);
+            if (fichaCalificacion == null)
+            {
+                return NotFound();
+            }
+
+            return View(fichaCalificacion);
+        }
+
+        // GET: FichaCalificacions/Create
+        public IActionResult Create()
+        {
+            ViewData["CodigoDesempeño"] = new SelectList(_context.Desempeños, "CodigoDesempeño", "CodigoDesempeño");
+            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "CodigoEstudiante");
+            ViewData["CodigoPeriodo"] = new SelectList(_context.Periodos, "CodigoPeriodo", "CodigoPeriodo");
+            return View();
+        }
+
+        // POST: FichaCalificacions/Create
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create([Bind("CodigoFichaCalificacion,CodigoEstudiante,CodigoPeriodo,CodigoDesempeño,FechaEntrega,Notas,Promedio,ImagenFicha,ImagenEstudiante,ImagenCarta")] FichaCalificacion fichaCalificacion)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Add(fichaCalificacion);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            ViewData["CodigoDesempeño"] = new SelectList(_context.Desempeños, "CodigoDesempeño", "CodigoDesempeño", fichaCalificacion.CodigoDesempeño);
+            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "CodigoEstudiante", fichaCalificacion.CodigoEstudiante);
+            ViewData["CodigoPeriodo"] = new SelectList(_context.Periodos, "CodigoPeriodo", "CodigoPeriodo", fichaCalificacion.CodigoPeriodo);
+            return View(fichaCalificacion);
+        }
+
+        // GET: FichaCalificacions/Edit/5
+        public async Task<IActionResult> Edit(int? id)
+        {
+            if (id == null || _context.FichaCalificacions == null)
+            {
+                return NotFound();
+            }
+
+            var fichaCalificacion = await _context.FichaCalificacions.FindAsync(id);
+            if (fichaCalificacion == null)
+            {
+                return NotFound();
+            }
+            ViewData["CodigoDesempeño"] = new SelectList(_context.Desempeños, "CodigoDesempeño", "CodigoDesempeño", fichaCalificacion.CodigoDesempeño);
+            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "CodigoEstudiante", fichaCalificacion.CodigoEstudiante);
+            ViewData["CodigoPeriodo"] = new SelectList(_context.Periodos, "CodigoPeriodo", "CodigoPeriodo", fichaCalificacion.CodigoPeriodo);
+            return View(fichaCalificacion);
+        }
+
+        // POST: FichaCalificacions/Edit/5
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id, [Bind("CodigoFichaCalificacion,CodigoEstudiante,CodigoPeriodo,CodigoDesempeño,FechaEntrega,Notas,Promedio,ImagenFicha,ImagenEstudiante,ImagenCarta")] FichaCalificacion fichaCalificacion)
+        {
+            if (id != fichaCalificacion.CodigoFichaCalificacion)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    _context.Update(fichaCalificacion);
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!FichaCalificacionExists(fichaCalificacion.CodigoFichaCalificacion))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+                return RedirectToAction(nameof(Index));
+            }
+            ViewData["CodigoDesempeño"] = new SelectList(_context.Desempeños, "CodigoDesempeño", "CodigoDesempeño", fichaCalificacion.CodigoDesempeño);
+            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "CodigoEstudiante", fichaCalificacion.CodigoEstudiante);
+            ViewData["CodigoPeriodo"] = new SelectList(_context.Periodos, "CodigoPeriodo", "CodigoPeriodo", fichaCalificacion.CodigoPeriodo);
+            return View(fichaCalificacion);
+        }
+
+        // GET: FichaCalificacions/Delete/5
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null || _context.FichaCalificacions == null)
+            {
+                return NotFound();
+            }
+
+            var fichaCalificacion = await _context.FichaCalificacions
+                .Include(f => f.CodigoDesempeñoNavigation)
+                .Include(f => f.CodigoEstudianteNavigation)
+                .Include(f => f.CodigoPeriodoNavigation)
+                .FirstOrDefaultAsync(m => m.CodigoFichaCalificacion == id);
+            if (fichaCalificacion == null)
+            {
+                return NotFound();
+            }
+
+            return View(fichaCalificacion);
+        }
+
+        // POST: FichaCalificacions/Delete/5
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            if (_context.FichaCalificacions == null)
+            {
+                return Problem("Entity set 'QuchoochContext.FichaCalificacions'  is null.");
+            }
+            var fichaCalificacion = await _context.FichaCalificacions.FindAsync(id);
+            if (fichaCalificacion != null)
+            {
+                _context.FichaCalificacions.Remove(fichaCalificacion);
+            }
+            
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+
+        private bool FichaCalificacionExists(int id)
+        {
+          return (_context.FichaCalificacions?.Any(e => e.CodigoFichaCalificacion == id)).GetValueOrDefault();
+        }
+    }
+}
