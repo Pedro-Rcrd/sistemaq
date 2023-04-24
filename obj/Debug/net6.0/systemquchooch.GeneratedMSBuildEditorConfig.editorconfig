@@ -9,7 +9,6 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = systemquchooch
 build_property.RootNamespace = systemquchooch
-<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\pedro\OneDrive\Documentos\Noveno Semestre 2023\2. Ingenieria de Software\Sisteam Quchooch\systemquchooch\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
@@ -70,67 +69,5 @@ build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/Sisteam Quchooch/systemquchooch/Views/Shared/_Layout.cshtml]
-=======
-build_property.ProjectDir = C:\Users\Usuario\Desktop\sistemaq\
-build_property.RazorLangVersion = 6.0
-build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Usuario\Desktop\sistemaq
-build_property._RazorSourceGeneratorDebug = 
-
-[C:/Users/Usuario/Desktop/sistemaq/Views/Comunidads/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tdW5pZGFkc1xDcmVhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Usuario/Desktop/sistemaq/Views/Comunidads/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tdW5pZGFkc1xEZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Usuario/Desktop/sistemaq/Views/Comunidads/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tdW5pZGFkc1xEZXRhaWxzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Usuario/Desktop/sistemaq/Views/Comunidads/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tdW5pZGFkc1xFZGl0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Usuario/Desktop/sistemaq/Views/Comunidads/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tdW5pZGFkc1xJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Usuario/Desktop/sistemaq/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Usuario/Desktop/sistemaq/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Usuario/Desktop/sistemaq/Views/Registro/Auxiliar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cm9cQXV4aWxpYXIuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Usuario/Desktop/sistemaq/Views/Registro/Principal.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cm9cUHJpbmNpcGFsLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Usuario/Desktop/sistemaq/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Usuario/Desktop/sistemaq/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Usuario/Desktop/sistemaq/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Usuario/Desktop/sistemaq/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Usuario/Desktop/sistemaq/Views/Shared/_Layout.cshtml]
->>>>>>> b4a7f950e9c8696c45fcce298c896afb57c3c25a
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-z6qxmccazj
