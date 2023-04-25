@@ -1,0 +1,60 @@
+﻿@model systemquchooch.Models.Tutorium
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Tutorium</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CodigoCurso" class="control-label"></label>
+                <select asp-for="CodigoCurso" class ="form-control" asp-items="ViewBag.CodigoCurso"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="CodigoArea" class="control-label"></label>
+                <select asp-for="CodigoArea" class ="form-control" asp-items="ViewBag.CodigoArea"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="CodigoTutor" class="control-label"></label>
+                <select asp-for="CodigoTutor" class ="form-control" asp-items="ViewBag.CodigoTutor"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="FechaCreacion" class="control-label"></label>
+                <input asp-for="FechaCreacion" class="form-control" />
+                <span asp-validation-for="FechaCreacion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HoraInicio" class="control-label"></label>
+                <input asp-for="HoraInicio" class="form-control" />
+                <span asp-validation-for="HoraInicio" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HoraFinal" class="control-label"></label>
+                <input asp-for="HoraFinal" class="form-control" />
+                <span asp-validation-for="HoraFinal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Tema" class="control-label"></label>
+                <input asp-for="Tema" class="form-control" />
+                <span asp-validation-for="Tema" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
