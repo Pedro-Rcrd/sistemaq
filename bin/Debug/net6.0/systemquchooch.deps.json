@@ -10,10 +10,19 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.5",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.13"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.13",
+          "Twitter.Bootstrap.MVC": "2.1.6"
         },
         "runtime": {
           "systemquchooch.dll": {}
+        }
+      },
+      "Antlr/3.4.1.9004": {
+        "runtime": {
+          "lib/Antlr3.Runtime.dll": {
+            "assemblyVersion": "3.4.1.9004",
+            "fileVersion": "3.4.1.9004"
+          }
         }
       },
       "Azure.Core/1.24.0": {
@@ -50,6 +59,11 @@
           }
         }
       },
+      "bootstrap/3.1.1": {
+        "dependencies": {
+          "jQuery": "1.9.0"
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "runtime": {
           "lib/net6.0/Humanizer.dll": {
@@ -58,6 +72,7 @@
           }
         }
       },
+      "jQuery/1.9.0": {},
       "MessagePack/2.1.152": {
         "dependencies": {
           "MessagePack.Annotations": "2.1.152",
@@ -84,6 +99,62 @@
         }
       },
       "MessagePackAnalyzer/2.1.152": {},
+      "Microsoft.AspNet.Mvc/5.1.0": {
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "3.1.0",
+          "Microsoft.AspNet.WebPages": "3.1.0"
+        },
+        "runtime": {
+          "lib/net45/System.Web.Mvc.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.20110.0"
+          }
+        }
+      },
+      "Microsoft.AspNet.Razor/3.1.0": {
+        "runtime": {
+          "lib/net45/System.Web.Razor.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.20110.0"
+          }
+        }
+      },
+      "Microsoft.AspNet.Web.Optimization/1.1.2": {
+        "dependencies": {
+          "Microsoft.Web.Infrastructure": "1.0.0",
+          "WebGrease": "1.5.2"
+        },
+        "runtime": {
+          "lib/net40/System.Web.Optimization.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.31028.0"
+          }
+        }
+      },
+      "Microsoft.AspNet.WebPages/3.1.0": {
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "3.1.0",
+          "Microsoft.Web.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "lib/net45/System.Web.Helpers.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.20110.0"
+          },
+          "lib/net45/System.Web.WebPages.Deployment.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.20110.0"
+          },
+          "lib/net45/System.Web.WebPages.Razor.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.20110.0"
+          },
+          "lib/net45/System.Web.WebPages.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.20110.0"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Razor.Language/6.0.0": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Language.dll": {
@@ -1338,6 +1409,14 @@
           }
         }
       },
+      "Microsoft.Web.Infrastructure/1.0.0": {
+        "runtime": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.20105.407"
+          }
+        }
+      },
       "Microsoft.Win32.Primitives/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.1",
@@ -2417,6 +2496,37 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0"
         }
+      },
+      "Twitter.Bootstrap.MVC/2.1.6": {
+        "dependencies": {
+          "Microsoft.AspNet.Mvc": "5.1.0",
+          "Microsoft.AspNet.Web.Optimization": "1.1.2",
+          "WebActivatorEx": "2.0.4",
+          "bootstrap": "3.1.1"
+        }
+      },
+      "WebActivatorEx/2.0.4": {
+        "dependencies": {
+          "Microsoft.Web.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "lib/net40/WebActivatorEx.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.4.0"
+          }
+        }
+      },
+      "WebGrease/1.5.2": {
+        "dependencies": {
+          "Antlr": "3.4.1.9004",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/WebGrease.dll": {
+            "assemblyVersion": "1.5.2.14234",
+            "fileVersion": "1.5.2.14234"
+          }
+        }
       }
     }
   },
@@ -2425,6 +2535,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Antlr/3.4.1.9004": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c1S+HBE+KYA5EBxtn25LEK02hHPH/tDQ6RviUTTCJpZIPoputtn8ArsQJy9lVJWZOnw37ufByO2Fmf1M8wpr8Q==",
+      "path": "antlr/3.4.1.9004",
+      "hashPath": "antlr.3.4.1.9004.nupkg.sha512"
     },
     "Azure.Core/1.24.0": {
       "type": "package",
@@ -2440,12 +2557,26 @@
       "path": "azure.identity/1.6.0",
       "hashPath": "azure.identity.1.6.0.nupkg.sha512"
     },
+    "bootstrap/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bZdJfKiF+ez9518keshVM/mIZHCqDSrI+Bb4GjHauYlrMfgNuud9vZxrIf5QbqK9vaZ3mXmq02Kmg+TcPXm2MQ==",
+      "path": "bootstrap/3.1.1",
+      "hashPath": "bootstrap.3.1.1.nupkg.sha512"
+    },
     "Humanizer.Core/2.14.1": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "jQuery/1.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bS6OGSd/QL39vKKhATpeehgZDCzV6foRJ52EocEGAB29VetwXkQHN6KQIBlBbW9VJzuHr+rQxHYZ13MnPGQ/vw==",
+      "path": "jquery/1.9.0",
+      "hashPath": "jquery.1.9.0.nupkg.sha512"
     },
     "MessagePack/2.1.152": {
       "type": "package",
@@ -2467,6 +2598,34 @@
       "sha512": "sha512-uJhZlGMkXDaFYsH8V9S6o1EyvsUqB9mpU4DVBXNr0DXZVzZMhuLP1IkLj5xK3EKlaAcvkFkZv3eSvuz360wb3Q==",
       "path": "messagepackanalyzer/2.1.152",
       "hashPath": "messagepackanalyzer.2.1.152.nupkg.sha512"
+    },
+    "Microsoft.AspNet.Mvc/5.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-b0+kjZw+CG0YFpsi/DvoDmIaT4rKaxCUJW+bgAc6hI1GqPIqI4C8+zvNYWi7/ufm6GGqk1OlkBDkGlTpbTIDpA==",
+      "path": "microsoft.aspnet.mvc/5.1.0",
+      "hashPath": "microsoft.aspnet.mvc.5.1.0.nupkg.sha512"
+    },
+    "Microsoft.AspNet.Razor/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qqNngbKkZv9TgetKRZzt7fIkgW4x9/eF8XNxGnR+dIQiaE+1MzsLDLjKbu8VrabhTCAZl8vV/Rh65EjE3zSZ2w==",
+      "path": "microsoft.aspnet.razor/3.1.0",
+      "hashPath": "microsoft.aspnet.razor.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.AspNet.Web.Optimization/1.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o+xd4qDFZ/RMsI+6U5OLpjXMQjuifIeiuKyjDFMAIXukkVqzUHPVchSCkFJCc7QVPqpUW/fU4Vhkxll5YAu1Jw==",
+      "path": "microsoft.aspnet.web.optimization/1.1.2",
+      "hashPath": "microsoft.aspnet.web.optimization.1.1.2.nupkg.sha512"
+    },
+    "Microsoft.AspNet.WebPages/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mWVFqkrwEjDB3yuVU9aSpdGgU/Gz1zD1YYFd6yezCTVFL5IjxHtryMBOuQ0yXAIcgi2ZaF5SRXdD7eFhDTbhlQ==",
+      "path": "microsoft.aspnet.webpages/3.1.0",
+      "hashPath": "microsoft.aspnet.webpages.3.1.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Razor.Language/6.0.0": {
       "type": "package",
@@ -2894,6 +3053,13 @@
       "sha512": "sha512-wO6yeIq12881/Pyhb4fIxDuUWAwh9GuDbsU7bW/iHOEqEK+YxtcROs8EzcQ+iZfKVGEkkSmqhghncBWG67/ASw==",
       "path": "microsoft.visualstudio.web.codegenerators.mvc/6.0.13",
       "hashPath": "microsoft.visualstudio.web.codegenerators.mvc.6.0.13.nupkg.sha512"
+    },
+    "Microsoft.Web.Infrastructure/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FNmvLn5m2LTU/Rs2KWVo0SIIh9Ek+U0ojex7xeDaSHw/zgEP77A8vY5cVWgUtBGS8MJfDGNn8rpXJWEIQaPwTg==",
+      "path": "microsoft.web.infrastructure/1.0.0",
+      "hashPath": "microsoft.web.infrastructure.1.0.0.nupkg.sha512"
     },
     "Microsoft.Win32.Primitives/4.3.0": {
       "type": "package",
@@ -3699,6 +3865,27 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
+    },
+    "Twitter.Bootstrap.MVC/2.1.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-S7PvKoJeqaUTqXcdPu5+WucslBZ3Mq8qBiyNJsY4o3IXflKXeNEmKk1Btc65tG6Z86jIRpVINCl5bV9I0abnUA==",
+      "path": "twitter.bootstrap.mvc/2.1.6",
+      "hashPath": "twitter.bootstrap.mvc.2.1.6.nupkg.sha512"
+    },
+    "WebActivatorEx/2.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Sgol3nDK0EsVuSoRnT8Mhkt+TlwW6A1bL0LQ5U4OHxcxcWkjQX04iZpMYzq3Wz1F22afP3ReXALPfwMUtP8PlQ==",
+      "path": "webactivatorex/2.0.4",
+      "hashPath": "webactivatorex.2.0.4.nupkg.sha512"
+    },
+    "WebGrease/1.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VoyDSOOugLx3q5IyOgEcjeYZQOqV9VWZQT57UtN4szlYhAmOcEjVfKWXbtRqBuX43pgyL9E7nMSIPoryC8Cu1Q==",
+      "path": "webgrease/1.5.2",
+      "hashPath": "webgrease.1.5.2.nupkg.sha512"
     }
   }
 }
