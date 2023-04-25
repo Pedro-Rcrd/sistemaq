@@ -1,0 +1,65 @@
+﻿@model IEnumerable<systemquchooch.Models.HistorialEstudiante>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaCreacion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CodigoCarreraNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CodigoEstablecimientoNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CodigoEstudianteNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CodigoGradoNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CodigoNivelAcademicoNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaCreacion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CodigoCarreraNavigation.CodigoCarrera)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CodigoEstablecimientoNavigation.CodigoEstablecimiento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CodigoEstudianteNavigation.CodigoEstudiante)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CodigoGradoNavigation.CodigoGrado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CodigoNivelAcademicoNavigation.CodigoNivelAcademico)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.CodigoHistorialEstudiante">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.CodigoHistorialEstudiante">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.CodigoHistorialEstudiante">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
