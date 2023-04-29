@@ -61,6 +61,8 @@ namespace systemquchooch.Controllers
             //AQUI SE HIZO LA MODIFICACION
             //AGREGANDO UN COMENTARIO DE PRUEBA
             //COMENTARIO EN rama0429
+            //fusionando --
+
             if (ModelState != null)
             {
                 _context.Add(estudiante);
