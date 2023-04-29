@@ -58,6 +58,7 @@ namespace systemquchooch.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("CodigoEstudiante,CodigoComunidad,Nombre,Apellido,FechaNacimieto,Genero,Estado,Sector,NumeroCasa,Descripcion,FotoPerfil,FechaCreacion")] Estudiante estudiante)
         {
+            //AQUI SE HIZO LA MODIFICACION
             if (ModelState != null)
             {
                 _context.Add(estudiante);
