@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\mica2\\Desktop\\PROYECTO QUCHOOCH IS (1)\\Proyecto Quchooch --Actualizado\\sistemaq\\systemquchooch.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\mica2\\Desktop\\PROYECTO QUCHOOCH IS (1)\\Proyecto Quchooch --Actualizado\\sistemaq\\systemquchooch.csproj",
         "packagesPath": "C:\\Users\\mica2\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\mica2\\Desktop\\PROYECTO QUCHOOCH IS (1)\\Proyecto Quchooch --Actualizado\\sistemaq\\obj\\",
+=======
+    "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\systemquchooch.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\systemquchooch.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\systemquchooch.csproj",
+        "projectName": "systemquchooch",
+        "projectPath": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\systemquchooch.csproj",
+        "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\obj\\",
+>>>>>>> 1eacf6ed4281c6e759b3a51d94239c6af4f07c9d
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -57,9 +71,15 @@
               "target": "Package",
               "version": "[6.0.13, )"
             },
+<<<<<<< HEAD
             "Rotativa.AspNetCore": {
               "target": "Package",
               "version": "[1.2.0, )"
+=======
+            "Twitter.Bootstrap.MVC": {
+              "target": "Package",
+              "version": "[2.1.6, )"
+>>>>>>> 1eacf6ed4281c6e759b3a51d94239c6af4f07c9d
             }
           },
           "imports": [

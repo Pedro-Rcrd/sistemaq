@@ -1,0 +1,71 @@
+﻿@model IEnumerable<systemquchooch.Models.Tutorium>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaCreacion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HoraInicio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HoraFinal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tema)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CodigoAreaNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CodigoCursoNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CodigoTutorNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaCreacion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HoraInicio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HoraFinal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tema)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CodigoAreaNavigation.CodigoArea)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CodigoCursoNavigation.CodigoCurso)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CodigoTutorNavigation.CodigoTutor)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.CodigoTutoria">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.CodigoTutoria">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.CodigoTutoria">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

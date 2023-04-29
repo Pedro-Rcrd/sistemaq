@@ -63,9 +63,15 @@ public partial class QuchoochContext : DbContext
 
     public virtual DbSet<Tutorium> Tutoria { get; set; }
 
+<<<<<<< HEAD
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
         => optionsBuilder.UseSqlServer("server=DESKTOP-0T5MFDR\\SQLSERVER; database=quchooch; integrated security=true; Trusted_Connection=True; TrustServerCertificate=True");
+=======
+  //  protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+//#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
+  //      => optionsBuilder.UseSqlServer("server=localhost; database=quchooch; integrated security=true; Trusted_Connection=True; TrustServerCertificate=True");
+>>>>>>> 1eacf6ed4281c6e759b3a51d94239c6af4f07c9d
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

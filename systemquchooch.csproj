@@ -13,7 +13,11 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.13" />
+<<<<<<< HEAD
     <PackageReference Include="Rotativa.AspNetCore" Version="1.2.0" />
+=======
+    <PackageReference Include="Twitter.Bootstrap.MVC" Version="2.1.6" />
+>>>>>>> 1eacf6ed4281c6e759b3a51d94239c6af4f07c9d
   </ItemGroup>
 
   <ItemGroup>
