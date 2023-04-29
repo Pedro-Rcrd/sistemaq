@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Rotativa.AspNetCore;
 using systemquchooch.Models;
 
 namespace systemquchooch.Controllers
@@ -48,6 +49,22 @@ namespace systemquchooch.Controllers
         public IActionResult Create()
         {
             return View();
+        }
+
+        // GET: Generar PDF
+        public async Task<IActionResult> ImprimirNivel()
+        {
+
+            // ViewModelUsuarios modelo = _context.Usuarios.Include(dv => dv.Id)
+            //.Select(dv = new ViewModelUsuarios){
+
+            //}
+            return new ViewAsPdf("ImprimirNivel", await _context.NivelAcademicos.ToListAsync()/*,modelo*/)
+            {
+                FileName = $"Reporte NivelAcademicos.pdf",
+                PageSize = Rotativa.AspNetCore.Options.Size.A4
+            };
+
         }
 
         // POST: NivelAcademicoes/Create

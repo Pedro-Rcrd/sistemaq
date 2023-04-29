@@ -5,7 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Rotativa.AspNetCore;
 using systemquchooch.Models;
+using systemquchooch.Models.ViewModelsPDF;
 
 namespace systemquchooch.Controllers
 {
@@ -45,11 +47,25 @@ namespace systemquchooch.Controllers
         }
 
         // GET: Comunidads/Create
-        public IActionResult Create()
+        public IActionResult Create() 
         {
             return View();
         }
+        // GET: Generar PDF
+        public async Task<IActionResult> ImprimirComunidad()
+        {
 
+            // ViewModelUsuarios modelo = _context.Usuarios.Include(dv => dv.Id)
+            //.Select(dv = new ViewModelUsuarios){
+
+            //}
+            return new ViewAsPdf("ImprimirComunidad", await _context.Comunidads.ToListAsync()/*,modelo*/)
+            {
+                FileName = $"Reporte Comunidades.pdf",
+                PageSize = Rotativa.AspNetCore.Options.Size.A4
+            };
+
+        }
         // POST: Comunidads/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.

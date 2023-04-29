@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Rotativa.AspNetCore;
 using systemquchooch.Models;
 
 namespace systemquchooch.Controllers
@@ -48,6 +49,22 @@ namespace systemquchooch.Controllers
         public IActionResult Create()
         {
             return View();
+        }
+
+        // GET: Generar PDF
+        public async Task<IActionResult> ImprimirPais()
+        {
+
+            // ViewModelUsuarios modelo = _context.Usuarios.Include(dv => dv.Id)
+            //.Select(dv = new ViewModelUsuarios){
+
+            //}
+            return new ViewAsPdf("ImprimirPais", await _context.Pais.ToListAsync()/*,modelo*/)
+            {
+                FileName = $"Reporte Pais.pdf",
+                PageSize = Rotativa.AspNetCore.Options.Size.A4
+            };
+
         }
 
         // POST: Pais/Create

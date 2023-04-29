@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Rotativa.AspNetCore;
 using systemquchooch.Models;
 
 namespace systemquchooch.Controllers
@@ -50,6 +51,21 @@ namespace systemquchooch.Controllers
             return View();
         }
 
+
+        public async Task<IActionResult> ImprimirGrado()
+        {
+
+            // ViewModelUsuarios modelo = _context.Usuarios.Include(dv => dv.Id)
+            //.Select(dv = new ViewModelUsuarios){
+
+            //}
+            return new ViewAsPdf("ImprimirGrado", await _context.Grados.ToListAsync()/*,modelo*/)
+            {
+                FileName = $"Reporte Grado.pdf",
+                PageSize = Rotativa.AspNetCore.Options.Size.A4
+            };
+
+        }
         // POST: Gradoes/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.

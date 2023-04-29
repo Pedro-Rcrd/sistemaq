@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\Sisteam Quchooch\\systemquchooch\\systemquchooch.csproj": {}
+    "C:\\Users\\mica2\\Desktop\\PROYECTO QUCHOOCH IS (1)\\Proyecto Quchooch --Actualizado\\sistemaq\\systemquchooch.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\Sisteam Quchooch\\systemquchooch\\systemquchooch.csproj": {
+    "C:\\Users\\mica2\\Desktop\\PROYECTO QUCHOOCH IS (1)\\Proyecto Quchooch --Actualizado\\sistemaq\\systemquchooch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\Sisteam Quchooch\\systemquchooch\\systemquchooch.csproj",
+        "projectUniqueName": "C:\\Users\\mica2\\Desktop\\PROYECTO QUCHOOCH IS (1)\\Proyecto Quchooch --Actualizado\\sistemaq\\systemquchooch.csproj",
         "projectName": "systemquchooch",
-        "projectPath": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\Sisteam Quchooch\\systemquchooch\\systemquchooch.csproj",
-        "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\Sisteam Quchooch\\systemquchooch\\obj\\",
+        "projectPath": "C:\\Users\\mica2\\Desktop\\PROYECTO QUCHOOCH IS (1)\\Proyecto Quchooch --Actualizado\\sistemaq\\systemquchooch.csproj",
+        "packagesPath": "C:\\Users\\mica2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mica2\\Desktop\\PROYECTO QUCHOOCH IS (1)\\Proyecto Quchooch --Actualizado\\sistemaq\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mica2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -53,6 +56,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.13, )"
+            },
+            "Rotativa.AspNetCore": {
+              "target": "Package",
+              "version": "[1.2.0, )"
             }
           },
           "imports": [

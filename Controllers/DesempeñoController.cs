@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Rotativa.AspNetCore;
 using systemquchooch.Models;
 
 namespace systemquchooch.Controllers
@@ -50,6 +51,23 @@ namespace systemquchooch.Controllers
             return View();
         }
 
+       
+
+        // GET: Generar PDF
+        public async Task<IActionResult> ImprimirDesempeño()
+        {
+
+            // ViewModelUsuarios modelo = _context.Usuarios.Include(dv => dv.Id)
+            //.Select(dv = new ViewModelUsuarios){
+
+            //}
+            return new ViewAsPdf("ImprimirDesempeño", await _context.Desempeños.ToListAsync()/*,modelo*/)
+            {
+                FileName = $"Reporte Desempeño.pdf",
+                PageSize = Rotativa.AspNetCore.Options.Size.A4
+            };
+
+        }
         // POST: Desempeño/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.

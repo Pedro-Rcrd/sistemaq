@@ -1,0 +1,86 @@
+﻿@model IEnumerable<systemquchooch.Models.Pai>
+
+@{
+    ViewData["Title"] = "ImprimirPais";
+}
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ImprimirPais</title>
+
+
+
+    <style>
+
+        table.tbproductos {
+            border-collapse: collapse;
+            border-spacing: 4px;
+        }
+
+            table.tbproductos thead tr th {
+                background-color: #2980B9;
+                padding: 6px;
+                font-size: 15px;
+                color: white;
+                text-align: center;
+                border: 1px solid #34495E;
+            }
+
+            table.tbproductos tbody tr td {
+                padding: 10px;
+                background-color: #D4E6F1;
+                text-align: center;
+                border: 1px solid #34495E;
+            }
+
+
+        .item {
+            font-size: 15px;
+            font-weight: 100;
+            color: #757575;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <div clas="col-sm-4">
+            <img src="~/imagenes/logo.jpeg" style="width: 250px;" />
+        </div>
+        <div class="col-sm-8 text-right">
+            <h2> Listado de Comunidades</h2>
+        </div>
+    </div>
+
+    <table class="tbproductos" style="width:100%">
+        <thead>
+            <tr>
+                <th class="tbth">  Numero  </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nombre)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CodigoPais)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nombre)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</body>
+</html>
