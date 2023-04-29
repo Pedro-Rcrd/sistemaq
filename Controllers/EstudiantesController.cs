@@ -96,7 +96,8 @@ namespace systemquchooch.Controllers
             {
                 return NotFound();
             }
-
+            //AQUI SE HIZO LA MODIFICACION
+            //SE HACE UNA SEGUNDA MODIFICACION
             if (ModelState != null)
             {
                 try
