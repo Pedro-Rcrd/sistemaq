@@ -59,6 +59,7 @@ namespace systemquchooch.Controllers
         public async Task<IActionResult> Create([Bind("CodigoEstudiante,CodigoComunidad,Nombre,Apellido,FechaNacimieto,Genero,Estado,Sector,NumeroCasa,Descripcion,FotoPerfil,FechaCreacion")] Estudiante estudiante)
         {
             //AQUI SE HIZO LA MODIFICACION
+            //AGREGANDO UN COMENTARIO DE PRUEBA
             if (ModelState != null)
             {
                 _context.Add(estudiante);
