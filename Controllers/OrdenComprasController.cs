@@ -60,7 +60,7 @@ namespace systemquchooch.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("CodigoOrdenCompra,CodigoEstudiante,CodigoProveedor,FechaCreacion,Descripcion")] OrdenCompra ordenCompra)
         {
-            if (ModelState.IsValid)
+            if (ModelState != null)
             {
                 _context.Add(ordenCompra);
                 await _context.SaveChangesAsync();

@@ -60,7 +60,7 @@ namespace systemquchooch.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("CodigoEstudiantePatrocinador,CodigoEstudiante,CodigoPatrocinador")] EstudiantePatrocinador estudiantePatrocinador)
         {
-            if (ModelState.IsValid)
+            if (ModelState != null)
             {
                 _context.Add(estudiantePatrocinador);
                 await _context.SaveChangesAsync();
@@ -101,7 +101,7 @@ namespace systemquchooch.Controllers
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
+            if (ModelState != null)
             {
                 try
                 {

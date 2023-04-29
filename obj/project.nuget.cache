@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5+AdWYAJhFLY7SraAkGpQ/7OBxH9MyBUc+KvanSP44NUHTkrvMwDbrs1Zvt3lpOHJR1A/lf7oMTNrnp5TSKtEw==",
+  "dgSpecHash": "9vSUQf6zbFCZ+6DaIPs4AO7nIp4HF6G7V1R7WWO2WJVt8yL/i49x0pPExzLNBTndZXcjs5ngoTqrKZa5IZfsFg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\Sisteam Quchooch\\systemquchooch\\systemquchooch.csproj",
+  "projectFilePath": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\systemquchooch.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pedro\\.nuget\\packages\\antlr\\3.4.1.9004\\antlr.3.4.1.9004.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",

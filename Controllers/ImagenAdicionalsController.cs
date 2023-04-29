@@ -58,7 +58,7 @@ namespace systemquchooch.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("CodigoImagenAdicional,CodigoFichaCalificacion,ImgAdicional,Descripcion")] ImagenAdicional imagenAdicional)
         {
-            if (ModelState.IsValid)
+            if (ModelState != null)
             {
                 _context.Add(imagenAdicional);
                 await _context.SaveChangesAsync();
@@ -97,7 +97,7 @@ namespace systemquchooch.Controllers
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
+            if (ModelState != null)
             {
                 try
                 {

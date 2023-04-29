@@ -13,13 +13,13 @@ public partial class Estudiante
 
     public string Apellido { get; set; } = null!;
 
-    public DateTime FechaNacimieto { get; set; }
+    public DateTime? FechaNacimieto { get; set; }
 
     public string Genero { get; set; } = null!;
 
     public string Estado { get; set; } = null!;
 
-    public byte Sector { get; set; }
+    public int? Sector { get; set; }
 
     public string NumeroCasa { get; set; } = null!;
 
@@ -27,7 +27,7 @@ public partial class Estudiante
 
     public string FotoPerfil { get; set; } = null!;
 
-    public DateTime FechaCreacion { get; set; }
+    public DateTime? FechaCreacion { get; set; }
 
     public virtual Comunidad CodigoComunidadNavigation { get; set; } = null!;
 
