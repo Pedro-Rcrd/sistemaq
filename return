@@ -1,0 +1,121 @@
+[33mcommit f7487915a48be115a3910591f3ff5283e9ab7cc9[m[33m ([m[1;36mHEAD[m[33m, [m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Merge: 6a52c8c 1eacf6e
+Author: MicaelaAQ <mariamicaelaajcabulquievac@gmail.com>
+Date:   Fri Apr 28 22:13:13 2023 -0600
+
+    Merge branch 'master' of https://github.com/Pedro-Rcrd/sistemaq
+
+[33mcommit 6a52c8cda3531a67fffb9024c4c3f6a9a12971e9[m
+Author: MicaelaAQ <mariamicaelaajcabulquievac@gmail.com>
+Date:   Fri Apr 28 21:36:51 2023 -0600
+
+    Generar reporte en PDF de cada tabla
+
+[33mcommit 1eacf6ed4281c6e759b3a51d94239c6af4f07c9d[m[33m ([m[1;31morigin/ramaAuxiliar[m[33m, [m[1;32mramaAuxiliar[m[33m)[m
+Author: Pedro-Rcrd <pedrorlsapalu@gmail.com>
+Date:   Fri Apr 28 20:57:55 2023 -0600
+
+    Rosolviendo problema de la falla de registro en tablas padres
+
+[33mcommit c0bf171135af0766831ccff9c4c7e7f78bbe2fd1[m
+Author: Pedro-Rcrd <pedrorlsapalu@gmail.com>
+Date:   Mon Apr 24 21:58:07 2023 -0600
+
+    Subiendo todos los controladores
+
+[33mcommit f340704f869073a4ce1f660f160ecae62751e072[m
+Author: Pedro-Rcrd <pedrorlsapalu@gmail.com>
+Date:   Mon Apr 24 21:27:42 2023 -0600
+
+    Actualizando modificacion
+
+[33mcommit 4a5e786c81016de2753cad1a2885be729ce11485[m
+Author: Pedro-Rcrd <pedrorlsapalu@gmail.com>
+Date:   Mon Apr 24 21:19:37 2023 -0600
+
+    Agregando otros controladores
+
+[33mcommit 4e2c6ab8e8138a191d335816bdcd548fe863bf72[m
+Author: Pedro-Rcrd <pedrorlsapalu@gmail.com>
+Date:   Mon Apr 24 21:05:21 2023 -0600
+
+    Agregando otros controladores
+
+[33mcommit e1cc973fdf7c846766d23b2bd95791fed90b022d[m
+Author: Pedro-Rcrd <pedrorlsapalu@gmail.com>
+Date:   Mon Apr 24 20:49:23 2023 -0600
+
+    Otros controladores
+
+[33mcommit 403abd386e2efaac49f6b81115ed2e07915f063f[m
+Author: Pedro-Rcrd <pedrorlsapalu@gmail.com>
+Date:   Mon Apr 24 20:43:50 2023 -0600
+
+    Agregando otros controladores
+
+[33mcommit 8a760f171d9d5d6851c1a64f8f97ee474e5ee75f[m
+Author: Pedro-Rcrd <pedrorlsapalu@gmail.com>
+Date:   Mon Apr 24 20:38:45 2023 -0600
+
+    Subiendo cambios
+
+[33mcommit 27c768d75305d45e3c745bedf5315c5ab16da9cb[m
+Author: Pedro-Rcrd <pedrorlsapalu@gmail.com>
+Date:   Mon Apr 24 20:32:53 2023 -0600
+
+    Subiendo modificaciones
+
+[33mcommit 901e5063154479620ebafd31f2fe9107e38df370[m
+Author: Pedro-Rcrd <pedrorlsapalu@gmail.com>
+Date:   Sun Apr 23 23:38:44 2023 -0600
+
+    Agregando controlador de area
+
+[33mcommit fb5aa2e0f45ea5a1bd94835ab87675d4bf8ffd75[m
+Author: Pedro-Rcrd <pedrorlsapalu@gmail.com>
+Date:   Sun Apr 23 22:41:53 2023 -0600
+
+    Agregando el resto de los controladores
+
+[33mcommit 38a16432fd432dce0aac8a1f8dd655237e9dd54f[m
+Author: Pedro-Rcrd <pedrorlsapalu@gmail.com>
+Date:   Sun Apr 23 14:20:01 2023 -0600
+
+    segunda modificacion de las tablas agregadas
+
+[33mcommit 55ebeae764360d7e5f66b04a9ad117b6da642e9d[m
+Merge: 36868a3 b4a7f95
+Author: Pedro-Rcrd <pedrorlsapalu@gmail.com>
+Date:   Sun Apr 23 13:59:49 2023 -0600
+
+    Agregando el resto de las tablas de la base de datos
+
+[33mcommit 36868a3d3d0f24c5ffeb61b0e682f9141baa2a76[m
+Author: Pedro-Rcrd <pedrorlsapalu@gmail.com>
+Date:   Sun Apr 23 13:50:57 2023 -0600
+
+    Agregando el resto de las tablas de la base de datos
+
+[33mcommit b4a7f950e9c8696c45fcce298c896afb57c3c25a[m
+Author: pablo-07 <quiacainpablo.7@gmail.com>
+Date:   Sat Apr 22 00:23:06 2023 -0600
+
+    pablo
+
+[33mcommit 7fc35a70a3d08afe34b90a00d9eeb7d0b80c7a7b[m
+Author: BartoloLacan <bartolome1997@gmail.com>
+Date:   Sat Apr 22 00:06:14 2023 -0600
+
+    Barto
+
+[33mcommit d32b41dab673dcc589897e6b273a8a154e6d9480[m
+Author: Pedro-Rcrd <pedrorlsapalu@gmail.com>
+Date:   Fri Apr 21 23:41:28 2023 -0600
+
+    modificando
+
+[33mcommit 56b1d11ed3aba32acf48f3104ae7dcbe4fa85ad9[m
+Author: Pedro-Rcrd <pedrorlsapalu@gmail.com>
+Date:   Fri Apr 21 23:07:27 2023 -0600
+
+    Proyecto inicio

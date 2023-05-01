@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Controllers",
+    "\\Views",
+    "\\Views\\Areas"
   ],
-  "SelectedNode": "\\C:\\Users\\Usuario\\Desktop\\sistemaq",
+  "SelectedNode": "\\systemquchooch.sln",
   "PreviewInSolutionExplorer": false
 }
