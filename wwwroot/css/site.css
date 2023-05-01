@@ -21,3 +21,37 @@ body {
 .imagen {
     background-image: url("../images/ironMan.jpg");
 }
+
+
+.imagenTarjeta {
+    background-image: url("../images/ironMan.jpg");
+    height: 200px;
+}
+
+.primeraTarjeta {
+    background-image: url("../images/ironMan.jpg");
+    height: 150px;
+    /* background-color: #ffd800;*/
+}
+
+.tarjetaPrincipal {
+    /* background-color: #90990a; */
+    border-width: 3px;
+    /*border-left-width: 15px;*/
+}
+
+.lineaRecta {
+    background-color: #90990a;
+}
+
+.textHeader:hover {
+    border-color: #90990a;
+    font-weight: 400;
+}
+
+.bordep {
+    border-top: 1px solid #ff9999;
+    border-right: 2px dotted #99ff99;
+    border-bottom: 2px dashed #9999ff;
+    border-left: 4px double #666666;
+}
