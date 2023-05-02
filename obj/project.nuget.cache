@@ -1,15 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "9vSUQf6zbFCZ+6DaIPs4AO7nIp4HF6G7V1R7WWO2WJVt8yL/i49x0pPExzLNBTndZXcjs5ngoTqrKZa5IZfsFg==",
+  "dgSpecHash": "aL0Gwcwj3iZWnRCPwqqCWE1G0O7jVhXyPwF8rWWdPvKsUlBoowrbb38ewEPsuwcDmYKc4DVCslJBdLMcBIxfqg==",
   "success": true,
   "projectFilePath": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\systemquchooch.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pedro\\.nuget\\packages\\antlr\\3.4.1.9004\\antlr.3.4.1.9004.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
-    "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\3.1.1\\bootstrap.3.1.1.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\bootstrap.5.2.3.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
-    "C:\\Users\\pedro\\.nuget\\packages\\jquery\\1.9.0\\jquery.1.9.0.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\messagepackanalyzer\\2.1.152\\messagepackanalyzer.2.1.152.nupkg.sha512",
