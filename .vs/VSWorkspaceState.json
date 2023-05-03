@@ -3,8 +3,8 @@
     "",
     "\\Controllers",
     "\\Views",
-    "\\Views\\Areas"
+    "\\Views\\Registro"
   ],
-  "SelectedNode": "\\systemquchooch.sln",
+  "SelectedNode": "\\Controllers\\EstudiantePatrocinadorsController.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Rotativa.AspNetCore;
 using systemquchooch.Models;
 
 namespace systemquchooch.Controllers
@@ -53,6 +54,23 @@ namespace systemquchooch.Controllers
             ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "CodigoEstudiante");
             ViewData["CodigoPeriodo"] = new SelectList(_context.Periodos, "CodigoPeriodo", "CodigoPeriodo");
             return View();
+        }
+
+
+	 // GET: Generar PDF
+        public async Task<IActionResult> ImprimirFichaCalificacions()
+        {
+
+            // ViewModelUsuarios modelo = _context.Usuarios.Include(dv => dv.Id)
+            //.Select(dv = new ViewModelUsuarios){
+
+            //}
+            return new ViewAsPdf("ImprimirFichaCalificacions", await _context.FichaCalificacions.ToListAsync()/*,modelo*/)
+            {
+                FileName = $"Reporte FichaCalificacions.pdf",
+                PageSize = Rotativa.AspNetCore.Options.Size.A4
+            };
+
         }
 
         // POST: FichaCalificacions/Create

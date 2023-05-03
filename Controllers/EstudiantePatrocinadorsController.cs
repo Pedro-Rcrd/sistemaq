@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Rotativa.AspNetCore;
 using systemquchooch.Models;
 
 namespace systemquchooch.Controllers
@@ -51,6 +52,23 @@ namespace systemquchooch.Controllers
             ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "CodigoEstudiante");
             ViewData["CodigoPatrocinador"] = new SelectList(_context.Patrocinadors, "CodigoPatrocinador", "CodigoPatrocinador");
             return View();
+        }
+
+
+	 // GET: Generar PDF
+        public async Task<IActionResult> ImprimirEstudiantePatrocinadors()
+        {
+
+            // ViewModelUsuarios modelo = _context.Usuarios.Include(dv => dv.Id)
+            //.Select(dv = new ViewModelUsuarios){
+
+            //}
+            return new ViewAsPdf("ImprimirEstudiantePatrocinadors", await _context.EstudiantePatrocinadors.ToListAsync()/*,modelo*/)
+            {
+                FileName = $"Reporte EstudiantePatrocinador.pdf",
+                PageSize = Rotativa.AspNetCore.Options.Size.A4
+            };
+
         }
 
         // POST: EstudiantePatrocinadors/Create

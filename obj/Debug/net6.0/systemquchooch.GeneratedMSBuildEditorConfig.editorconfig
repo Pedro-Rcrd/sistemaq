@@ -9,525 +9,573 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = systemquchooch
 build_property.RootNamespace = systemquchooch
-build_property.ProjectDir = C:\Users\pedro\OneDrive\Documentos\Noveno Semestre 2023\2. Ingenieria de Software\4.28 Sistema Quchooch\sistemaq\
+build_property.ProjectDir = C:\Users\mica2\Desktop\PROYECTO DE software\SISTEMA QUCHOOCH - Actualizado V2\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\pedro\OneDrive\Documentos\Noveno Semestre 2023\2. Ingenieria de Software\4.28 Sistema Quchooch\sistemaq
+build_property.MSBuildProjectDirectory = C:\Users\mica2\Desktop\PROYECTO DE software\SISTEMA QUCHOOCH - Actualizado V2
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Areas/Create.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Areas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJlYXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Areas/Delete.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Areas/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJlYXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Areas/Details.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Areas/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJlYXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Areas/Edit.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Areas/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJlYXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Areas/Index.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Areas/ImprimirArea.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJlYXNcSW1wcmltaXJBcmVhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Areas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJlYXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Carreras/Create.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Carreras/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmVyYXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Carreras/Delete.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Carreras/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmVyYXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Carreras/Details.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Carreras/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmVyYXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Carreras/Edit.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Carreras/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmVyYXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Carreras/Index.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Carreras/ImprimirCarrera.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmVyYXNcSW1wcmltaXJDYXJyZXJhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Carreras/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmVyYXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Comunidads/Create.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Comunidads/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tdW5pZGFkc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Comunidads/Delete.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Comunidads/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tdW5pZGFkc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Comunidads/Details.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Comunidads/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tdW5pZGFkc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Comunidads/Edit.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Comunidads/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tdW5pZGFkc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Comunidads/Index.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Comunidads/ImprimirComunidad.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tdW5pZGFkc1xJbXByaW1pckNvbXVuaWRhZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Comunidads/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tdW5pZGFkc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Cursoes/Create.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Cursoes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29lc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Cursoes/Delete.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Cursoes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29lc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Cursoes/Details.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Cursoes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29lc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Cursoes/Edit.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Cursoes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29lc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Cursoes/Index.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Cursoes/ImprimirCurso.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29lc1xJbXByaW1pckN1cnNvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Cursoes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29lc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Desempeño/Create.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Desempeño/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzZW1wZcOxb1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Desempeño/Delete.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Desempeño/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzZW1wZcOxb1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Desempeño/Details.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Desempeño/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzZW1wZcOxb1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Desempeño/Edit.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Desempeño/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzZW1wZcOxb1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Desempeño/Index.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Desempeño/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzZW1wZcOxb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Establecimientoes/Create.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Establecimientoes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWJsZWNpbWllbnRvZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Establecimientoes/Delete.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Establecimientoes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWJsZWNpbWllbnRvZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Establecimientoes/Details.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Establecimientoes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWJsZWNpbWllbnRvZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Establecimientoes/Edit.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Establecimientoes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWJsZWNpbWllbnRvZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Establecimientoes/Index.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Establecimientoes/ImprimirEstablecimiento.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWJsZWNpbWllbnRvZXNcSW1wcmltaXJFc3RhYmxlY2ltaWVudG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Establecimientoes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWJsZWNpbWllbnRvZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/EstudiantePatrocinadors/Create.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/EstudiantePatrocinadors/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZVBhdHJvY2luYWRvcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/EstudiantePatrocinadors/Delete.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/EstudiantePatrocinadors/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZVBhdHJvY2luYWRvcnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/EstudiantePatrocinadors/Details.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/EstudiantePatrocinadors/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZVBhdHJvY2luYWRvcnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/EstudiantePatrocinadors/Edit.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/EstudiantePatrocinadors/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZVBhdHJvY2luYWRvcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/EstudiantePatrocinadors/Index.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/EstudiantePatrocinadors/ImprimirEstudiantePatrocinadors.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZVBhdHJvY2luYWRvcnNcSW1wcmltaXJFc3R1ZGlhbnRlUGF0cm9jaW5hZG9ycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/EstudiantePatrocinadors/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZVBhdHJvY2luYWRvcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Estudiantes/Create.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Estudiantes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Estudiantes/Delete.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Estudiantes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Estudiantes/Details.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Estudiantes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Estudiantes/Edit.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Estudiantes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Estudiantes/Index.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Estudiantes/ImprimirEstudiantes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZXNcSW1wcmltaXJFc3R1ZGlhbnRlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Estudiantes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/EstudianteTutoriums/Create.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/EstudianteTutoriums/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZVR1dG9yaXVtc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/EstudianteTutoriums/Delete.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/EstudianteTutoriums/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZVR1dG9yaXVtc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/EstudianteTutoriums/Details.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/EstudianteTutoriums/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZVR1dG9yaXVtc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/EstudianteTutoriums/Edit.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/EstudianteTutoriums/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZVR1dG9yaXVtc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/EstudianteTutoriums/Index.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/EstudianteTutoriums/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZVR1dG9yaXVtc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/FichaCalificacions/Create.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/FichaCalificacions/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmljaGFDYWxpZmljYWNpb25zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/FichaCalificacions/Delete.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/FichaCalificacions/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmljaGFDYWxpZmljYWNpb25zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/FichaCalificacions/Details.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/FichaCalificacions/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmljaGFDYWxpZmljYWNpb25zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/FichaCalificacions/Edit.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/FichaCalificacions/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmljaGFDYWxpZmljYWNpb25zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/FichaCalificacions/Index.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/FichaCalificacions/ImprimirFichaCalificacions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmljaGFDYWxpZmljYWNpb25zXEltcHJpbWlyRmljaGFDYWxpZmljYWNpb25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/FichaCalificacions/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmljaGFDYWxpZmljYWNpb25zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Gastoes/Create.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Gastoes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FzdG9lc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Gastoes/Delete.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Gastoes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FzdG9lc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Gastoes/Details.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Gastoes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FzdG9lc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Gastoes/Edit.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Gastoes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FzdG9lc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Gastoes/Index.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Gastoes/ImprimirGastoes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FzdG9lc1xJbXByaW1pckdhc3RvZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Gastoes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FzdG9lc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Gradoes/Create.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Gradoes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhZG9lc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Gradoes/Delete.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Gradoes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhZG9lc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Gradoes/Details.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Gradoes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhZG9lc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Gradoes/Edit.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Gradoes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhZG9lc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Gradoes/Index.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Gradoes/ImprimirGrado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhZG9lc1xJbXByaW1pckdyYWRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Gradoes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhZG9lc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/HistorialEstudiantes/Create.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/HistorialEstudiantes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yaWFsRXN0dWRpYW50ZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/HistorialEstudiantes/Delete.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/HistorialEstudiantes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yaWFsRXN0dWRpYW50ZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/HistorialEstudiantes/Details.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/HistorialEstudiantes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yaWFsRXN0dWRpYW50ZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/HistorialEstudiantes/Edit.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/HistorialEstudiantes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yaWFsRXN0dWRpYW50ZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/HistorialEstudiantes/Index.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/HistorialEstudiantes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yaWFsRXN0dWRpYW50ZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Home/Index.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Home/Privacy.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/ImagenAdicionals/Create.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/ImagenAdicionals/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2VuQWRpY2lvbmFsc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/ImagenAdicionals/Delete.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/ImagenAdicionals/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2VuQWRpY2lvbmFsc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/ImagenAdicionals/Details.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/ImagenAdicionals/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2VuQWRpY2lvbmFsc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/ImagenAdicionals/Edit.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/ImagenAdicionals/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2VuQWRpY2lvbmFsc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/ImagenAdicionals/Index.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/ImagenAdicionals/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2VuQWRpY2lvbmFsc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/NivelAcademicoes/Create.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/NivelAcademicoes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTml2ZWxBY2FkZW1pY29lc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/NivelAcademicoes/Delete.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/NivelAcademicoes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTml2ZWxBY2FkZW1pY29lc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/NivelAcademicoes/Details.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/NivelAcademicoes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTml2ZWxBY2FkZW1pY29lc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/NivelAcademicoes/Edit.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/NivelAcademicoes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTml2ZWxBY2FkZW1pY29lc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/NivelAcademicoes/Index.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/NivelAcademicoes/ImprimirNivel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTml2ZWxBY2FkZW1pY29lc1xJbXByaW1pck5pdmVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/NivelAcademicoes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTml2ZWxBY2FkZW1pY29lc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/OrdenCompras/Create.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/OrdenCompras/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5Db21wcmFzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/OrdenCompras/Delete.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/OrdenCompras/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5Db21wcmFzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/OrdenCompras/Details.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/OrdenCompras/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5Db21wcmFzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/OrdenCompras/Edit.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/OrdenCompras/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5Db21wcmFzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/OrdenCompras/Index.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/OrdenCompras/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5Db21wcmFzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Pais/Create.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Pais/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFpc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Pais/Delete.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Pais/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFpc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Pais/Details.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Pais/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFpc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Pais/Edit.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Pais/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFpc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Pais/Index.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Pais/ImprimirPais.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFpc1xJbXByaW1pclBhaXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Pais/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFpc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Patrocinadors/Create.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Patrocinadors/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0cm9jaW5hZG9yc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Patrocinadors/Delete.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Patrocinadors/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0cm9jaW5hZG9yc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Patrocinadors/Details.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Patrocinadors/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0cm9jaW5hZG9yc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Patrocinadors/Edit.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Patrocinadors/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0cm9jaW5hZG9yc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Patrocinadors/Index.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Patrocinadors/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0cm9jaW5hZG9yc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Periodoes/Create.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Periodoes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyaW9kb2VzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Periodoes/Delete.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Periodoes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyaW9kb2VzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Periodoes/Details.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Periodoes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyaW9kb2VzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Periodoes/Edit.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Periodoes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyaW9kb2VzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Periodoes/Index.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Periodoes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyaW9kb2VzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Profesions/Create.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Profesions/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzaW9uc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Profesions/Delete.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Profesions/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzaW9uc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Profesions/Details.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Profesions/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzaW9uc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Profesions/Edit.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Profesions/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzaW9uc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Profesions/Index.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Profesions/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzaW9uc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Proveedors/Create.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Proveedors/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Proveedors/Delete.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Proveedors/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Proveedors/Details.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Proveedors/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Proveedors/Edit.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Proveedors/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Proveedors/Index.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Proveedors/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Registro/Auxiliar.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Registro/Auxiliar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cm9cQXV4aWxpYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Registro/Principal.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Registro/Principal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cm9cUHJpbmNpcGFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Shared/Error.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Tutoriums/Create.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Tutoriums/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHV0b3JpdW1zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Tutoriums/Delete.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Tutoriums/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHV0b3JpdW1zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Tutoriums/Details.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Tutoriums/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHV0b3JpdW1zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Tutoriums/Edit.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Tutoriums/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHV0b3JpdW1zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Tutoriums/Index.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Tutoriums/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHV0b3JpdW1zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Tutors/Create.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Tutors/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHV0b3JzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Tutors/Delete.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Tutors/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHV0b3JzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Tutors/Details.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Tutors/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHV0b3JzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Tutors/Edit.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Tutors/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHV0b3JzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Tutors/Index.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Tutors/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHV0b3JzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/TutorTuroriums/Create.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/TutorTuroriums/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHV0b3JUdXJvcml1bXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/TutorTuroriums/Delete.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/TutorTuroriums/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHV0b3JUdXJvcml1bXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/TutorTuroriums/Details.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/TutorTuroriums/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHV0b3JUdXJvcml1bXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/TutorTuroriums/Edit.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/TutorTuroriums/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHV0b3JUdXJvcml1bXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/TutorTuroriums/Index.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/TutorTuroriums/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHV0b3JUdXJvcml1bXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/_ViewImports.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/_ViewStart.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Documentos/Noveno Semestre 2023/2. Ingenieria de Software/4.28 Sistema Quchooch/sistemaq/Views/Shared/_Layout.cshtml]
+[C:/Users/mica2/Desktop/PROYECTO DE software/SISTEMA QUCHOOCH - Actualizado V2/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-z6qxmccazj
