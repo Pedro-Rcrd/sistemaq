@@ -11,7 +11,8 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.5",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.13",
-          "Twitter.Bootstrap.MVC": "2.1.6"
+          "Twitter.Bootstrap.MVC": "2.1.6",
+          "bootstrap": "5.2.3"
         },
         "runtime": {
           "systemquchooch.dll": {}
@@ -59,11 +60,7 @@
           }
         }
       },
-      "bootstrap/3.1.1": {
-        "dependencies": {
-          "jQuery": "1.9.0"
-        }
-      },
+      "bootstrap/5.2.3": {},
       "Humanizer.Core/2.14.1": {
         "runtime": {
           "lib/net6.0/Humanizer.dll": {
@@ -72,7 +69,6 @@
           }
         }
       },
-      "jQuery/1.9.0": {},
       "MessagePack/2.1.152": {
         "dependencies": {
           "MessagePack.Annotations": "2.1.152",
@@ -2502,7 +2498,7 @@
           "Microsoft.AspNet.Mvc": "5.1.0",
           "Microsoft.AspNet.Web.Optimization": "1.1.2",
           "WebActivatorEx": "2.0.4",
-          "bootstrap": "3.1.1"
+          "bootstrap": "5.2.3"
         }
       },
       "WebActivatorEx/2.0.4": {
@@ -2557,12 +2553,12 @@
       "path": "azure.identity/1.6.0",
       "hashPath": "azure.identity.1.6.0.nupkg.sha512"
     },
-    "bootstrap/3.1.1": {
+    "bootstrap/5.2.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-bZdJfKiF+ez9518keshVM/mIZHCqDSrI+Bb4GjHauYlrMfgNuud9vZxrIf5QbqK9vaZ3mXmq02Kmg+TcPXm2MQ==",
-      "path": "bootstrap/3.1.1",
-      "hashPath": "bootstrap.3.1.1.nupkg.sha512"
+      "sha512": "sha512-tZZrH4HdqBr/oeUlGoc2KliYlwXeN3qyhKgc1B5dc585+lnMkcD4A5yIX2NmNoXCCagQQiQGKn7A97sWoo2AOw==",
+      "path": "bootstrap/5.2.3",
+      "hashPath": "bootstrap.5.2.3.nupkg.sha512"
     },
     "Humanizer.Core/2.14.1": {
       "type": "package",
@@ -2570,13 +2566,6 @@
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
-    },
-    "jQuery/1.9.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-bS6OGSd/QL39vKKhATpeehgZDCzV6foRJ52EocEGAB29VetwXkQHN6KQIBlBbW9VJzuHr+rQxHYZ13MnPGQ/vw==",
-      "path": "jquery/1.9.0",
-      "hashPath": "jquery.1.9.0.nupkg.sha512"
     },
     "MessagePack/2.1.152": {
       "type": "package",
