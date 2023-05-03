@@ -13,7 +13,8 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.13",
           "Rotativa": "1.7.3",
           "Rotativa.AspNetCore": "1.2.0",
-          "Twitter.Bootstrap.MVC": "2.1.6"
+          "Twitter.Bootstrap.MVC": "2.1.6",
+          "bootstrap": "5.2.3"
         },
         "runtime": {
           "systemquchooch.dll": {}

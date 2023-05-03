@@ -54,6 +54,14 @@
               "target": "Package",
               "version": "[6.0.13, )"
             },
+            "Rotativa": {
+              "target": "Package",
+              "version": "[1.7.3, )"
+            },
+            "Rotativa.AspNetCore": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
             "Twitter.Bootstrap.MVC": {
               "target": "Package",
               "version": "[2.1.6, )"
