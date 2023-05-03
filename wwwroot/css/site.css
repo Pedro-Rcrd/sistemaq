@@ -29,11 +29,35 @@ body {
 }
 
 .primeraTarjeta {
-    background-image: url("../images/ironMan.jpg");
+    background-image: url("../images/01.jpg");
     height: 150px;
     /* background-color: #ffd800;*/
 }
-
+.primeraTarjeta2 {
+    background-image: url("../images/02.jpg");
+    height: 150px;
+    /* background-color: #ffd800;*/
+}
+.primeraTarjeta3 {
+    background-image: url("../images/03.jpg");
+    height: 150px;
+    /* background-color: #ffd800;*/
+}
+.primeraTarjeta4 {
+    background-image: url("../images/04.jpg");
+    height: 150px;
+    /* background-color: #ffd800;*/
+}
+.primeraTarjeta5 {
+    background-image: url("../images/05.jpg");
+    height: 150px;
+    /* background-color: #ffd800;*/
+}
+.primeraTarjeta6 {
+    background-image: url("../images/06.jpg");
+    height: 150px;
+    /* background-color: #ffd800;*/
+}
 .tarjetaPrincipal {
     /* background-color: #90990a; */
     border-width: 3px;
