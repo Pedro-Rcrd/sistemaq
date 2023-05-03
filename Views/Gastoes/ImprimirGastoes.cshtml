@@ -1,0 +1,103 @@
+﻿@model IEnumerable<systemquchooch.Models.Gasto>
+
+@{
+    ViewData["Title"] = "ImprimirGastoes";
+}
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ImprimirGastoes</title>
+
+    <style>
+
+        table.tbproductos {
+            border-collapse: collapse;
+            border-spacing: 4px;
+        }
+
+            table.tbproductos thead tr th {
+                background-color: #2980B9;
+                padding: 6px;
+                font-size: 15px;
+                color: white;
+                text-align: center;
+                border: 1px solid #34495E;
+            }
+
+            table.tbproductos tbody tr td {
+                padding: 10px;
+                background-color: #D4E6F1;
+                text-align: center;
+                border: 1px solid #34495E;
+            }
+
+
+        .item {
+            font-size: 15px;
+            font-weight: 100;
+            color: #757575;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <div clas="col-sm-4">
+            <img src="~/imagenes/logo.jpeg" style="width: 250px;" />
+        </div>
+        <div class="col-sm-8 text-right">
+            <h2> Listado de Gastos</h2>
+        </div>
+    </div>
+
+    <table class="tbproductos" style="width:100%">
+        <thead>
+            <tr>
+                <th class="tbth">  #  </th>
+                <th class="tbth">  Estudiante  </th>
+                <th class="tbth">  Tipo de pago  </th>
+                <th class="tbth">  Fecha entrega  </th>
+                <th class="tbth">  No documento  </th>
+                <th class="tbth">  Monto  </th>
+                <th class="tbth">  Descripcion  </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CodigoGasto)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CodigoEstudiante)
+                    </td>
+
+                     <td>
+                        @Html.DisplayFor(modelItem => item.TipoPago)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FechaEntrega)
+                    </td>
+                     <td>
+                        @Html.DisplayFor(modelItem => item.NumeroDocumento)
+                    </td>
+                     <td>
+                        @Html.DisplayFor(modelItem => item.Monto)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Descripcion)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</body>
+</html>

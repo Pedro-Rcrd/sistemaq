@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Rotativa.AspNetCore;
 using systemquchooch.Models;
 
 namespace systemquchooch.Controllers
@@ -49,6 +50,24 @@ namespace systemquchooch.Controllers
         {
             return View();
         }
+
+
+
+	public async Task<IActionResult> ImprimirEstablecimiento()
+        {
+
+            // ViewModelUsuarios modelo = _context.Usuarios.Include(dv => dv.Id)
+            //.Select(dv = new ViewModelUsuarios){
+
+            //}
+            return new ViewAsPdf("ImprimirEstablecimiento", await _context.Establecimientos.ToListAsync()/*,modelo*/)
+            {
+                FileName = $"Reporte Establecimientos.pdf",
+                PageSize = Rotativa.AspNetCore.Options.Size.A4
+            };
+
+        }
+
 
         // POST: Establecimientoes/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.

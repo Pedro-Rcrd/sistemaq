@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8VwGE4XozXaALw/k0n0pg9xlShdADab8epZ61cEcKP0=",
+  "Hash": "wzlq1RffK/6RmFXMQ3z14puv3/jP12MY4TIYVari9j4=",
   "Source": "systemquchooch",
   "BasePath": "_content/systemquchooch",
   "Mode": "Default",
@@ -865,6 +865,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\imagenes\\logo.jpeg",
+      "SourceId": "systemquchooch",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\",
+      "BasePath": "_content/systemquchooch",
+      "RelativePath": "imagenes/logo.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\logo.jpeg"
     },
     {
       "Identity": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\images\\ironMan.jpg",

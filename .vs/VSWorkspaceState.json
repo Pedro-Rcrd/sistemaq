@@ -2,9 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\Views",
-    "\\Views\\Home",
     "\\Views\\Registro"
   ],
-  "SelectedNode": "\\Views\\Home\\Index.cshtml",
+  "SelectedNode": "\\Controllers\\EstudiantePatrocinadorsController.cs",
   "PreviewInSolutionExplorer": false
 }
