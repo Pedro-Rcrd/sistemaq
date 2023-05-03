@@ -1193,3 +1193,9 @@ C:\Users\mica2\Desktop\PROYECTO DE software\SISTEMA QUCHOOCH - Actualizado V2\bi
 C:\Users\mica2\Desktop\PROYECTO DE software\SISTEMA QUCHOOCH - Actualizado V2\bin\Debug\net6.0\Rotativa.dll
 C:\Users\mica2\Desktop\PROYECTO DE software\SISTEMA QUCHOOCH - Actualizado V2\bin\Debug\net6.0\Rotativa.AspNetCore.dll
 C:\Users\mica2\Desktop\PROYECTO DE software\SISTEMA QUCHOOCH - Actualizado V2\obj\Debug\net6.0\systemquchooch.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\pedro\OneDrive\Documentos\Noveno Semestre 2023\2. Ingenieria de Software\4.28 Sistema Quchooch\sistemaq\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\pedro\OneDrive\Documentos\Noveno Semestre 2023\2. Ingenieria de Software\4.28 Sistema Quchooch\sistemaq\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\pedro\OneDrive\Documentos\Noveno Semestre 2023\2. Ingenieria de Software\4.28 Sistema Quchooch\sistemaq\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\pedro\OneDrive\Documentos\Noveno Semestre 2023\2. Ingenieria de Software\4.28 Sistema Quchooch\sistemaq\bin\Debug\net6.0\Rotativa.dll
+C:\Users\pedro\OneDrive\Documentos\Noveno Semestre 2023\2. Ingenieria de Software\4.28 Sistema Quchooch\sistemaq\bin\Debug\net6.0\Rotativa.AspNetCore.dll
+C:\Users\pedro\OneDrive\Documentos\Noveno Semestre 2023\2. Ingenieria de Software\4.28 Sistema Quchooch\sistemaq\obj\Debug\net6.0\systemquchooch.MvcApplicationPartsAssemblyInfo.cs
