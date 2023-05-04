@@ -18489,6 +18489,14 @@
       "FileKind": "mvc"
     },
     {
+<<<<<<< HEAD
+=======
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Desempeño\\ImprimirDesempeño.cshtml",
+      "TargetPath": "Views\\Desempeño\\ImprimirDesempeño.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+>>>>>>> maria
       "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Desempeño\\Delete.cshtml",
       "TargetPath": "Views\\Desempeño\\Delete.cshtml",
       "FileKind": "mvc"
@@ -18544,6 +18552,14 @@
       "FileKind": "mvc"
     },
     {
+<<<<<<< HEAD
+=======
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Periodoes\\ImprimirPeriodo.cshtml",
+      "TargetPath": "Views\\Periodoes\\ImprimirPeriodo.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+>>>>>>> maria
       "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Gastoes\\Index.cshtml",
       "TargetPath": "Views\\Gastoes\\Index.cshtml",
       "FileKind": "mvc"
@@ -18729,6 +18745,14 @@
       "FileKind": "mvc"
     },
     {
+<<<<<<< HEAD
+=======
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\HistorialEstudiantes\\ImprimirHistorialEstudiante.cshtml",
+      "TargetPath": "Views\\HistorialEstudiantes\\ImprimirHistorialEstudiante.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+>>>>>>> maria
       "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Tutors\\Delete.cshtml",
       "TargetPath": "Views\\Tutors\\Delete.cshtml",
       "FileKind": "mvc"
@@ -18854,6 +18878,14 @@
       "FileKind": "mvc"
     },
     {
+<<<<<<< HEAD
+=======
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\OrdenCompras\\ImprimirOrdenCompras.cshtml",
+      "TargetPath": "Views\\OrdenCompras\\ImprimirOrdenCompras.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+>>>>>>> maria
       "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\NivelAcademicoes\\Details.cshtml",
       "TargetPath": "Views\\NivelAcademicoes\\Details.cshtml",
       "FileKind": "mvc"
@@ -18914,6 +18946,14 @@
       "FileKind": "mvc"
     },
     {
+<<<<<<< HEAD
+=======
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Patrocinadors\\ImprimirPatrocinador.cshtml",
+      "TargetPath": "Views\\Patrocinadors\\ImprimirPatrocinador.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+>>>>>>> maria
       "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Estudiantes\\Create.cshtml",
       "TargetPath": "Views\\Estudiantes\\Create.cshtml",
       "FileKind": "mvc"

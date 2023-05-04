@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Rotativa.AspNetCore;
 using systemquchooch.Models;
 
 namespace systemquchooch.Controllers
@@ -58,6 +59,24 @@ namespace systemquchooch.Controllers
             ViewData["CodigoNivelAcademico"] = new SelectList(_context.NivelAcademicos, "CodigoNivelAcademico", "CodigoNivelAcademico");
             return View();
         }
+
+        // GET: Generar PDF
+        public async Task<IActionResult> ImprimirHistorialEstudiante()
+        {
+
+            // ViewModelUsuarios modelo = _context.Usuarios.Include(dv => dv.Id)
+            //.Select(dv = new ViewModelUsuarios){
+
+            //}
+            return new ViewAsPdf("ImprimirHistorialEstudiante", await _context.HistorialEstudiantes.ToListAsync()/*,modelo*/)
+            {
+                FileName = $"Reporte Historial_Estudiante.pdf",
+                PageSize = Rotativa.AspNetCore.Options.Size.A4
+            };
+
+        }
+
+
 
         // POST: HistorialEstudiantes/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
