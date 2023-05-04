@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Controllers",
+    "\\Models",
+    "\\Views",
+    "\\Views\\Estudiantes",
+    "\\Views\\Registro"
   ],
-  "SelectedNode": "\\C:\\Users\\Usuario\\Desktop\\sistemaq",
+  "SelectedNode": "\\Models\\QuchoochContext.cs",
   "PreviewInSolutionExplorer": false
 }
