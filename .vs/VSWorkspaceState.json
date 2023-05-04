@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Controllers",
     "\\Views",
-    "\\Views\\Areas"
+    "\\Views\\Registro"
   ],
-  "SelectedNode": "\\systemquchooch.sln",
+  "SelectedNode": "\\Views\\Registro\\Principal.cshtml",
   "PreviewInSolutionExplorer": false
 }

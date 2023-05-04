@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using systemquchooch.Models;
+using systemquchooch.Data;
 
 namespace systemquchooch.Controllers
 {
@@ -19,11 +20,39 @@ namespace systemquchooch.Controllers
         }
 
         // GET: Carreras
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string buscar, string ordenActual, int? numpag, string filtroActual)
         {
-              return _context.Carreras != null ? 
-                          View(await _context.Carreras.ToListAsync()) :
-                          Problem("Entity set 'QuchoochContext.Carreras'  is null.");
+            var carreras = from carrera in _context.Carreras select carrera;
+
+            if (buscar != null)
+                numpag = 1;
+            else
+                buscar = filtroActual;
+
+
+
+            if (!String.IsNullOrEmpty(buscar))
+            {
+                carreras = carreras.Where(s => s.Nombre!.Contains(buscar));
+            }
+            ViewData["OrdenActual"] = ordenActual;
+            ViewData["FiltroActual"] = buscar;
+
+            ViewData["FiltroNombre"] = String.IsNullOrEmpty(ordenActual) ? "NombreDescendente" : "";
+
+            switch (ordenActual)
+            {
+                case "NombreDescendente":
+                    carreras = carreras.OrderByDescending(carrera => carrera.Nombre);
+                    break;
+                default:
+                    carreras = carreras.OrderBy(carrera => carrera.Nombre);
+                    break;
+            }
+
+            int cantidadregistros = 10;
+
+            return View(await Paginacion<Carrera>.CrearPaginacion(carreras.AsNoTracking(), numpag ?? 1, cantidadregistros));
         }
 
         // GET: Carreras/Details/5

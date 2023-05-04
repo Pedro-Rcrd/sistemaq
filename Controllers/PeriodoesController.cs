@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using systemquchooch.Data;
 using systemquchooch.Models;
 
 namespace systemquchooch.Controllers
@@ -19,11 +20,40 @@ namespace systemquchooch.Controllers
         }
 
         // GET: Periodoes
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string buscar, string ordenActual, int? numpag, string filtroActual)
         {
-              return _context.Periodos != null ? 
-                          View(await _context.Periodos.ToListAsync()) :
-                          Problem("Entity set 'QuchoochContext.Periodos'  is null.");
+            var periodos = from periodo in _context.Periodos select periodo;
+
+            if (buscar != null)
+                numpag = 1;
+            else
+                buscar = filtroActual;
+
+
+
+            if (!String.IsNullOrEmpty(buscar))
+            {
+                periodos = periodos.Where(s => s.Nombre!.Contains(buscar));
+            }
+            ViewData["OrdenActual"] = ordenActual;
+            ViewData["FiltroActual"] = buscar;
+
+            ViewData["FiltroNombre"] = String.IsNullOrEmpty(ordenActual) ? "NombreDescendente" : "";
+
+            switch (ordenActual)
+            {
+                case "NombreDescendente":
+                    periodos = periodos.OrderByDescending(periodo => periodo.Nombre);
+                    break;
+                default:
+                    periodos = periodos.OrderBy(periodo => periodo.Nombre);
+                    break;
+            }
+
+            int cantidadregistros = 10;
+
+            return View(await Paginacion<Periodo>.CrearPaginacion(periodos.AsNoTracking(), numpag ?? 1, cantidadregistros));
+
         }
 
         // GET: Periodoes/Details/5

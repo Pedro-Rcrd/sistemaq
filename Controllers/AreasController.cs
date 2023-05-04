@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using systemquchooch.Models;
+using systemquchooch.Data;
 
 namespace systemquchooch.Controllers
 {
@@ -19,13 +20,41 @@ namespace systemquchooch.Controllers
         }
 
         // GET: Areas
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string buscar, string ordenActual, int? numpag, string filtroActual)
         {
-              return _context.Areas != null ? 
-                          View(await _context.Areas.ToListAsync()) :
-                          Problem("Entity set 'QuchoochContext.Areas'  is null.");
-        }
+            var areas = from area in _context.Areas select area;
 
+            if (buscar != null)
+                numpag = 1;
+            else
+                buscar = filtroActual;
+
+
+
+            if (!String.IsNullOrEmpty(buscar))
+            {
+                areas = areas.Where(s => s.Nombre!.Contains(buscar));
+            }
+            ViewData["OrdenActual"] = ordenActual;
+            ViewData["FiltroActual"] = buscar;
+
+            ViewData["FiltroNombre"] = String.IsNullOrEmpty(ordenActual) ? "NombreDescendente" : "";
+
+            switch (ordenActual)
+            {
+                case "NombreDescendente":
+                    areas = areas.OrderByDescending(area => area.Nombre);
+                    break;
+                default:
+                    areas = areas.OrderBy(area => area.Nombre);
+                    break;
+            }
+
+            int cantidadregistros = 10;
+
+            return View(await Paginacion<Area>.CrearPaginacion(areas.AsNoTracking(), numpag ?? 1, cantidadregistros));
+
+        }
         // GET: Areas/Details/5
         public async Task<IActionResult> Details(int? id)
         {

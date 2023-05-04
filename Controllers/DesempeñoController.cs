@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using systemquchooch.Models;
+using systemquchooch.Data;
 
 namespace systemquchooch.Controllers
 {
@@ -19,13 +20,40 @@ namespace systemquchooch.Controllers
         }
 
         // GET: Desempeño
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string buscar, string ordenActual, int? numpag, string filtroActual)
         {
-              return _context.Desempeños != null ? 
-                          View(await _context.Desempeños.ToListAsync()) :
-                          Problem("Entity set 'QuchoochContext.Desempeños'  is null.");
-        }
+            var desempeños = from desempeño in _context.Desempeños select desempeño;
 
+            if (buscar != null)
+                numpag = 1;
+            else
+                buscar = filtroActual;
+
+
+
+            if (!String.IsNullOrEmpty(buscar))
+            {
+                desempeños = desempeños.Where(s => s.Nombre!.Contains(buscar));
+            }
+            ViewData["OrdenActual"] = ordenActual;
+            ViewData["FiltroActual"] = buscar;
+
+            ViewData["FiltroNombre"] = String.IsNullOrEmpty(ordenActual) ? "NombreDescendente" : "";
+
+            switch (ordenActual)
+            {
+                case "NombreDescendente":
+                    desempeños = desempeños.OrderByDescending(desempeño => desempeño.Nombre);
+                    break;
+                default:
+                    desempeños = desempeños.OrderBy(desempeño => desempeño.Nombre);
+                    break;
+            }
+
+            int cantidadregistros = 10;
+
+            return View(await Paginacion<Desempeño>.CrearPaginacion(desempeños.AsNoTracking(), numpag ?? 1, cantidadregistros));
+        }
         // GET: Desempeño/Details/5
         public async Task<IActionResult> Details(int? id)
         {

@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using systemquchooch.Models;
 
 namespace systemquchooch.Data
 {
@@ -23,6 +24,11 @@ namespace systemquchooch.Data
             var contador = await fuente.CountAsync();
             var items = await fuente.Skip((paginaInicio - 1) * cantidadregistros).Take(cantidadregistros).ToListAsync();
             return new Paginacion<T>(items, contador, paginaInicio, cantidadregistros);
+        }
+
+        internal static Task<string?> CrearPaginacion(IQueryable<EstudiantePatrocinador> estudiantePatrocinadors, int v, int cantidadregistros)
+        {
+            throw new NotImplementedException();
         }
     }
 }

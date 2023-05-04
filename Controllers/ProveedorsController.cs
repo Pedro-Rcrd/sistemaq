@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using systemquchooch.Models;
+using systemquchooch.Data;
 
 namespace systemquchooch.Controllers
 {
@@ -19,11 +20,40 @@ namespace systemquchooch.Controllers
         }
 
         // GET: Proveedors
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string buscar, string ordenActual, int? numpag, string filtroActual)
         {
-              return _context.Proveedors != null ? 
-                          View(await _context.Proveedors.ToListAsync()) :
-                          Problem("Entity set 'QuchoochContext.Proveedors'  is null.");
+            var proveedors = from proveedor in _context.Proveedors select proveedor;
+
+            if (buscar != null)
+                numpag = 1;
+            else
+                buscar = filtroActual;
+
+
+
+            if (!String.IsNullOrEmpty(buscar))
+            {
+                proveedors = proveedors.Where(s => s.Nombre!.Contains(buscar));
+            }
+            ViewData["OrdenActual"] = ordenActual;
+            ViewData["FiltroActual"] = buscar;
+
+            ViewData["FiltroNombre"] = String.IsNullOrEmpty(ordenActual) ? "NombreDescendente" : "";
+
+            switch (ordenActual)
+            {
+                case "NombreDescendente":
+                    proveedors = proveedors.OrderByDescending(proveedor => proveedor.Nombre);
+                    break;
+                default:
+                    proveedors = proveedors.OrderBy(proveedor => proveedor.Nombre);
+                    break;
+            }
+
+            int cantidadregistros = 10;
+
+            return View(await Paginacion<Proveedor>.CrearPaginacion(proveedors.AsNoTracking(), numpag ?? 1, cantidadregistros));
+
         }
 
         // GET: Proveedors/Details/5
