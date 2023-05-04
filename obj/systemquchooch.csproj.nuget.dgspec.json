@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mica2\\Desktop\\PROYECTO DE software\\SISTEMA QUCHOOCH - Actualizado V2\\systemquchooch.csproj": {}
+    "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\systemquchooch.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mica2\\Desktop\\PROYECTO DE software\\SISTEMA QUCHOOCH - Actualizado V2\\systemquchooch.csproj": {
+    "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\systemquchooch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mica2\\Desktop\\PROYECTO DE software\\SISTEMA QUCHOOCH - Actualizado V2\\systemquchooch.csproj",
+        "projectUniqueName": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\systemquchooch.csproj",
         "projectName": "systemquchooch",
-        "projectPath": "C:\\Users\\mica2\\Desktop\\PROYECTO DE software\\SISTEMA QUCHOOCH - Actualizado V2\\systemquchooch.csproj",
-        "packagesPath": "C:\\Users\\mica2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mica2\\Desktop\\PROYECTO DE software\\SISTEMA QUCHOOCH - Actualizado V2\\obj\\",
+        "projectPath": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\systemquchooch.csproj",
+        "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\mica2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
