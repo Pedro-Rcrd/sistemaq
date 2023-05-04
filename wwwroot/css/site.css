@@ -79,3 +79,57 @@ body {
     border-bottom: 2px dashed #9999ff;
     border-left: 4px double #666666;
 }
+
+
+.primeraTarjeta001 {
+    background-image: url("../images/001.jpg");
+    height: 150px;
+    /* background-color: #ffd800;*/
+}
+
+.primeraTarjeta002 {
+    background-image: url("../images/002.jpg");
+    height: 150px;
+    /* background-color: #ffd800;*/
+}
+.primeraTarjeta003 {
+    background-image: url("../images/003.jpg");
+    height: 150px;
+    /* background-color: #ffd800;*/
+    }
+.primeraTarjeta004 {
+    background-image: url("../images/004.jpg");
+    height: 150px;
+    /* background-color: #ffd800;*/
+}
+
+.primeraTarjeta005 {
+    background-image: url("../images/005.jpg");
+    height: 150px;
+    /* background-color: #ffd800;*/
+}
+.primeraTarjeta006{
+    background-image: url("../images/006.jpg");
+    height: 150px;
+    /* background-color: #ffd800;*/
+}
+.primeraTarjeta007 {
+    background-image: url("../images/007.jpg");
+    height: 150px;
+    /* background-color: #ffd800;*/
+}
+.primeraTarjeta008 {
+    background-image: url("../images/008.jpg");
+    height: 150px;
+    /* background-color: #ffd800;*/
+}
+.primeraTarjeta009 {
+    background-image: url("../images/009.jpg");
+    height: 150px;
+    /* background-color: #ffd800;*/
+}
+.primeraTarjeta0010 {
+    background-image: url("../images/0010.jpg");
+    height: 150px;
+    /* background-color: #ffd800;*/
+}
