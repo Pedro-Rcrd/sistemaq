@@ -13,7 +13,7 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 887373085,
+        "HashCode": 1574303401,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -97,7 +97,7 @@
         }
       },
       {
-        "HashCode": -1306335085,
+        "HashCode": 998601326,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -182,7 +182,7 @@
         }
       },
       {
-        "HashCode": -2132005889,
+        "HashCode": 1304160970,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -215,7 +215,7 @@
         }
       },
       {
-        "HashCode": 50875600,
+        "HashCode": 853983086,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -249,7 +249,7 @@
         }
       },
       {
-        "HashCode": -220606115,
+        "HashCode": -2125414007,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -270,7 +270,7 @@
         }
       },
       {
-        "HashCode": -599489949,
+        "HashCode": -1169728854,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -292,7 +292,7 @@
         }
       },
       {
-        "HashCode": 1331301057,
+        "HashCode": -2141768845,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -397,7 +397,7 @@
         }
       },
       {
-        "HashCode": 418099937,
+        "HashCode": -1313380379,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -503,7 +503,7 @@
         }
       },
       {
-        "HashCode": 617141047,
+        "HashCode": -804733787,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -536,7 +536,7 @@
         }
       },
       {
-        "HashCode": 123775347,
+        "HashCode": -1460551797,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -570,7 +570,7 @@
         }
       },
       {
-        "HashCode": -1674549186,
+        "HashCode": -598129928,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.NotAuthorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -603,7 +603,7 @@
         }
       },
       {
-        "HashCode": -1285896331,
+        "HashCode": -400755694,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.NotAuthorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -637,7 +637,7 @@
         }
       },
       {
-        "HashCode": 110194238,
+        "HashCode": -1334549304,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -670,7 +670,7 @@
         }
       },
       {
-        "HashCode": 1644279864,
+        "HashCode": -194425221,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -704,7 +704,7 @@
         }
       },
       {
-        "HashCode": -1055976978,
+        "HashCode": 889841547,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorizing",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -725,7 +725,7 @@
         }
       },
       {
-        "HashCode": 778930838,
+        "HashCode": -1141728046,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorizing",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -747,7 +747,7 @@
         }
       },
       {
-        "HashCode": 1629707926,
+        "HashCode": 835659963,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -778,7 +778,7 @@
         }
       },
       {
-        "HashCode": 1198478908,
+        "HashCode": -454824511,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -810,7 +810,7 @@
         }
       },
       {
-        "HashCode": 447251202,
+        "HashCode": -705254750,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -831,7 +831,7 @@
         }
       },
       {
-        "HashCode": -117598069,
+        "HashCode": 629826858,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -853,7 +853,7 @@
         }
       },
       {
-        "HashCode": 1598492192,
+        "HashCode": 893583106,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -928,7 +928,7 @@
         }
       },
       {
-        "HashCode": 1977613547,
+        "HashCode": 1473846833,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1004,7 +1004,7 @@
         }
       },
       {
-        "HashCode": 1393507253,
+        "HashCode": 903996171,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1025,7 +1025,7 @@
         }
       },
       {
-        "HashCode": -226446106,
+        "HashCode": -355098011,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1047,7 +1047,7 @@
         }
       },
       {
-        "HashCode": -1655389587,
+        "HashCode": 583376134,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.DynamicComponent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1089,7 +1089,7 @@
         }
       },
       {
-        "HashCode": -1199859080,
+        "HashCode": 1240724299,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.DynamicComponent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1132,7 +1132,7 @@
         }
       },
       {
-        "HashCode": 76130970,
+        "HashCode": 424737501,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.LayoutView",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1174,7 +1174,7 @@
         }
       },
       {
-        "HashCode": -1945990899,
+        "HashCode": 1299200166,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.LayoutView",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1217,7 +1217,7 @@
         }
       },
       {
-        "HashCode": 614210208,
+        "HashCode": -32409995,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.LayoutView.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1238,7 +1238,7 @@
         }
       },
       {
-        "HashCode": -1559370254,
+        "HashCode": -683098677,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.LayoutView.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1260,7 +1260,7 @@
         }
       },
       {
-        "HashCode": 652879877,
+        "HashCode": 1704745504,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.RouteView",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1302,7 +1302,7 @@
         }
       },
       {
-        "HashCode": -1849198629,
+        "HashCode": 1290364854,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.RouteView",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1345,7 +1345,7 @@
         }
       },
       {
-        "HashCode": -1445417155,
+        "HashCode": 842029881,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1453,7 +1453,7 @@
         }
       },
       {
-        "HashCode": 944018255,
+        "HashCode": 42708306,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1562,7 +1562,7 @@
         }
       },
       {
-        "HashCode": -1070878958,
+        "HashCode": -288008670,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.NotFound",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1583,7 +1583,7 @@
         }
       },
       {
-        "HashCode": -1537482029,
+        "HashCode": 1675941619,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.NotFound",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1605,7 +1605,7 @@
         }
       },
       {
-        "HashCode": 1342271634,
+        "HashCode": 752494376,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Found",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1638,7 +1638,7 @@
         }
       },
       {
-        "HashCode": -858258363,
+        "HashCode": 1634437454,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Found",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1672,7 +1672,7 @@
         }
       },
       {
-        "HashCode": 1130613133,
+        "HashCode": 1243884074,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Navigating",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1693,7 +1693,7 @@
         }
       },
       {
-        "HashCode": -1255026397,
+        "HashCode": 111459891,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Navigating",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1715,7 +1715,7 @@
         }
       },
       {
-        "HashCode": 1624031088,
+        "HashCode": 965611874,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.DataAnnotationsValidator",
         "AssemblyName": "Microsoft.AspNetCore.Components.Forms",
@@ -1734,7 +1734,7 @@
         }
       },
       {
-        "HashCode": -374481926,
+        "HashCode": 2006544155,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.DataAnnotationsValidator",
         "AssemblyName": "Microsoft.AspNetCore.Components.Forms",
@@ -1754,7 +1754,7 @@
         }
       },
       {
-        "HashCode": -1033760245,
+        "HashCode": 648951947,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -1859,7 +1859,7 @@
         }
       },
       {
-        "HashCode": 1529225190,
+        "HashCode": -1663536542,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -1965,7 +1965,7 @@
         }
       },
       {
-        "HashCode": 752173892,
+        "HashCode": 1920349171,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -1998,7 +1998,7 @@
         }
       },
       {
-        "HashCode": -1784756892,
+        "HashCode": -1453429504,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2032,7 +2032,7 @@
         }
       },
       {
-        "HashCode": -950880790,
+        "HashCode": 502878836,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2104,7 +2104,7 @@
         }
       },
       {
-        "HashCode": 678710385,
+        "HashCode": -2064306530,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2177,7 +2177,7 @@
         }
       },
       {
-        "HashCode": -364026650,
+        "HashCode": 513755251,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2285,7 +2285,7 @@
         }
       },
       {
-        "HashCode": -1907266146,
+        "HashCode": 1865350912,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2394,7 +2394,7 @@
         }
       },
       {
-        "HashCode": -573922036,
+        "HashCode": 858527652,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputFile",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2436,7 +2436,7 @@
         }
       },
       {
-        "HashCode": -1224858150,
+        "HashCode": 1327326467,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputFile",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2479,7 +2479,7 @@
         }
       },
       {
-        "HashCode": -1050757239,
+        "HashCode": 497972977,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2576,7 +2576,7 @@
         }
       },
       {
-        "HashCode": 966687134,
+        "HashCode": -1629690807,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2674,7 +2674,7 @@
         }
       },
       {
-        "HashCode": -1553227252,
+        "HashCode": -466253116,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadio<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2738,7 +2738,7 @@
         }
       },
       {
-        "HashCode": 2054540041,
+        "HashCode": 704716159,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadio<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2803,7 +2803,7 @@
         }
       },
       {
-        "HashCode": 2052238384,
+        "HashCode": -527231109,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2911,7 +2911,7 @@
         }
       },
       {
-        "HashCode": 1333940600,
+        "HashCode": 501096020,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3020,7 +3020,7 @@
         }
       },
       {
-        "HashCode": 996926136,
+        "HashCode": -1011012674,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3041,7 +3041,7 @@
         }
       },
       {
-        "HashCode": 1245423587,
+        "HashCode": -2104240883,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3063,7 +3063,7 @@
         }
       },
       {
-        "HashCode": -122304274,
+        "HashCode": 1597645526,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3161,7 +3161,7 @@
         }
       },
       {
-        "HashCode": -677086642,
+        "HashCode": -319006297,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3260,7 +3260,7 @@
         }
       },
       {
-        "HashCode": 1491349917,
+        "HashCode": 200867645,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3281,7 +3281,7 @@
         }
       },
       {
-        "HashCode": -320822101,
+        "HashCode": -141886871,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3303,7 +3303,7 @@
         }
       },
       {
-        "HashCode": -1836052721,
+        "HashCode": -904967708,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3375,7 +3375,7 @@
         }
       },
       {
-        "HashCode": -1343912478,
+        "HashCode": 194141955,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3448,7 +3448,7 @@
         }
       },
       {
-        "HashCode": -1731570074,
+        "HashCode": -24557837,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3520,7 +3520,7 @@
         }
       },
       {
-        "HashCode": 648963324,
+        "HashCode": -136055901,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3593,7 +3593,7 @@
         }
       },
       {
-        "HashCode": 771522419,
+        "HashCode": 1073329512,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationMessage<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3647,7 +3647,7 @@
         }
       },
       {
-        "HashCode": -1227332868,
+        "HashCode": 2122992268,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationMessage<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3702,7 +3702,7 @@
         }
       },
       {
-        "HashCode": 1742122189,
+        "HashCode": 1204060711,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationSummary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3743,7 +3743,7 @@
         }
       },
       {
-        "HashCode": 973010930,
+        "HashCode": 317065950,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationSummary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3785,7 +3785,7 @@
         }
       },
       {
-        "HashCode": 770771558,
+        "HashCode": -1365563008,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.FocusOnNavigate",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3826,7 +3826,7 @@
         }
       },
       {
-        "HashCode": 339622711,
+        "HashCode": 1007226924,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.FocusOnNavigate",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3868,7 +3868,7 @@
         }
       },
       {
-        "HashCode": 1763639710,
+        "HashCode": 2128241692,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3931,7 +3931,7 @@
         }
       },
       {
-        "HashCode": 1555238245,
+        "HashCode": 494830751,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3995,7 +3995,7 @@
         }
       },
       {
-        "HashCode": 1083662877,
+        "HashCode": -1524142002,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4016,7 +4016,7 @@
         }
       },
       {
-        "HashCode": -1261589212,
+        "HashCode": 725229950,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4038,7 +4038,7 @@
         }
       },
       {
-        "HashCode": 921924713,
+        "HashCode": -1459123631,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4070,7 +4070,7 @@
         }
       },
       {
-        "HashCode": 475914954,
+        "HashCode": -482330722,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4103,7 +4103,7 @@
         }
       },
       {
-        "HashCode": 497321962,
+        "HashCode": 1306044946,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4124,7 +4124,7 @@
         }
       },
       {
-        "HashCode": 1674806637,
+        "HashCode": 1941394819,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4146,7 +4146,7 @@
         }
       },
       {
-        "HashCode": -1315249015,
+        "HashCode": 2138160559,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadOutlet",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4165,7 +4165,7 @@
         }
       },
       {
-        "HashCode": 1412611143,
+        "HashCode": -1448299697,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadOutlet",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4185,7 +4185,7 @@
         }
       },
       {
-        "HashCode": 400149711,
+        "HashCode": 605547895,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4217,7 +4217,7 @@
         }
       },
       {
-        "HashCode": 1465207675,
+        "HashCode": 991719376,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4250,7 +4250,7 @@
         }
       },
       {
-        "HashCode": -1106926723,
+        "HashCode": -1378995558,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4271,7 +4271,7 @@
         }
       },
       {
-        "HashCode": 752287808,
+        "HashCode": -219408375,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4293,7 +4293,7 @@
         }
       },
       {
-        "HashCode": 1117577775,
+        "HashCode": 448419513,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4356,7 +4356,7 @@
         }
       },
       {
-        "HashCode": -394205905,
+        "HashCode": 1832572582,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4420,7 +4420,7 @@
         }
       },
       {
-        "HashCode": 2099045320,
+        "HashCode": -1013499701,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4441,7 +4441,7 @@
         }
       },
       {
-        "HashCode": 293252091,
+        "HashCode": 2085399536,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4463,7 +4463,7 @@
         }
       },
       {
-        "HashCode": 1229054309,
+        "HashCode": 1924355987,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ErrorContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4496,7 +4496,7 @@
         }
       },
       {
-        "HashCode": -355929089,
+        "HashCode": -134489559,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ErrorContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4530,7 +4530,7 @@
         }
       },
       {
-        "HashCode": 1249134297,
+        "HashCode": -1221075383,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4652,7 +4652,7 @@
         }
       },
       {
-        "HashCode": 118931085,
+        "HashCode": -1381117504,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4775,7 +4775,7 @@
         }
       },
       {
-        "HashCode": 965950271,
+        "HashCode": -1304996616,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4808,7 +4808,7 @@
         }
       },
       {
-        "HashCode": 931328244,
+        "HashCode": -901182288,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4842,7 +4842,7 @@
         }
       },
       {
-        "HashCode": 901334882,
+        "HashCode": 1148096106,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ItemContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4875,7 +4875,7 @@
         }
       },
       {
-        "HashCode": 249962068,
+        "HashCode": 1823666465,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ItemContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4909,7 +4909,7 @@
         }
       },
       {
-        "HashCode": 2076547249,
+        "HashCode": -1769906906,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.Placeholder",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4942,7 +4942,7 @@
         }
       },
       {
-        "HashCode": 1505886939,
+        "HashCode": 2075546080,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.Placeholder",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4976,7 +4976,7 @@
         }
       },
       {
-        "HashCode": 190214107,
+        "HashCode": 1653037601,
         "Kind": "Components.EventHandler",
         "Name": "onfocus",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5059,7 +5059,7 @@
         }
       },
       {
-        "HashCode": -1818698382,
+        "HashCode": -1552910769,
         "Kind": "Components.EventHandler",
         "Name": "onblur",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5142,7 +5142,7 @@
         }
       },
       {
-        "HashCode": -975938287,
+        "HashCode": 1878421922,
         "Kind": "Components.EventHandler",
         "Name": "onfocusin",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5225,7 +5225,7 @@
         }
       },
       {
-        "HashCode": -53172232,
+        "HashCode": 1658958207,
         "Kind": "Components.EventHandler",
         "Name": "onfocusout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5308,7 +5308,7 @@
         }
       },
       {
-        "HashCode": -1462341977,
+        "HashCode": 1632974501,
         "Kind": "Components.EventHandler",
         "Name": "onmouseover",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5391,7 +5391,7 @@
         }
       },
       {
-        "HashCode": 1423486965,
+        "HashCode": -2119493414,
         "Kind": "Components.EventHandler",
         "Name": "onmouseout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5474,7 +5474,7 @@
         }
       },
       {
-        "HashCode": -1065042909,
+        "HashCode": 1298621968,
         "Kind": "Components.EventHandler",
         "Name": "onmousemove",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5557,7 +5557,7 @@
         }
       },
       {
-        "HashCode": -982921009,
+        "HashCode": -1920538611,
         "Kind": "Components.EventHandler",
         "Name": "onmousedown",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5640,7 +5640,7 @@
         }
       },
       {
-        "HashCode": 414222039,
+        "HashCode": -11217630,
         "Kind": "Components.EventHandler",
         "Name": "onmouseup",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5723,7 +5723,7 @@
         }
       },
       {
-        "HashCode": -493030442,
+        "HashCode": -870550848,
         "Kind": "Components.EventHandler",
         "Name": "onclick",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5806,7 +5806,7 @@
         }
       },
       {
-        "HashCode": -509430053,
+        "HashCode": 2124909172,
         "Kind": "Components.EventHandler",
         "Name": "ondblclick",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5889,7 +5889,7 @@
         }
       },
       {
-        "HashCode": -1281741809,
+        "HashCode": 1929054398,
         "Kind": "Components.EventHandler",
         "Name": "onwheel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5972,7 +5972,7 @@
         }
       },
       {
-        "HashCode": 1701861149,
+        "HashCode": 297615812,
         "Kind": "Components.EventHandler",
         "Name": "onmousewheel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6055,7 +6055,7 @@
         }
       },
       {
-        "HashCode": -1432512996,
+        "HashCode": -765061783,
         "Kind": "Components.EventHandler",
         "Name": "oncontextmenu",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6138,7 +6138,7 @@
         }
       },
       {
-        "HashCode": 814407787,
+        "HashCode": 112540551,
         "Kind": "Components.EventHandler",
         "Name": "ondrag",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6221,7 +6221,7 @@
         }
       },
       {
-        "HashCode": -1004613017,
+        "HashCode": -2086482691,
         "Kind": "Components.EventHandler",
         "Name": "ondragend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6304,7 +6304,7 @@
         }
       },
       {
-        "HashCode": -1016893876,
+        "HashCode": -661065512,
         "Kind": "Components.EventHandler",
         "Name": "ondragenter",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6387,7 +6387,7 @@
         }
       },
       {
-        "HashCode": -31291756,
+        "HashCode": 300742583,
         "Kind": "Components.EventHandler",
         "Name": "ondragleave",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6470,7 +6470,7 @@
         }
       },
       {
-        "HashCode": 2053600935,
+        "HashCode": -1814557403,
         "Kind": "Components.EventHandler",
         "Name": "ondragover",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6553,7 +6553,7 @@
         }
       },
       {
-        "HashCode": 932172896,
+        "HashCode": -586543679,
         "Kind": "Components.EventHandler",
         "Name": "ondragstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6636,7 +6636,7 @@
         }
       },
       {
-        "HashCode": 640189350,
+        "HashCode": -1957064181,
         "Kind": "Components.EventHandler",
         "Name": "ondrop",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6719,7 +6719,7 @@
         }
       },
       {
-        "HashCode": 1996574911,
+        "HashCode": 230756971,
         "Kind": "Components.EventHandler",
         "Name": "onkeydown",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6802,7 +6802,7 @@
         }
       },
       {
-        "HashCode": 558248375,
+        "HashCode": -711472667,
         "Kind": "Components.EventHandler",
         "Name": "onkeyup",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6885,7 +6885,7 @@
         }
       },
       {
-        "HashCode": -1176516429,
+        "HashCode": -1314480006,
         "Kind": "Components.EventHandler",
         "Name": "onkeypress",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6968,7 +6968,7 @@
         }
       },
       {
-        "HashCode": 275079325,
+        "HashCode": 428037964,
         "Kind": "Components.EventHandler",
         "Name": "onchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7051,7 +7051,7 @@
         }
       },
       {
-        "HashCode": -1070431674,
+        "HashCode": -364848963,
         "Kind": "Components.EventHandler",
         "Name": "oninput",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7134,7 +7134,7 @@
         }
       },
       {
-        "HashCode": -72611526,
+        "HashCode": 1364312819,
         "Kind": "Components.EventHandler",
         "Name": "oninvalid",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7217,7 +7217,7 @@
         }
       },
       {
-        "HashCode": 295383877,
+        "HashCode": 1864556854,
         "Kind": "Components.EventHandler",
         "Name": "onreset",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7300,7 +7300,7 @@
         }
       },
       {
-        "HashCode": 707510530,
+        "HashCode": 7529982,
         "Kind": "Components.EventHandler",
         "Name": "onselect",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7383,7 +7383,7 @@
         }
       },
       {
-        "HashCode": 819411645,
+        "HashCode": 340033265,
         "Kind": "Components.EventHandler",
         "Name": "onselectstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7466,7 +7466,7 @@
         }
       },
       {
-        "HashCode": -1389102650,
+        "HashCode": 2128951719,
         "Kind": "Components.EventHandler",
         "Name": "onselectionchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7549,7 +7549,7 @@
         }
       },
       {
-        "HashCode": -832719613,
+        "HashCode": -1775545189,
         "Kind": "Components.EventHandler",
         "Name": "onsubmit",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7632,7 +7632,7 @@
         }
       },
       {
-        "HashCode": -1775756860,
+        "HashCode": -1333384016,
         "Kind": "Components.EventHandler",
         "Name": "onbeforecopy",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7715,7 +7715,7 @@
         }
       },
       {
-        "HashCode": -1349897792,
+        "HashCode": 1627677209,
         "Kind": "Components.EventHandler",
         "Name": "onbeforecut",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7798,7 +7798,7 @@
         }
       },
       {
-        "HashCode": 682565940,
+        "HashCode": -1283859197,
         "Kind": "Components.EventHandler",
         "Name": "onbeforepaste",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7881,7 +7881,7 @@
         }
       },
       {
-        "HashCode": 600743752,
+        "HashCode": -1330570398,
         "Kind": "Components.EventHandler",
         "Name": "oncopy",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7964,7 +7964,7 @@
         }
       },
       {
-        "HashCode": 828625201,
+        "HashCode": 483601518,
         "Kind": "Components.EventHandler",
         "Name": "oncut",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8047,7 +8047,7 @@
         }
       },
       {
-        "HashCode": -688484074,
+        "HashCode": 11410876,
         "Kind": "Components.EventHandler",
         "Name": "onpaste",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8130,7 +8130,7 @@
         }
       },
       {
-        "HashCode": 1501756213,
+        "HashCode": -972148963,
         "Kind": "Components.EventHandler",
         "Name": "ontouchcancel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8213,7 +8213,7 @@
         }
       },
       {
-        "HashCode": -346518252,
+        "HashCode": 1324645233,
         "Kind": "Components.EventHandler",
         "Name": "ontouchend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8296,7 +8296,7 @@
         }
       },
       {
-        "HashCode": 762902883,
+        "HashCode": -932017971,
         "Kind": "Components.EventHandler",
         "Name": "ontouchmove",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8379,7 +8379,7 @@
         }
       },
       {
-        "HashCode": 11903911,
+        "HashCode": -1275270260,
         "Kind": "Components.EventHandler",
         "Name": "ontouchstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8462,7 +8462,7 @@
         }
       },
       {
-        "HashCode": 947012036,
+        "HashCode": -234771943,
         "Kind": "Components.EventHandler",
         "Name": "ontouchenter",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8545,7 +8545,7 @@
         }
       },
       {
-        "HashCode": 1714489,
+        "HashCode": -1868975528,
         "Kind": "Components.EventHandler",
         "Name": "ontouchleave",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8628,7 +8628,7 @@
         }
       },
       {
-        "HashCode": -103748771,
+        "HashCode": 1132715683,
         "Kind": "Components.EventHandler",
         "Name": "ongotpointercapture",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8711,7 +8711,7 @@
         }
       },
       {
-        "HashCode": -1574078758,
+        "HashCode": 751621803,
         "Kind": "Components.EventHandler",
         "Name": "onlostpointercapture",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8794,7 +8794,7 @@
         }
       },
       {
-        "HashCode": 2119566976,
+        "HashCode": 910670567,
         "Kind": "Components.EventHandler",
         "Name": "onpointercancel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8877,7 +8877,7 @@
         }
       },
       {
-        "HashCode": -581031505,
+        "HashCode": 1561016679,
         "Kind": "Components.EventHandler",
         "Name": "onpointerdown",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8960,7 +8960,7 @@
         }
       },
       {
-        "HashCode": 1323506352,
+        "HashCode": 972119119,
         "Kind": "Components.EventHandler",
         "Name": "onpointerenter",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9043,7 +9043,7 @@
         }
       },
       {
-        "HashCode": -1383434871,
+        "HashCode": 6275351,
         "Kind": "Components.EventHandler",
         "Name": "onpointerleave",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9126,7 +9126,7 @@
         }
       },
       {
-        "HashCode": -354030044,
+        "HashCode": 1012156917,
         "Kind": "Components.EventHandler",
         "Name": "onpointermove",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9209,7 +9209,7 @@
         }
       },
       {
-        "HashCode": 938789506,
+        "HashCode": 1472082057,
         "Kind": "Components.EventHandler",
         "Name": "onpointerout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9292,7 +9292,7 @@
         }
       },
       {
-        "HashCode": 1867395710,
+        "HashCode": 1289166652,
         "Kind": "Components.EventHandler",
         "Name": "onpointerover",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9375,7 +9375,7 @@
         }
       },
       {
-        "HashCode": -960084990,
+        "HashCode": -860509923,
         "Kind": "Components.EventHandler",
         "Name": "onpointerup",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9458,7 +9458,7 @@
         }
       },
       {
-        "HashCode": 281529290,
+        "HashCode": -338468223,
         "Kind": "Components.EventHandler",
         "Name": "oncanplay",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9541,7 +9541,7 @@
         }
       },
       {
-        "HashCode": -1993010328,
+        "HashCode": -916178156,
         "Kind": "Components.EventHandler",
         "Name": "oncanplaythrough",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9624,7 +9624,7 @@
         }
       },
       {
-        "HashCode": 938091602,
+        "HashCode": -1304169564,
         "Kind": "Components.EventHandler",
         "Name": "oncuechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9707,7 +9707,7 @@
         }
       },
       {
-        "HashCode": 16271302,
+        "HashCode": 2014254209,
         "Kind": "Components.EventHandler",
         "Name": "ondurationchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9790,7 +9790,7 @@
         }
       },
       {
-        "HashCode": 1106811329,
+        "HashCode": -466038407,
         "Kind": "Components.EventHandler",
         "Name": "onemptied",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9873,7 +9873,7 @@
         }
       },
       {
-        "HashCode": 120542401,
+        "HashCode": -727331338,
         "Kind": "Components.EventHandler",
         "Name": "onpause",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9956,7 +9956,7 @@
         }
       },
       {
-        "HashCode": 837787762,
+        "HashCode": -1423414364,
         "Kind": "Components.EventHandler",
         "Name": "onplay",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10039,7 +10039,7 @@
         }
       },
       {
-        "HashCode": 411913260,
+        "HashCode": -441277095,
         "Kind": "Components.EventHandler",
         "Name": "onplaying",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10122,7 +10122,7 @@
         }
       },
       {
-        "HashCode": -119164677,
+        "HashCode": -1335612123,
         "Kind": "Components.EventHandler",
         "Name": "onratechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10205,7 +10205,7 @@
         }
       },
       {
-        "HashCode": -938192392,
+        "HashCode": -25786350,
         "Kind": "Components.EventHandler",
         "Name": "onseeked",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10288,7 +10288,7 @@
         }
       },
       {
-        "HashCode": -2125218257,
+        "HashCode": 617364017,
         "Kind": "Components.EventHandler",
         "Name": "onseeking",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10371,7 +10371,7 @@
         }
       },
       {
-        "HashCode": 2040595563,
+        "HashCode": 2019728271,
         "Kind": "Components.EventHandler",
         "Name": "onstalled",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10454,7 +10454,7 @@
         }
       },
       {
-        "HashCode": -775297706,
+        "HashCode": 1258184265,
         "Kind": "Components.EventHandler",
         "Name": "onstop",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10537,7 +10537,7 @@
         }
       },
       {
-        "HashCode": 2111391446,
+        "HashCode": -256170104,
         "Kind": "Components.EventHandler",
         "Name": "onsuspend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10620,7 +10620,7 @@
         }
       },
       {
-        "HashCode": -1061148393,
+        "HashCode": -1798488233,
         "Kind": "Components.EventHandler",
         "Name": "ontimeupdate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10703,7 +10703,7 @@
         }
       },
       {
-        "HashCode": -854595580,
+        "HashCode": 158709841,
         "Kind": "Components.EventHandler",
         "Name": "onvolumechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10786,7 +10786,7 @@
         }
       },
       {
-        "HashCode": -1032121649,
+        "HashCode": 278573580,
         "Kind": "Components.EventHandler",
         "Name": "onwaiting",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10869,7 +10869,7 @@
         }
       },
       {
-        "HashCode": -1924039301,
+        "HashCode": 249183439,
         "Kind": "Components.EventHandler",
         "Name": "onloadstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10952,7 +10952,7 @@
         }
       },
       {
-        "HashCode": -1983015022,
+        "HashCode": 1583178092,
         "Kind": "Components.EventHandler",
         "Name": "ontimeout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11035,7 +11035,7 @@
         }
       },
       {
-        "HashCode": -767080053,
+        "HashCode": 1679540798,
         "Kind": "Components.EventHandler",
         "Name": "onabort",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11118,7 +11118,7 @@
         }
       },
       {
-        "HashCode": 174398349,
+        "HashCode": -672324976,
         "Kind": "Components.EventHandler",
         "Name": "onload",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11201,7 +11201,7 @@
         }
       },
       {
-        "HashCode": 1540210191,
+        "HashCode": -1430810944,
         "Kind": "Components.EventHandler",
         "Name": "onloadend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11284,7 +11284,7 @@
         }
       },
       {
-        "HashCode": 661260245,
+        "HashCode": 1620189840,
         "Kind": "Components.EventHandler",
         "Name": "onprogress",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11367,7 +11367,7 @@
         }
       },
       {
-        "HashCode": 220531936,
+        "HashCode": 353544547,
         "Kind": "Components.EventHandler",
         "Name": "onerror",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11450,7 +11450,7 @@
         }
       },
       {
-        "HashCode": 1230832320,
+        "HashCode": 1691745841,
         "Kind": "Components.EventHandler",
         "Name": "onactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11533,7 +11533,7 @@
         }
       },
       {
-        "HashCode": -853962944,
+        "HashCode": -1859067852,
         "Kind": "Components.EventHandler",
         "Name": "onbeforeactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11616,7 +11616,7 @@
         }
       },
       {
-        "HashCode": 1000597538,
+        "HashCode": -164256119,
         "Kind": "Components.EventHandler",
         "Name": "onbeforedeactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11699,7 +11699,7 @@
         }
       },
       {
-        "HashCode": -151166182,
+        "HashCode": -1221238529,
         "Kind": "Components.EventHandler",
         "Name": "ondeactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11782,7 +11782,7 @@
         }
       },
       {
-        "HashCode": 1681387075,
+        "HashCode": -2135157168,
         "Kind": "Components.EventHandler",
         "Name": "onended",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11865,7 +11865,7 @@
         }
       },
       {
-        "HashCode": 706004719,
+        "HashCode": -1129414127,
         "Kind": "Components.EventHandler",
         "Name": "onfullscreenchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11948,7 +11948,7 @@
         }
       },
       {
-        "HashCode": 419736962,
+        "HashCode": 1196466315,
         "Kind": "Components.EventHandler",
         "Name": "onfullscreenerror",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12031,7 +12031,7 @@
         }
       },
       {
-        "HashCode": 1836027217,
+        "HashCode": -1004060436,
         "Kind": "Components.EventHandler",
         "Name": "onloadeddata",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12114,7 +12114,7 @@
         }
       },
       {
-        "HashCode": -2014728499,
+        "HashCode": -1121735768,
         "Kind": "Components.EventHandler",
         "Name": "onloadedmetadata",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12197,7 +12197,7 @@
         }
       },
       {
-        "HashCode": -670255551,
+        "HashCode": 1678047704,
         "Kind": "Components.EventHandler",
         "Name": "onpointerlockchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12280,7 +12280,7 @@
         }
       },
       {
-        "HashCode": 1181298199,
+        "HashCode": -1134226092,
         "Kind": "Components.EventHandler",
         "Name": "onpointerlockerror",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12363,7 +12363,7 @@
         }
       },
       {
-        "HashCode": 1214094460,
+        "HashCode": 1845848568,
         "Kind": "Components.EventHandler",
         "Name": "onreadystatechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12446,7 +12446,7 @@
         }
       },
       {
-        "HashCode": -219780147,
+        "HashCode": -1565678621,
         "Kind": "Components.EventHandler",
         "Name": "onscroll",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12529,7 +12529,7 @@
         }
       },
       {
-        "HashCode": -315686567,
+        "HashCode": -1625994150,
         "Kind": "Components.EventHandler",
         "Name": "ontoggle",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12612,7 +12612,7 @@
         }
       },
       {
-        "HashCode": 1216972623,
+        "HashCode": -647865319,
         "Kind": "Components.Splat",
         "Name": "Attributes",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12651,7 +12651,7 @@
         }
       },
       {
-        "HashCode": 263707131,
+        "HashCode": 1215936182,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.Razor",
@@ -12968,7 +12968,7 @@
         }
       },
       {
-        "HashCode": -272574831,
+        "HashCode": -503095000,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -13167,7 +13167,7 @@
         }
       },
       {
-        "HashCode": -1157565329,
+        "HashCode": 2090183341,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.CacheTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -13296,7 +13296,7 @@
         }
       },
       {
-        "HashCode": -1992840889,
+        "HashCode": -2095517873,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ComponentTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -13353,7 +13353,7 @@
         }
       },
       {
-        "HashCode": 1278155002,
+        "HashCode": 1296637148,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.DistributedCacheTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -13487,7 +13487,7 @@
         }
       },
       {
-        "HashCode": -800064408,
+        "HashCode": -1701454621,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.EnvironmentTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -13535,7 +13535,7 @@
         }
       },
       {
-        "HashCode": 595765476,
+        "HashCode": -38303029,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.FormActionTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -13954,7 +13954,7 @@
         }
       },
       {
-        "HashCode": -197056261,
+        "HashCode": -335069449,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14058,7 +14058,7 @@
         }
       },
       {
-        "HashCode": -1713750484,
+        "HashCode": 715456285,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ImageTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14106,7 +14106,7 @@
         }
       },
       {
-        "HashCode": 393817796,
+        "HashCode": -1730227940,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14178,7 +14178,7 @@
         }
       },
       {
-        "HashCode": 484427988,
+        "HashCode": 1222071141,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.LabelTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14213,7 +14213,7 @@
         }
       },
       {
-        "HashCode": 1699012692,
+        "HashCode": -28871803,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14411,7 +14411,7 @@
         }
       },
       {
-        "HashCode": -647308059,
+        "HashCode": 2076392740,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.OptionTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14441,7 +14441,7 @@
         }
       },
       {
-        "HashCode": -262007667,
+        "HashCode": 738329688,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14524,7 +14524,7 @@
         }
       },
       {
-        "HashCode": 587071009,
+        "HashCode": 66196589,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.PersistComponentStateTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14555,7 +14555,7 @@
         }
       },
       {
-        "HashCode": -1061257349,
+        "HashCode": 1352026686,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ScriptTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14710,7 +14710,7 @@
         }
       },
       {
-        "HashCode": -1729095008,
+        "HashCode": 769980814,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.SelectTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14771,7 +14771,7 @@
         }
       },
       {
-        "HashCode": -1704911518,
+        "HashCode": 617048351,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.TextAreaTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14815,7 +14815,7 @@
         }
       },
       {
-        "HashCode": -757693207,
+        "HashCode": 10001189,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ValidationMessageTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14850,7 +14850,7 @@
         }
       },
       {
-        "HashCode": 1115648993,
+        "HashCode": -1194433434,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ValidationSummaryTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14886,7 +14886,7 @@
         }
       },
       {
-        "HashCode": 290022891,
+        "HashCode": -1692556301,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -14982,7 +14982,7 @@
         }
       },
       {
-        "HashCode": 226180193,
+        "HashCode": 1625614984,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -15104,7 +15104,7 @@
         }
       },
       {
-        "HashCode": -1926836116,
+        "HashCode": 1015923129,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -15226,7 +15226,7 @@
         }
       },
       {
-        "HashCode": 1008376346,
+        "HashCode": -582001096,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -15359,7 +15359,7 @@
         }
       },
       {
-        "HashCode": -1263563769,
+        "HashCode": 1027055264,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -15492,7 +15492,7 @@
         }
       },
       {
-        "HashCode": 590320282,
+        "HashCode": 1524283254,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -15625,7 +15625,7 @@
         }
       },
       {
-        "HashCode": 933291407,
+        "HashCode": -181155111,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -15758,7 +15758,7 @@
         }
       },
       {
-        "HashCode": 469395706,
+        "HashCode": -2019524808,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -15891,7 +15891,7 @@
         }
       },
       {
-        "HashCode": 417271739,
+        "HashCode": -713297825,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16024,7 +16024,7 @@
         }
       },
       {
-        "HashCode": -92563865,
+        "HashCode": 682081627,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16157,7 +16157,7 @@
         }
       },
       {
-        "HashCode": -1776832541,
+        "HashCode": 443893456,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16290,7 +16290,7 @@
         }
       },
       {
-        "HashCode": 932836567,
+        "HashCode": -38590968,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16423,7 +16423,7 @@
         }
       },
       {
-        "HashCode": -2032290231,
+        "HashCode": -1044142514,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16556,7 +16556,7 @@
         }
       },
       {
-        "HashCode": 1421608128,
+        "HashCode": -872172856,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16689,7 +16689,7 @@
         }
       },
       {
-        "HashCode": 363667537,
+        "HashCode": 1500307181,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16822,7 +16822,7 @@
         }
       },
       {
-        "HashCode": -1014641468,
+        "HashCode": -102441597,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16944,7 +16944,7 @@
         }
       },
       {
-        "HashCode": -1535541068,
+        "HashCode": 433539442,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -17066,7 +17066,7 @@
         }
       },
       {
-        "HashCode": -993648074,
+        "HashCode": 1728762461,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -17153,7 +17153,7 @@
         }
       },
       {
-        "HashCode": 1919214478,
+        "HashCode": -211020508,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -17241,7 +17241,7 @@
         }
       },
       {
-        "HashCode": -1857387316,
+        "HashCode": 1182931074,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -17328,7 +17328,7 @@
         }
       },
       {
-        "HashCode": -1956317619,
+        "HashCode": -814429899,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -17416,7 +17416,7 @@
         }
       },
       {
-        "HashCode": 314331917,
+        "HashCode": 181377963,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -17503,7 +17503,7 @@
         }
       },
       {
-        "HashCode": 1854909467,
+        "HashCode": 2111033293,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -17591,7 +17591,7 @@
         }
       },
       {
-        "HashCode": -1122946707,
+        "HashCode": -1844257090,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -17678,7 +17678,7 @@
         }
       },
       {
-        "HashCode": 829355660,
+        "HashCode": -1564482717,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -17766,7 +17766,7 @@
         }
       },
       {
-        "HashCode": 132840128,
+        "HashCode": 1611576413,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -17853,7 +17853,7 @@
         }
       },
       {
-        "HashCode": 1985499010,
+        "HashCode": 878905881,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -17941,7 +17941,7 @@
         }
       },
       {
-        "HashCode": 2116046629,
+        "HashCode": 281121326,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -18028,7 +18028,7 @@
         }
       },
       {
-        "HashCode": 1273810464,
+        "HashCode": -359460475,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -18116,7 +18116,7 @@
         }
       },
       {
-        "HashCode": -1650209342,
+        "HashCode": 1116672841,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -18203,7 +18203,7 @@
         }
       },
       {
-        "HashCode": 167104019,
+        "HashCode": 32545306,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -18291,7 +18291,7 @@
         }
       },
       {
-        "HashCode": -699926985,
+        "HashCode": -1398297772,
         "Kind": "Components.Ref",
         "Name": "Ref",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -18330,7 +18330,7 @@
         }
       },
       {
-        "HashCode": 775629048,
+        "HashCode": 2133151001,
         "Kind": "Components.Key",
         "Name": "Key",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -18374,13 +18374,33 @@
   "RootNamespace": "systemquchooch",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Profesions\\Index.cshtml",
-      "TargetPath": "Views\\Profesions\\Index.cshtml",
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Desempeño\\Edit.cshtml",
+      "TargetPath": "Views\\Desempeño\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Areas\\ImprimirArea.cshtml",
-      "TargetPath": "Views\\Areas\\ImprimirArea.cshtml",
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\EstudianteTutoriums\\Create.cshtml",
+      "TargetPath": "Views\\EstudianteTutoriums\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\NivelAcademicoes\\Index.cshtml",
+      "TargetPath": "Views\\NivelAcademicoes\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Profesions\\Details.cshtml",
+      "TargetPath": "Views\\Profesions\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Gradoes\\Create.cshtml",
+      "TargetPath": "Views\\Gradoes\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Gradoes\\Index.cshtml",
+      "TargetPath": "Views\\Gradoes\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18389,23 +18409,23 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\EstudiantePatrocinadors\\Create.cshtml",
-      "TargetPath": "Views\\EstudiantePatrocinadors\\Create.cshtml",
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Registro\\Principal.cshtml",
+      "TargetPath": "Views\\Registro\\Principal.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Profesions\\Create.cshtml",
-      "TargetPath": "Views\\Profesions\\Create.cshtml",
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Areas\\Delete.cshtml",
+      "TargetPath": "Views\\Areas\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Cursoes\\Create.cshtml",
-      "TargetPath": "Views\\Cursoes\\Create.cshtml",
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Comunidads\\Index.cshtml",
-      "TargetPath": "Views\\Comunidads\\Index.cshtml",
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\FichaCalificacions\\Delete.cshtml",
+      "TargetPath": "Views\\FichaCalificacions\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18419,314 +18439,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Periodoes\\Delete.cshtml",
-      "TargetPath": "Views\\Periodoes\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Estudiantes\\Index.cshtml",
-      "TargetPath": "Views\\Estudiantes\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\FichaCalificacions\\Delete.cshtml",
-      "TargetPath": "Views\\FichaCalificacions\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\FichaCalificacions\\Create.cshtml",
-      "TargetPath": "Views\\FichaCalificacions\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\FichaCalificacions\\Details.cshtml",
-      "TargetPath": "Views\\FichaCalificacions\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\EstudiantePatrocinadors\\Edit.cshtml",
-      "TargetPath": "Views\\EstudiantePatrocinadors\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\OrdenCompras\\Index.cshtml",
-      "TargetPath": "Views\\OrdenCompras\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Areas\\Details.cshtml",
-      "TargetPath": "Views\\Areas\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Registro\\Principal.cshtml",
-      "TargetPath": "Views\\Registro\\Principal.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Pais\\Index.cshtml",
-      "TargetPath": "Views\\Pais\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Patrocinadors\\Index.cshtml",
-      "TargetPath": "Views\\Patrocinadors\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Gastoes\\Details.cshtml",
-      "TargetPath": "Views\\Gastoes\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Gradoes\\Delete.cshtml",
-      "TargetPath": "Views\\Gradoes\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-<<<<<<< HEAD
-=======
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Desempeño\\ImprimirDesempeño.cshtml",
-      "TargetPath": "Views\\Desempeño\\ImprimirDesempeño.cshtml",
-      "FileKind": "mvc"
-    },
-    {
->>>>>>> maria
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Desempeño\\Delete.cshtml",
-      "TargetPath": "Views\\Desempeño\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Comunidads\\ImprimirComunidad.cshtml",
-      "TargetPath": "Views\\Comunidads\\ImprimirComunidad.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\HistorialEstudiantes\\Details.cshtml",
-      "TargetPath": "Views\\HistorialEstudiantes\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\ImagenAdicionals\\Details.cshtml",
-      "TargetPath": "Views\\ImagenAdicionals\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Cursoes\\Details.cshtml",
-      "TargetPath": "Views\\Cursoes\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Pais\\Edit.cshtml",
-      "TargetPath": "Views\\Pais\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Areas\\Create.cshtml",
-      "TargetPath": "Views\\Areas\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Gradoes\\ImprimirGrado.cshtml",
-      "TargetPath": "Views\\Gradoes\\ImprimirGrado.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Patrocinadors\\Edit.cshtml",
-      "TargetPath": "Views\\Patrocinadors\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\ImagenAdicionals\\Create.cshtml",
-      "TargetPath": "Views\\ImagenAdicionals\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Tutoriums\\Index.cshtml",
-      "TargetPath": "Views\\Tutoriums\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-<<<<<<< HEAD
-=======
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Periodoes\\ImprimirPeriodo.cshtml",
-      "TargetPath": "Views\\Periodoes\\ImprimirPeriodo.cshtml",
-      "FileKind": "mvc"
-    },
-    {
->>>>>>> maria
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Gastoes\\Index.cshtml",
-      "TargetPath": "Views\\Gastoes\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\EstudiantePatrocinadors\\ImprimirEstudiantePatrocinadors.cshtml",
-      "TargetPath": "Views\\EstudiantePatrocinadors\\ImprimirEstudiantePatrocinadors.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Establecimientoes\\Create.cshtml",
-      "TargetPath": "Views\\Establecimientoes\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Estudiantes\\Edit.cshtml",
-      "TargetPath": "Views\\Estudiantes\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Pais\\Create.cshtml",
-      "TargetPath": "Views\\Pais\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\EstudianteTutoriums\\Create.cshtml",
-      "TargetPath": "Views\\EstudianteTutoriums\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Tutoriums\\Create.cshtml",
-      "TargetPath": "Views\\Tutoriums\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Gradoes\\Details.cshtml",
-      "TargetPath": "Views\\Gradoes\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Periodoes\\Create.cshtml",
-      "TargetPath": "Views\\Periodoes\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Profesions\\Delete.cshtml",
-      "TargetPath": "Views\\Profesions\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Carreras\\Index.cshtml",
-      "TargetPath": "Views\\Carreras\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Cursoes\\Delete.cshtml",
-      "TargetPath": "Views\\Cursoes\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Estudiantes\\Delete.cshtml",
-      "TargetPath": "Views\\Estudiantes\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Carreras\\Create.cshtml",
-      "TargetPath": "Views\\Carreras\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Carreras\\Delete.cshtml",
-      "TargetPath": "Views\\Carreras\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\EstudianteTutoriums\\Details.cshtml",
-      "TargetPath": "Views\\EstudianteTutoriums\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Gradoes\\Index.cshtml",
-      "TargetPath": "Views\\Gradoes\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Proveedors\\Delete.cshtml",
-      "TargetPath": "Views\\Proveedors\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\NivelAcademicoes\\Index.cshtml",
-      "TargetPath": "Views\\NivelAcademicoes\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\EstudianteTutoriums\\Edit.cshtml",
-      "TargetPath": "Views\\EstudianteTutoriums\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\HistorialEstudiantes\\Edit.cshtml",
-      "TargetPath": "Views\\HistorialEstudiantes\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\NivelAcademicoes\\Delete.cshtml",
-      "TargetPath": "Views\\NivelAcademicoes\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Registro\\Auxiliar.cshtml",
-      "TargetPath": "Views\\Registro\\Auxiliar.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Areas\\Edit.cshtml",
-      "TargetPath": "Views\\Areas\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Tutors\\Index.cshtml",
-      "TargetPath": "Views\\Tutors\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Comunidads\\Delete.cshtml",
-      "TargetPath": "Views\\Comunidads\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Tutors\\Edit.cshtml",
-      "TargetPath": "Views\\Tutors\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Pais\\Details.cshtml",
-      "TargetPath": "Views\\Pais\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Gastoes\\Create.cshtml",
-      "TargetPath": "Views\\Gastoes\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\EstudianteTutoriums\\Delete.cshtml",
-      "TargetPath": "Views\\EstudianteTutoriums\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\OrdenCompras\\Details.cshtml",
-      "TargetPath": "Views\\OrdenCompras\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\TutorTuroriums\\Edit.cshtml",
-      "TargetPath": "Views\\TutorTuroriums\\Edit.cshtml",
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\NivelAcademicoes\\Create.cshtml",
+      "TargetPath": "Views\\NivelAcademicoes\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18735,189 +18449,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Establecimientoes\\Edit.cshtml",
-      "TargetPath": "Views\\Establecimientoes\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Establecimientoes\\Index.cshtml",
-      "TargetPath": "Views\\Establecimientoes\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-<<<<<<< HEAD
-=======
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\HistorialEstudiantes\\ImprimirHistorialEstudiante.cshtml",
-      "TargetPath": "Views\\HistorialEstudiantes\\ImprimirHistorialEstudiante.cshtml",
-      "FileKind": "mvc"
-    },
-    {
->>>>>>> maria
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Tutors\\Delete.cshtml",
-      "TargetPath": "Views\\Tutors\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Carreras\\Details.cshtml",
-      "TargetPath": "Views\\Carreras\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Proveedors\\Details.cshtml",
-      "TargetPath": "Views\\Proveedors\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Profesions\\Edit.cshtml",
-      "TargetPath": "Views\\Profesions\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Pais\\Delete.cshtml",
-      "TargetPath": "Views\\Pais\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\EstudianteTutoriums\\Index.cshtml",
-      "TargetPath": "Views\\EstudianteTutoriums\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Proveedors\\Index.cshtml",
-      "TargetPath": "Views\\Proveedors\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Estudiantes\\Details.cshtml",
-      "TargetPath": "Views\\Estudiantes\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\ImagenAdicionals\\Edit.cshtml",
-      "TargetPath": "Views\\ImagenAdicionals\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\TutorTuroriums\\Delete.cshtml",
-      "TargetPath": "Views\\TutorTuroriums\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Carreras\\Edit.cshtml",
-      "TargetPath": "Views\\Carreras\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Profesions\\Details.cshtml",
-      "TargetPath": "Views\\Profesions\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\TutorTuroriums\\Create.cshtml",
-      "TargetPath": "Views\\TutorTuroriums\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\HistorialEstudiantes\\Index.cshtml",
-      "TargetPath": "Views\\HistorialEstudiantes\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Gradoes\\Edit.cshtml",
-      "TargetPath": "Views\\Gradoes\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Desempeño\\Create.cshtml",
-      "TargetPath": "Views\\Desempeño\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Tutoriums\\Details.cshtml",
-      "TargetPath": "Views\\Tutoriums\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Periodoes\\Details.cshtml",
-      "TargetPath": "Views\\Periodoes\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\OrdenCompras\\Delete.cshtml",
-      "TargetPath": "Views\\OrdenCompras\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Proveedors\\Edit.cshtml",
-      "TargetPath": "Views\\Proveedors\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Estudiantes\\ImprimirEstudiantes.cshtml",
-      "TargetPath": "Views\\Estudiantes\\ImprimirEstudiantes.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Periodoes\\Index.cshtml",
-      "TargetPath": "Views\\Periodoes\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Tutors\\Details.cshtml",
-      "TargetPath": "Views\\Tutors\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-<<<<<<< HEAD
-=======
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\OrdenCompras\\ImprimirOrdenCompras.cshtml",
-      "TargetPath": "Views\\OrdenCompras\\ImprimirOrdenCompras.cshtml",
-      "FileKind": "mvc"
-    },
-    {
->>>>>>> maria
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\NivelAcademicoes\\Details.cshtml",
-      "TargetPath": "Views\\NivelAcademicoes\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Areas\\Index.cshtml",
-      "TargetPath": "Views\\Areas\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Cursoes\\ImprimirCurso.cshtml",
-      "TargetPath": "Views\\Cursoes\\ImprimirCurso.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\FichaCalificacions\\Edit.cshtml",
-      "TargetPath": "Views\\FichaCalificacions\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Patrocinadors\\Details.cshtml",
-      "TargetPath": "Views\\Patrocinadors\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\EstudiantePatrocinadors\\Delete.cshtml",
-      "TargetPath": "Views\\EstudiantePatrocinadors\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\OrdenCompras\\Create.cshtml",
-      "TargetPath": "Views\\OrdenCompras\\Create.cshtml",
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Profesions\\Delete.cshtml",
+      "TargetPath": "Views\\Profesions\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18926,76 +18459,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Carreras\\ImprimirCarrera.cshtml",
-      "TargetPath": "Views\\Carreras\\ImprimirCarrera.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Patrocinadors\\Delete.cshtml",
-      "TargetPath": "Views\\Patrocinadors\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Gastoes\\Delete.cshtml",
-      "TargetPath": "Views\\Gastoes\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Comunidads\\Details.cshtml",
-      "TargetPath": "Views\\Comunidads\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-<<<<<<< HEAD
-=======
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Patrocinadors\\ImprimirPatrocinador.cshtml",
-      "TargetPath": "Views\\Patrocinadors\\ImprimirPatrocinador.cshtml",
-      "FileKind": "mvc"
-    },
-    {
->>>>>>> maria
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Estudiantes\\Create.cshtml",
-      "TargetPath": "Views\\Estudiantes\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Establecimientoes\\ImprimirEstablecimiento.cshtml",
-      "TargetPath": "Views\\Establecimientoes\\ImprimirEstablecimiento.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Desempeño\\Index.cshtml",
-      "TargetPath": "Views\\Desempeño\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Proveedors\\Create.cshtml",
-      "TargetPath": "Views\\Proveedors\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Gastoes\\ImprimirGastoes.cshtml",
-      "TargetPath": "Views\\Gastoes\\ImprimirGastoes.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Tutoriums\\Edit.cshtml",
-      "TargetPath": "Views\\Tutoriums\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Cursoes\\Index.cshtml",
-      "TargetPath": "Views\\Cursoes\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Pais\\ImprimirPais.cshtml",
-      "TargetPath": "Views\\Pais\\ImprimirPais.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\OrdenCompras\\Edit.cshtml",
-      "TargetPath": "Views\\OrdenCompras\\Edit.cshtml",
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Gradoes\\Delete.cshtml",
+      "TargetPath": "Views\\Gradoes\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -19004,28 +18469,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\NivelAcademicoes\\ImprimirNivel.cshtml",
-      "TargetPath": "Views\\NivelAcademicoes\\ImprimirNivel.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Desempeño\\Details.cshtml",
-      "TargetPath": "Views\\Desempeño\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Gradoes\\Create.cshtml",
-      "TargetPath": "Views\\Gradoes\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Tutoriums\\Delete.cshtml",
-      "TargetPath": "Views\\Tutoriums\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Establecimientoes\\Details.cshtml",
-      "TargetPath": "Views\\Establecimientoes\\Details.cshtml",
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Periodoes\\Delete.cshtml",
+      "TargetPath": "Views\\Periodoes\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -19034,48 +18479,23 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\FichaCalificacions\\Index.cshtml",
-      "TargetPath": "Views\\FichaCalificacions\\Index.cshtml",
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Comunidads\\Edit.cshtml",
+      "TargetPath": "Views\\Comunidads\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\TutorTuroriums\\Index.cshtml",
-      "TargetPath": "Views\\TutorTuroriums\\Index.cshtml",
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\OrdenCompras\\Details.cshtml",
+      "TargetPath": "Views\\OrdenCompras\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\NivelAcademicoes\\Create.cshtml",
-      "TargetPath": "Views\\NivelAcademicoes\\Create.cshtml",
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\HistorialEstudiantes\\Edit.cshtml",
+      "TargetPath": "Views\\HistorialEstudiantes\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Periodoes\\Edit.cshtml",
-      "TargetPath": "Views\\Periodoes\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\TutorTuroriums\\Details.cshtml",
-      "TargetPath": "Views\\TutorTuroriums\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\NivelAcademicoes\\Edit.cshtml",
-      "TargetPath": "Views\\NivelAcademicoes\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\HistorialEstudiantes\\Delete.cshtml",
-      "TargetPath": "Views\\HistorialEstudiantes\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Desempeño\\Edit.cshtml",
-      "TargetPath": "Views\\Desempeño\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Establecimientoes\\Delete.cshtml",
-      "TargetPath": "Views\\Establecimientoes\\Delete.cshtml",
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Gradoes\\Edit.cshtml",
+      "TargetPath": "Views\\Gradoes\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -19084,8 +18504,108 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Areas\\Delete.cshtml",
-      "TargetPath": "Views\\Areas\\Delete.cshtml",
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Cursoes\\Index.cshtml",
+      "TargetPath": "Views\\Cursoes\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Desempeño\\Create.cshtml",
+      "TargetPath": "Views\\Desempeño\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\OrdenCompras\\Delete.cshtml",
+      "TargetPath": "Views\\OrdenCompras\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Gradoes\\ImprimirGrado.cshtml",
+      "TargetPath": "Views\\Gradoes\\ImprimirGrado.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Profesions\\Create.cshtml",
+      "TargetPath": "Views\\Profesions\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Comunidads\\ImprimirComunidad.cshtml",
+      "TargetPath": "Views\\Comunidads\\ImprimirComunidad.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\EstudiantePatrocinadors\\ImprimirEstudiantePatrocinadors.cshtml",
+      "TargetPath": "Views\\EstudiantePatrocinadors\\ImprimirEstudiantePatrocinadors.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\HistorialEstudiantes\\Delete.cshtml",
+      "TargetPath": "Views\\HistorialEstudiantes\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\TutorTuroriums\\Edit.cshtml",
+      "TargetPath": "Views\\TutorTuroriums\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Gastoes\\Create.cshtml",
+      "TargetPath": "Views\\Gastoes\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Gastoes\\ImprimirGastoes.cshtml",
+      "TargetPath": "Views\\Gastoes\\ImprimirGastoes.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Periodoes\\Details.cshtml",
+      "TargetPath": "Views\\Periodoes\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\FichaCalificacions\\Create.cshtml",
+      "TargetPath": "Views\\FichaCalificacions\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Tutoriums\\Create.cshtml",
+      "TargetPath": "Views\\Tutoriums\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\ImagenAdicionals\\Details.cshtml",
+      "TargetPath": "Views\\ImagenAdicionals\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Establecimientoes\\Create.cshtml",
+      "TargetPath": "Views\\Establecimientoes\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Comunidads\\Details.cshtml",
+      "TargetPath": "Views\\Comunidads\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Patrocinadors\\Details.cshtml",
+      "TargetPath": "Views\\Patrocinadors\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\OrdenCompras\\Create.cshtml",
+      "TargetPath": "Views\\OrdenCompras\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Carreras\\ImprimirCarrera.cshtml",
+      "TargetPath": "Views\\Carreras\\ImprimirCarrera.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -19099,8 +18619,463 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Patrocinadors\\Delete.cshtml",
+      "TargetPath": "Views\\Patrocinadors\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Areas\\Create.cshtml",
+      "TargetPath": "Views\\Areas\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Proveedors\\Delete.cshtml",
+      "TargetPath": "Views\\Proveedors\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Areas\\Edit.cshtml",
+      "TargetPath": "Views\\Areas\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Areas\\Index.cshtml",
+      "TargetPath": "Views\\Areas\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Pais\\Delete.cshtml",
+      "TargetPath": "Views\\Pais\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Cursoes\\Create.cshtml",
+      "TargetPath": "Views\\Cursoes\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Carreras\\Index.cshtml",
+      "TargetPath": "Views\\Carreras\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Profesions\\Index.cshtml",
+      "TargetPath": "Views\\Profesions\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\NivelAcademicoes\\Details.cshtml",
+      "TargetPath": "Views\\NivelAcademicoes\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Tutors\\Details.cshtml",
+      "TargetPath": "Views\\Tutors\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Tutors\\Index.cshtml",
+      "TargetPath": "Views\\Tutors\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\NivelAcademicoes\\Edit.cshtml",
+      "TargetPath": "Views\\NivelAcademicoes\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\EstudianteTutoriums\\Index.cshtml",
+      "TargetPath": "Views\\EstudianteTutoriums\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\HistorialEstudiantes\\Details.cshtml",
+      "TargetPath": "Views\\HistorialEstudiantes\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Patrocinadors\\Edit.cshtml",
+      "TargetPath": "Views\\Patrocinadors\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\EstudianteTutoriums\\Details.cshtml",
+      "TargetPath": "Views\\EstudianteTutoriums\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Establecimientoes\\Edit.cshtml",
+      "TargetPath": "Views\\Establecimientoes\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Periodoes\\Create.cshtml",
+      "TargetPath": "Views\\Periodoes\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Proveedors\\Edit.cshtml",
+      "TargetPath": "Views\\Proveedors\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Pais\\Index.cshtml",
+      "TargetPath": "Views\\Pais\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Gradoes\\Details.cshtml",
+      "TargetPath": "Views\\Gradoes\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Cursoes\\Delete.cshtml",
+      "TargetPath": "Views\\Cursoes\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Comunidads\\Delete.cshtml",
+      "TargetPath": "Views\\Comunidads\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\NivelAcademicoes\\Delete.cshtml",
+      "TargetPath": "Views\\NivelAcademicoes\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Estudiantes\\ImprimirEstudiantes.cshtml",
+      "TargetPath": "Views\\Estudiantes\\ImprimirEstudiantes.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\EstudiantePatrocinadors\\Create.cshtml",
+      "TargetPath": "Views\\EstudiantePatrocinadors\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Gastoes\\Details.cshtml",
+      "TargetPath": "Views\\Gastoes\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Proveedors\\Create.cshtml",
+      "TargetPath": "Views\\Proveedors\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\OrdenCompras\\Index.cshtml",
+      "TargetPath": "Views\\OrdenCompras\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\EstudiantePatrocinadors\\Delete.cshtml",
+      "TargetPath": "Views\\EstudiantePatrocinadors\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\FichaCalificacions\\Edit.cshtml",
+      "TargetPath": "Views\\FichaCalificacions\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Pais\\Edit.cshtml",
+      "TargetPath": "Views\\Pais\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Estudiantes\\Index.cshtml",
+      "TargetPath": "Views\\Estudiantes\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\OrdenCompras\\ImprimirOrdenCompras.cshtml",
+      "TargetPath": "Views\\OrdenCompras\\ImprimirOrdenCompras.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Carreras\\Delete.cshtml",
+      "TargetPath": "Views\\Carreras\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Estudiantes\\Create.cshtml",
+      "TargetPath": "Views\\Estudiantes\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Estudiantes\\Details.cshtml",
+      "TargetPath": "Views\\Estudiantes\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Profesions\\Edit.cshtml",
+      "TargetPath": "Views\\Profesions\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Establecimientoes\\Index.cshtml",
+      "TargetPath": "Views\\Establecimientoes\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Pais\\Details.cshtml",
+      "TargetPath": "Views\\Pais\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\HistorialEstudiantes\\Index.cshtml",
+      "TargetPath": "Views\\HistorialEstudiantes\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Proveedors\\Details.cshtml",
+      "TargetPath": "Views\\Proveedors\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Carreras\\Edit.cshtml",
+      "TargetPath": "Views\\Carreras\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Desempeño\\ImprimirDesempeño.cshtml",
+      "TargetPath": "Views\\Desempeño\\ImprimirDesempeño.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Cursoes\\Details.cshtml",
+      "TargetPath": "Views\\Cursoes\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Establecimientoes\\ImprimirEstablecimiento.cshtml",
+      "TargetPath": "Views\\Establecimientoes\\ImprimirEstablecimiento.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\OrdenCompras\\Edit.cshtml",
+      "TargetPath": "Views\\OrdenCompras\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\TutorTuroriums\\Delete.cshtml",
+      "TargetPath": "Views\\TutorTuroriums\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\FichaCalificacions\\Index.cshtml",
+      "TargetPath": "Views\\FichaCalificacions\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\TutorTuroriums\\Index.cshtml",
+      "TargetPath": "Views\\TutorTuroriums\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\TutorTuroriums\\Create.cshtml",
+      "TargetPath": "Views\\TutorTuroriums\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Areas\\Details.cshtml",
+      "TargetPath": "Views\\Areas\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\FichaCalificacions\\Details.cshtml",
+      "TargetPath": "Views\\FichaCalificacions\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\HistorialEstudiantes\\ImprimirHistorialEstudiante.cshtml",
+      "TargetPath": "Views\\HistorialEstudiantes\\ImprimirHistorialEstudiante.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Tutoriums\\Edit.cshtml",
+      "TargetPath": "Views\\Tutoriums\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Periodoes\\ImprimirPeriodo.cshtml",
+      "TargetPath": "Views\\Periodoes\\ImprimirPeriodo.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Gastoes\\Delete.cshtml",
+      "TargetPath": "Views\\Gastoes\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Patrocinadors\\Index.cshtml",
+      "TargetPath": "Views\\Patrocinadors\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Desempeño\\Index.cshtml",
+      "TargetPath": "Views\\Desempeño\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Pais\\Create.cshtml",
+      "TargetPath": "Views\\Pais\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Proveedors\\Index.cshtml",
+      "TargetPath": "Views\\Proveedors\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Patrocinadors\\ImprimirPatrocinador.cshtml",
+      "TargetPath": "Views\\Patrocinadors\\ImprimirPatrocinador.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Tutors\\Edit.cshtml",
+      "TargetPath": "Views\\Tutors\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Estudiantes\\Delete.cshtml",
+      "TargetPath": "Views\\Estudiantes\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Registro\\Auxiliar.cshtml",
+      "TargetPath": "Views\\Registro\\Auxiliar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\EstudiantePatrocinadors\\Index.cshtml",
       "TargetPath": "Views\\EstudiantePatrocinadors\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Tutoriums\\Index.cshtml",
+      "TargetPath": "Views\\Tutoriums\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Carreras\\Details.cshtml",
+      "TargetPath": "Views\\Carreras\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Periodoes\\Index.cshtml",
+      "TargetPath": "Views\\Periodoes\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Establecimientoes\\Details.cshtml",
+      "TargetPath": "Views\\Establecimientoes\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\EstudiantePatrocinadors\\Edit.cshtml",
+      "TargetPath": "Views\\EstudiantePatrocinadors\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\TutorTuroriums\\Details.cshtml",
+      "TargetPath": "Views\\TutorTuroriums\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\EstudianteTutoriums\\Edit.cshtml",
+      "TargetPath": "Views\\EstudianteTutoriums\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Tutoriums\\Details.cshtml",
+      "TargetPath": "Views\\Tutoriums\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Carreras\\Create.cshtml",
+      "TargetPath": "Views\\Carreras\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\EstudianteTutoriums\\Delete.cshtml",
+      "TargetPath": "Views\\EstudianteTutoriums\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Periodoes\\Edit.cshtml",
+      "TargetPath": "Views\\Periodoes\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Tutors\\Delete.cshtml",
+      "TargetPath": "Views\\Tutors\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Gastoes\\Index.cshtml",
+      "TargetPath": "Views\\Gastoes\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Estudiantes\\Edit.cshtml",
+      "TargetPath": "Views\\Estudiantes\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Desempeño\\Delete.cshtml",
+      "TargetPath": "Views\\Desempeño\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Pais\\ImprimirPais.cshtml",
+      "TargetPath": "Views\\Pais\\ImprimirPais.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Tutoriums\\Delete.cshtml",
+      "TargetPath": "Views\\Tutoriums\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\ImagenAdicionals\\Create.cshtml",
+      "TargetPath": "Views\\ImagenAdicionals\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Desempeño\\Details.cshtml",
+      "TargetPath": "Views\\Desempeño\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\NivelAcademicoes\\ImprimirNivel.cshtml",
+      "TargetPath": "Views\\NivelAcademicoes\\ImprimirNivel.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Cursoes\\ImprimirCurso.cshtml",
+      "TargetPath": "Views\\Cursoes\\ImprimirCurso.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -19109,13 +19084,23 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Comunidads\\Edit.cshtml",
-      "TargetPath": "Views\\Comunidads\\Edit.cshtml",
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Areas\\ImprimirArea.cshtml",
+      "TargetPath": "Views\\Areas\\ImprimirArea.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\ImagenAdicionals\\Edit.cshtml",
+      "TargetPath": "Views\\ImagenAdicionals\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Comunidads\\Index.cshtml",
+      "TargetPath": "Views\\Comunidads\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\Views\\Establecimientoes\\Delete.cshtml",
+      "TargetPath": "Views\\Establecimientoes\\Delete.cshtml",
       "FileKind": "mvc"
     }
   ],
