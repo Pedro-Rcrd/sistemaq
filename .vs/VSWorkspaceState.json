@@ -1,9 +1,19 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Controllers",
+<<<<<<< HEAD
+    "\\Models",
+    "\\Views",
+    "\\Views\\Estudiantes",
+    "\\Views\\Registro"
+  ],
+  "SelectedNode": "\\Models\\QuchoochContext.cs",
+=======
     "\\Views",
     "\\Views\\Registro"
   ],
-  "SelectedNode": "\\Controllers\\EstudiantePatrocinadorsController.cs",
+  "SelectedNode": "\\systemquchooch.sln",
+>>>>>>> cf1fdd0c347af7320e47477eedabd0e0104fb6b8
   "PreviewInSolutionExplorer": false
 }
