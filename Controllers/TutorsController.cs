@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using systemquchooch.Data;
 using systemquchooch.Models;
 
 namespace systemquchooch.Controllers
@@ -19,10 +20,40 @@ namespace systemquchooch.Controllers
         }
 
         // GET: Tutors
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string buscar, string ordenActual, int? numpag, string filtroActual)
         {
-            var quchoochContext = _context.Tutors.Include(t => t.CodigoProfesionNavigation);
-            return View(await quchoochContext.ToListAsync());
+            var tutors = from tutor in _context.Tutors select tutor;
+
+            if (buscar != null)
+                numpag = 1;
+            else
+                buscar = filtroActual;
+
+
+
+            if (!String.IsNullOrEmpty(buscar))
+            {
+                tutors = tutors.Where(s => s.Nombre!.Contains(buscar));
+            }
+            ViewData["OrdenActual"] = ordenActual;
+            ViewData["FiltroActual"] = buscar;
+
+            ViewData["FiltroNombre"] = String.IsNullOrEmpty(ordenActual) ? "NombreDescendente" : "";
+
+            switch (ordenActual)
+            {
+                case "NombreDescendente":
+                    tutors = tutors.OrderByDescending(tutor => tutor.Nombre);
+                    break;
+                default:
+                    tutors = tutors.OrderBy(tutor => tutor.Nombre);
+                    break;
+            }
+
+            int cantidadregistros = 10;
+
+            return View(await Paginacion<Tutor>.CrearPaginacion(tutors.AsNoTracking(), numpag ?? 1, cantidadregistros));
+
         }
 
         // GET: Tutors/Details/5
@@ -154,14 +185,15 @@ namespace systemquchooch.Controllers
             {
                 _context.Tutors.Remove(tutor);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool TutorExists(int id)
         {
-          return (_context.Tutors?.Any(e => e.CodigoTutor == id)).GetValueOrDefault();
+            return (_context.Tutors?.Any(e => e.CodigoTutor == id)).GetValueOrDefault();
         }
     }
 }
+

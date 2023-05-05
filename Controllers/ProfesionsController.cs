@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using systemquchooch.Models;
+using systemquchooch.Data;
 
 namespace systemquchooch.Controllers
 {
@@ -19,11 +20,40 @@ namespace systemquchooch.Controllers
         }
 
         // GET: Profesions
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string buscar, string ordenActual, int? numpag, string filtroActual)
         {
-              return _context.Profesions != null ? 
-                          View(await _context.Profesions.ToListAsync()) :
-                          Problem("Entity set 'QuchoochContext.Profesions'  is null.");
+            var profesions = from profesion in _context.Profesions select profesion;
+
+            if (buscar != null)
+                numpag = 1;
+            else
+                buscar = filtroActual;
+
+
+
+            if (!String.IsNullOrEmpty(buscar))
+            {
+                profesions = profesions.Where(s => s.Nombre!.Contains(buscar));
+            }
+            ViewData["OrdenActual"] = ordenActual;
+            ViewData["FiltroActual"] = buscar;
+
+            ViewData["FiltroNombre"] = String.IsNullOrEmpty(ordenActual) ? "NombreDescendente" : "";
+
+            switch (ordenActual)
+            {
+                case "NombreDescendente":
+                    profesions = profesions.OrderByDescending(profesion => profesion.Nombre);
+                    break;
+                default:
+                    profesions = profesions.OrderBy(profesion => profesion.Nombre);
+                    break;
+            }
+
+            int cantidadregistros = 10;
+
+            return View(await Paginacion<Profesion>.CrearPaginacion(profesions.AsNoTracking(), numpag ?? 1, cantidadregistros));
+
         }
 
         // GET: Profesions/Details/5
@@ -149,14 +179,14 @@ namespace systemquchooch.Controllers
             {
                 _context.Profesions.Remove(profesion);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool ProfesionExists(int id)
         {
-          return (_context.Profesions?.Any(e => e.CodigoProfesion == id)).GetValueOrDefault();
+            return (_context.Profesions?.Any(e => e.CodigoProfesion == id)).GetValueOrDefault();
         }
     }
 }

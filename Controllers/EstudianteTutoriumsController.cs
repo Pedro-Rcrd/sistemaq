@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using systemquchooch.Models;
+using systemquchooch.Data;
+
 
 namespace systemquchooch.Controllers
 {
@@ -19,10 +21,41 @@ namespace systemquchooch.Controllers
         }
 
         // GET: EstudianteTutoriums
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string buscar, string ordenActual, int? numpag, string filtroActual)
         {
-            var quchoochContext = _context.EstudianteTutoria.Include(e => e.CodigoEstudianteNavigation).Include(e => e.CodigoTutoriaNavigation);
-            return View(await quchoochContext.ToListAsync());
+            var estudiantetutorias = from estudiantetutoria in _context.EstudianteTutoria select estudiantetutoria;
+
+            if (buscar != null)
+                numpag = 1;
+            else
+                buscar = filtroActual;
+
+
+
+            if (!String.IsNullOrEmpty(buscar))
+            {
+                estudiantetutorias = estudiantetutorias.Where(s => s.CodigoEstudiante!.Equals(buscar));
+            }
+            ViewData["OrdenActual"] = ordenActual;
+            ViewData["FiltroActual"] = buscar;
+
+            ViewData["FiltroCodigoEstudiante"] = String.IsNullOrEmpty(ordenActual) ? "CodigoEstudianteDescendente" : "";
+            ViewData["FiltroCodigoEstudiante"] = ordenActual == "CodigoEstudiante" ? "CodigoEstudianteDescendente" : "CodigoEstudianteAscendente";
+
+            switch (ordenActual)
+            {
+                case "CodigoEstudianteDescendente":
+                    estudiantetutorias = estudiantetutorias.OrderByDescending(estudiantetutoria => estudiantetutoria.CodigoEstudiante);
+                    break;
+                default:
+                    estudiantetutorias = estudiantetutorias.OrderBy(estudiantetutoria => estudiantetutoria.CodigoEstudiante);
+                    break;
+            }
+
+            int cantidadregistros = 10;
+
+            return View(await Paginacion<EstudianteTutorium>.CrearPaginacion(estudiantetutorias.AsNoTracking(), numpag ?? 1, cantidadregistros));
+
         }
 
         // GET: EstudianteTutoriums/Details/5

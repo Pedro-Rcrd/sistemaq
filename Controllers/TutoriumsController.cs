@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using systemquchooch.Data;
 using systemquchooch.Models;
 
 namespace systemquchooch.Controllers
@@ -19,10 +20,41 @@ namespace systemquchooch.Controllers
         }
 
         // GET: Tutoriums
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string buscar, string ordenActual, int? numpag, string filtroActual)
         {
-            var quchoochContext = _context.Tutoria.Include(t => t.CodigoAreaNavigation).Include(t => t.CodigoCursoNavigation).Include(t => t.CodigoTutorNavigation);
-            return View(await quchoochContext.ToListAsync());
+            var tutors = from tutor in _context.Tutors select tutor;
+
+            if (buscar != null)
+                numpag = 1;
+            else
+                buscar = filtroActual;
+
+
+
+            if (!String.IsNullOrEmpty(buscar))
+            {
+                tutors = tutors.Where(s => s.CodigoTutor!.Equals(buscar));
+            }
+            ViewData["OrdenActual"] = ordenActual;
+            ViewData["FiltroActual"] = buscar;
+
+            ViewData["FiltroCodigoEstudiante"] = String.IsNullOrEmpty(ordenActual) ? "CodigoEstudianteDescendente" : "";
+            ViewData["FiltroCodigoEstudiante"] = ordenActual == "CodigoEstudiante" ? "CodigoEstudianteDescendente" : "CodigoEstudianteAscendente";
+
+            switch (ordenActual)
+            {
+                case "CodigoEstudianteDescendente":
+                    tutors = tutors.OrderByDescending(tutor => tutor.CodigoTutor);
+                    break;
+                default:
+                    tutors = tutors.OrderBy(tutor => tutor.CodigoTutor);
+                    break;
+            }
+
+            int cantidadregistros = 10;
+
+            return View(await Paginacion<Tutorium>.CrearPaginacion(tutors.AsNoTracking(), numpag ?? 1, cantidadregistros));
+
         }
 
         // GET: Tutoriums/Details/5

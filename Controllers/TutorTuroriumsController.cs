@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using systemquchooch.Data;
 using systemquchooch.Models;
 
 namespace systemquchooch.Controllers
@@ -19,10 +20,41 @@ namespace systemquchooch.Controllers
         }
 
         // GET: TutorTuroriums
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string buscar, string ordenActual, int? numpag, string filtroActual)
         {
-            var quchoochContext = _context.TutorTuroria.Include(t => t.CodigoTutorNavigation).Include(t => t.CodigoTutoriaNavigation);
-            return View(await quchoochContext.ToListAsync());
+            var tutortutoriums = from tutortutorium in _context.EstudianteTutoria select tutortutorium;
+
+            if (buscar != null)
+                numpag = 1;
+            else
+                buscar = filtroActual;
+
+
+
+            if (!String.IsNullOrEmpty(buscar))
+            {
+                tutortutoriums = tutortutoriums.Where(s => s.CodigoTutoria!.Equals(buscar));
+            }
+            ViewData["OrdenActual"] = ordenActual;
+            ViewData["FiltroActual"] = buscar;
+
+            ViewData["FiltroCodigoEstudiante"] = String.IsNullOrEmpty(ordenActual) ? "CodigoEstudianteDescendente" : "";
+            ViewData["FiltroCodigoEstudiante"] = ordenActual == "CodigoEstudiante" ? "CodigoEstudianteDescendente" : "CodigoEstudianteAscendente";
+
+            switch (ordenActual)
+            {
+                case "CodigoEstudianteDescendente":
+                    tutortutoriums = tutortutoriums.OrderByDescending(tutortutorium => tutortutorium.CodigoTutoria);
+                    break;
+                default:
+                    tutortutoriums = tutortutoriums.OrderBy(tutortutorium => tutortutorium.CodigoTutoria);
+                    break;
+            }
+
+            int cantidadregistros = 10;
+
+            return View(await Paginacion<TutorTurorium>.CrearPaginacion(tutortutoriums.AsNoTracking(), numpag ?? 1, cantidadregistros));
+
         }
 
         // GET: TutorTuroriums/Details/5

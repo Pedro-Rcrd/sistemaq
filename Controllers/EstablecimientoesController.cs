@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using systemquchooch.Models;
+using systemquchooch.Data;
 
 namespace systemquchooch.Controllers
 {
@@ -19,11 +20,40 @@ namespace systemquchooch.Controllers
         }
 
         // GET: Establecimientoes
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string buscar, string ordenActual, int? numpag, string filtroActual)
         {
-              return _context.Establecimientos != null ? 
-                          View(await _context.Establecimientos.ToListAsync()) :
-                          Problem("Entity set 'QuchoochContext.Establecimientos'  is null.");
+            var establecimientos = from establecimiento in _context.Establecimientos select establecimiento;
+
+            if (buscar != null)
+                numpag = 1;
+            else
+                buscar = filtroActual;
+
+
+
+            if (!String.IsNullOrEmpty(buscar))
+            {
+                establecimientos = establecimientos.Where(s => s.Nombre!.Contains(buscar));
+            }
+            ViewData["OrdenActual"] = ordenActual;
+            ViewData["FiltroActual"] = buscar;
+
+            ViewData["FiltroNombre"] = String.IsNullOrEmpty(ordenActual) ? "NombreDescendente" : "";
+
+            switch (ordenActual)
+            {
+                case "NombreDescendente":
+                    establecimientos = establecimientos.OrderByDescending(establecimiento => establecimiento.Nombre);
+                    break;
+                default:
+                    establecimientos = establecimientos.OrderBy(establecimiento => establecimiento.Nombre);
+                    break;
+            }
+
+            int cantidadregistros = 10;
+
+            return View(await Paginacion<Establecimiento>.CrearPaginacion(establecimientos.AsNoTracking(), numpag ?? 1, cantidadregistros));
+
         }
 
         // GET: Establecimientoes/Details/5
@@ -149,14 +179,14 @@ namespace systemquchooch.Controllers
             {
                 _context.Establecimientos.Remove(establecimiento);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool EstablecimientoExists(int id)
         {
-          return (_context.Establecimientos?.Any(e => e.CodigoEstablecimiento == id)).GetValueOrDefault();
+            return (_context.Establecimientos?.Any(e => e.CodigoEstablecimiento == id)).GetValueOrDefault();
         }
     }
 }

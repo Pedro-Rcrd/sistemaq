@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using systemquchooch.Data;
 using systemquchooch.Models;
 
 namespace systemquchooch.Controllers
@@ -19,8 +20,19 @@ namespace systemquchooch.Controllers
         }
 
         // GET: EstudiantePatrocinadors
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string buscar, string ordenActual, int? numpag, string filtroActual)
         {
+            var estudiantePatrocinadors = from estudiantePatrocinador in _context.EstudiantePatrocinadors select estudiantePatrocinador;
+
+            if (buscar != null)
+                numpag = 1;
+            else
+                buscar = filtroActual;
+
+            int cantidadregistros = 10;
+
+            return View(await Paginacion<EstudiantePatrocinador>.CrearPaginacion(estudiantePatrocinadors.AsNoTracking(), numpag ?? 1, cantidadregistros));
+
             var quchoochContext = _context.EstudiantePatrocinadors.Include(e => e.CodigoEstudianteNavigation).Include(e => e.CodigoPatrocinadorNavigation);
             return View(await quchoochContext.ToListAsync());
         }
@@ -160,14 +172,14 @@ namespace systemquchooch.Controllers
             {
                 _context.EstudiantePatrocinadors.Remove(estudiantePatrocinador);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool EstudiantePatrocinadorExists(int id)
         {
-          return (_context.EstudiantePatrocinadors?.Any(e => e.CodigoEstudiantePatrocinador == id)).GetValueOrDefault();
+            return (_context.EstudiantePatrocinadors?.Any(e => e.CodigoEstudiantePatrocinador == id)).GetValueOrDefault();
         }
     }
 }
