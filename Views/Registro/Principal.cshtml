@@ -1,7 +1,7 @@
 ﻿<h1 class="text-center">REGISTROS PRINCIPALES</h1>
 <p class="text-end">
-    <a class="btn btn-success" asp-controller="Registro" asp-action="Principal">Principales</a>
-    <a class="btn btn-outline-success" asp-controller="Registro" asp-action="Auxiliar">Auxiliares</a>
+    <a class="btn btn-outline-success" asp-controller="Registro" asp-action="Principal">Principales</a>
+    <a class="btn btn-success" asp-controller="Registro" asp-action="Auxiliar">Auxiliares</a>
 
 </p>
 <hr class="LineaRecta" />
@@ -10,18 +10,18 @@
 <div class="row ">
     <div class="col-sm-3">
         <div class="card text-white mb-3 tarjetaPrincipal " style="max-width: 20rem;">
-            <a asp-controller="HistorialEstudiantes" asp-action="Create">
+            <a asp-controller="Estudiantes" asp-action="Create">
                 <div class=" card-body primeraTarjeta">
                 </div>
-                <div class="card-header textHeader text-center">Actualización de Estudiante</div>
+                <div class="card-header textHeader text-center">Historial de Estudiante</div>
             </a>
         </div>
 
     </div>
     <div class="col-sm-3">
         <div class="card text-white mb-3 tarjetaPrincipal " style="max-width: 20rem;">
-            <a asp-controller="Estudiantes" asp-action="Create">
-                <div class=" card-body primeraTarjeta2">
+            <a asp-controller="EstudiantePatrocinadors" asp-action="Create">
+                <div class=" card-body primeraTarjeta">
                 </div>
                 <div class="card-header textHeader text-center">Benificiarios </div>
             </a>
@@ -31,7 +31,7 @@
     <div class="col-sm-3">
         <div class="card text-white mb-3 tarjetaPrincipal " style="max-width: 20rem;">
             <a asp-controller="FichaCalificacions" asp-action="Create">
-                <div class=" card-body primeraTarjeta3">
+                <div class=" card-body primeraTarjeta">
                 </div>
                 <div class="card-header textHeader text-center">Calificaiones</div>
             </a>
@@ -42,17 +42,8 @@
 <div class="row">
     <div class="col-sm-3">
         <div class="card text-white mb-3 tarjetaPrincipal " style="max-width: 20rem;">
-            <a asp-controller="OrdenCompras" asp-action="Create">
-                <div class=" card-body primeraTarjeta4">
-                </div>
-                <div class="card-header textHeader text-center">Compras</div>
-            </a>
-        </div>
-    </div>
-    <div class="col-sm-3">
-        <div class="card text-white mb-3 tarjetaPrincipal " style="max-width: 20rem;">
             <a asp-controller="Gastoes" asp-action="Create">
-                <div class=" card-body primeraTarjeta5">
+                <div class=" card-body primeraTarjeta">
                 </div>
                 <div class="card-header textHeader text-center"> Gastos</div>
             </a>
@@ -61,8 +52,18 @@
     </div>
     <div class="col-sm-3">
         <div class="card text-white mb-3 tarjetaPrincipal " style="max-width: 20rem;">
+            <a asp-controller="OrdenCompras" asp-action="Create">
+                <div class=" card-body primeraTarjeta">
+                </div>
+                <div class="card-header textHeader text-center">Compras</div>
+            </a>
+        </div>
+
+    </div>
+    <div class="col-sm-3">
+        <div class="card text-white mb-3 tarjetaPrincipal " style="max-width: 20rem;">
             <a asp-controller="Tutoriums" asp-action="Create">
-                <div class=" card-body primeraTarjeta6">
+                <div class=" card-body primeraTarjeta">
                 </div>
                 <div class="card-header textHeader text-center"> Tutorias</div>
             </a>
