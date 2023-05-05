@@ -197,6 +197,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\imagenes\\logo.jpeg",
+      "PackagePath": "staticwebassets\\imagenes\\logo.jpeg"
+    },
+    {
       "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\images\\001.jpg",
       "PackagePath": "staticwebassets\\images\\001.jpg"
     },
