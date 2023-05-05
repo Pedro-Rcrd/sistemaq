@@ -1,21 +1,20 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
-
+    margin-bottom: 60px;
 }
 
 .imagen {
@@ -29,7 +28,37 @@ body {
 }
 
 .primeraTarjeta {
-    background-image: url("../images/ironMan.jpg");
+    background-image: url("../images/01.jpg");
+    height: 150px;
+    /* background-color: #ffd800;*/
+}
+
+.primeraTarjeta2 {
+    background-image: url("../images/02.jpg");
+    height: 150px;
+    /* background-color: #ffd800;*/
+}
+
+.primeraTarjeta3 {
+    background-image: url("../images/03.jpg");
+    height: 150px;
+    /* background-color: #ffd800;*/
+}
+
+.primeraTarjeta4 {
+    background-image: url("../images/04.jpg");
+    height: 150px;
+    /* background-color: #ffd800;*/
+}
+
+.primeraTarjeta5 {
+    background-image: url("../images/05.jpg");
+    height: 150px;
+    /* background-color: #ffd800;*/
+}
+
+.primeraTarjeta6 {
+    background-image: url("../images/06.jpg");
     height: 150px;
     /* background-color: #ffd800;*/
 }
@@ -54,4 +83,65 @@ body {
     border-right: 2px dotted #99ff99;
     border-bottom: 2px dashed #9999ff;
     border-left: 4px double #666666;
+}
+
+
+.primeraTarjeta001 {
+    background-image: url("../images/001.jpg");
+    height: 150px;
+    /* background-color: #ffd800;*/
+}
+
+.primeraTarjeta002 {
+    background-image: url("../images/002.jpg");
+    height: 150px;
+    /* background-color: #ffd800;*/
+}
+
+.primeraTarjeta003 {
+    background-image: url("../images/003.jpg");
+    height: 150px;
+    /* background-color: #ffd800;*/
+}
+
+.primeraTarjeta004 {
+    background-image: url("../images/004.jpg");
+    height: 150px;
+    /* background-color: #ffd800;*/
+}
+
+.primeraTarjeta005 {
+    background-image: url("../images/005.jpg");
+    height: 150px;
+    /* background-color: #ffd800;*/
+}
+
+.primeraTarjeta006 {
+    background-image: url("../images/006.jpg");
+    height: 150px;
+    /* background-color: #ffd800;*/
+}
+
+.primeraTarjeta007 {
+    background-image: url("../images/007.jpg");
+    height: 150px;
+    /* background-color: #ffd800;*/
+}
+
+.primeraTarjeta008 {
+    background-image: url("../images/008.jpg");
+    height: 150px;
+    /* background-color: #ffd800;*/
+}
+
+.primeraTarjeta009 {
+    background-image: url("../images/009.jpg");
+    height: 150px;
+    /* background-color: #ffd800;*/
+}
+
+.primeraTarjeta0010 {
+    background-image: url("../images/0010.jpg");
+    height: 150px;
+    /* background-color: #ffd800;*/
 }
