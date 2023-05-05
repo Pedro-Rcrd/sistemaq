@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\blq19\\OneDrive\\Documentos\\Visual Studio 2022\\PROYECTOS\\01\\systemquchooch.csproj": {}
+    "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\systemquchooch.csproj": {}
   },
   "projects": {
-    "C:\\Users\\blq19\\OneDrive\\Documentos\\Visual Studio 2022\\PROYECTOS\\01\\systemquchooch.csproj": {
+    "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\systemquchooch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\blq19\\OneDrive\\Documentos\\Visual Studio 2022\\PROYECTOS\\01\\systemquchooch.csproj",
+        "projectUniqueName": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\systemquchooch.csproj",
         "projectName": "systemquchooch",
-        "projectPath": "C:\\Users\\blq19\\OneDrive\\Documentos\\Visual Studio 2022\\PROYECTOS\\01\\systemquchooch.csproj",
-        "packagesPath": "C:\\Users\\blq19\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\blq19\\OneDrive\\Documentos\\Visual Studio 2022\\PROYECTOS\\01\\obj\\",
+        "projectPath": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\systemquchooch.csproj",
+        "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\blq19\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -78,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
