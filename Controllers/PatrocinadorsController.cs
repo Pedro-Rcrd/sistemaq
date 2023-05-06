@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using systemquchooch.Data;
 using systemquchooch.Models;
 
 namespace systemquchooch.Controllers
@@ -19,10 +20,40 @@ namespace systemquchooch.Controllers
         }
 
         // GET: Patrocinadors
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string buscar, string ordenActual, int? numpag, string filtroActual)
         {
-            var quchoochContext = _context.Patrocinadors.Include(p => p.CodigoNivelAcademicoNavigation).Include(p => p.CodigoPaisNavigation);
-            return View(await quchoochContext.ToListAsync());
+            var patrocinadors = from patrocinador in _context.Patrocinadors select patrocinador;
+
+            if (buscar != null)
+                numpag = 1;
+            else
+                buscar = filtroActual;
+
+
+
+            if (!String.IsNullOrEmpty(buscar))
+            {
+                patrocinadors = patrocinadors.Where(s => s.Nombre!.Contains(buscar));
+            }
+            ViewData["OrdenActual"] = ordenActual;
+            ViewData["FiltroActual"] = buscar;
+
+            ViewData["FiltroNombre"] = String.IsNullOrEmpty(ordenActual) ? "NombreDescendente" : "";
+
+            switch (ordenActual)
+            {
+                case "NombreDescendente":
+                    patrocinadors = patrocinadors.OrderByDescending(patrocinador => patrocinador.Nombre);
+                    break;
+                default:
+                    patrocinadors = patrocinadors.OrderBy(patrocinador => patrocinador.Nombre);
+                    break;
+            }
+
+            int cantidadregistros = 10;
+
+            return View(await Paginacion<Patrocinador>.CrearPaginacion(patrocinadors.AsNoTracking(), numpag ?? 1, cantidadregistros));
+
         }
 
         // GET: Patrocinadors/Details/5
@@ -160,14 +191,14 @@ namespace systemquchooch.Controllers
             {
                 _context.Patrocinadors.Remove(patrocinador);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool PatrocinadorExists(int id)
         {
-          return (_context.Patrocinadors?.Any(e => e.CodigoPatrocinador == id)).GetValueOrDefault();
+            return (_context.Patrocinadors?.Any(e => e.CodigoPatrocinador == id)).GetValueOrDefault();
         }
     }
 }

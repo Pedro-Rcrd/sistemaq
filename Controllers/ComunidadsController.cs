@@ -5,8 +5,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using systemquchooch.Data;
 using systemquchooch.Models;
+using systemquchooch.Data;
 
 namespace systemquchooch.Controllers
 {
@@ -57,7 +57,6 @@ namespace systemquchooch.Controllers
 
 
         }
-
         // GET: Comunidads/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -181,14 +180,14 @@ namespace systemquchooch.Controllers
             {
                 _context.Comunidads.Remove(comunidad);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool ComunidadExists(int id)
         {
-          return (_context.Comunidads?.Any(e => e.CodigoComunidad == id)).GetValueOrDefault();
+            return (_context.Comunidads?.Any(e => e.CodigoComunidad == id)).GetValueOrDefault();
         }
     }
 }

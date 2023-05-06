@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using systemquchooch.Models;
+using systemquchooch.Data;
 
 namespace systemquchooch.Controllers
 {
@@ -19,12 +20,41 @@ namespace systemquchooch.Controllers
         }
 
         // GET: Estudiantes
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string buscar, string ordenActual, int? numpag, string filtroActual)
         {
-            var quchoochContext = _context.Estudiantes.Include(e => e.CodigoComunidadNavigation);
-            return View(await quchoochContext.ToListAsync());
-        }
+            var estudiantes = from estudiante in _context.Estudiantes select estudiante;
 
+            if (buscar != null)
+                numpag = 1;
+            else
+                buscar = filtroActual;
+
+
+
+            if (!String.IsNullOrEmpty(buscar))
+            {
+                estudiantes = estudiantes.Where(s => s.Nombre!.Contains(buscar));
+            }
+            ViewData["OrdenActual"] = ordenActual;
+            ViewData["FiltroActual"] = buscar;
+
+            ViewData["FiltroNombre"] = String.IsNullOrEmpty(ordenActual) ? "NombreDescendente" : "";
+
+            switch (ordenActual)
+            {
+                case "NombreDescendente":
+                    estudiantes = estudiantes.OrderByDescending(estudiante => estudiante.Nombre);
+                    break;
+                default:
+                    estudiantes = estudiantes.OrderBy(estudiante => estudiante.Nombre);
+                    break;
+            }
+
+            int cantidadregistros = 10;
+
+            return View(await Paginacion<Estudiante>.CrearPaginacion(estudiantes.AsNoTracking(), numpag ?? 1, cantidadregistros));
+
+        }
         // GET: Estudiantes/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -60,7 +90,7 @@ namespace systemquchooch.Controllers
         {
             //AQUI SE HIZO LA MODIFICACION
             //Borre
-         
+
 
             if (ModelState != null)
             {
@@ -158,14 +188,14 @@ namespace systemquchooch.Controllers
             {
                 _context.Estudiantes.Remove(estudiante);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool EstudianteExists(int id)
         {
-          return (_context.Estudiantes?.Any(e => e.CodigoEstudiante == id)).GetValueOrDefault();
+            return (_context.Estudiantes?.Any(e => e.CodigoEstudiante == id)).GetValueOrDefault();
         }
     }
 }

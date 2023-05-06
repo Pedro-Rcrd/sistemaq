@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using systemquchooch.Models;
+using systemquchooch.Data;
 
 namespace systemquchooch.Controllers
 {
@@ -19,10 +20,41 @@ namespace systemquchooch.Controllers
         }
 
         // GET: OrdenCompras
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string buscar, string ordenActual, int? numpag, string filtroActual)
         {
-            var quchoochContext = _context.OrdenCompras.Include(o => o.CodigoEstudianteNavigation).Include(o => o.CodigoProveedorNavigation);
-            return View(await quchoochContext.ToListAsync());
+            var ordens = from orden in _context.OrdenCompras select orden;
+
+            if (buscar != null)
+                numpag = 1;
+            else
+                buscar = filtroActual;
+
+
+
+            if (!String.IsNullOrEmpty(buscar))
+            {
+                ordens = ordens.Where(s => s.CodigoOrdenCompra!.Equals(buscar));
+            }
+            ViewData["OrdenActual"] = ordenActual;
+            ViewData["FiltroActual"] = buscar;
+
+            ViewData["FiltroCodigoEstudiante"] = String.IsNullOrEmpty(ordenActual) ? "CodigoEstudianteDescendente" : "";
+            ViewData["FiltroCodigoEstudiante"] = ordenActual == "CodigoEstudiante" ? "CodigoEstudianteDescendente" : "CodigoEstudianteAscendente";
+
+            switch (ordenActual)
+            {
+                case "CodigoEstudianteDescendente":
+                    ordens = ordens.OrderByDescending(orden => orden.CodigoOrdenCompra);
+                    break;
+                default:
+                    ordens = ordens.OrderBy(orden => orden.CodigoOrdenCompra);
+                    break;
+            }
+
+            int cantidadregistros = 10;
+
+            return View(await Paginacion<OrdenCompra>.CrearPaginacion(ordens.AsNoTracking(), numpag ?? 1, cantidadregistros));
+
         }
 
         // GET: OrdenCompras/Details/5

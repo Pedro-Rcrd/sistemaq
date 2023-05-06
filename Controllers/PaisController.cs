@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using systemquchooch.Models;
+using systemquchooch.Data;
 
 namespace systemquchooch.Controllers
 {
@@ -19,11 +20,40 @@ namespace systemquchooch.Controllers
         }
 
         // GET: Pais
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string buscar, string ordenActual, int? numpag, string filtroActual)
         {
-              return _context.Pais != null ? 
-                          View(await _context.Pais.ToListAsync()) :
-                          Problem("Entity set 'QuchoochContext.Pais'  is null.");
+            var paises = from pais in _context.Pais select pais;
+
+            if (buscar != null)
+                numpag = 1;
+            else
+                buscar = filtroActual;
+
+
+
+            if (!String.IsNullOrEmpty(buscar))
+            {
+                paises = paises.Where(s => s.Nombre!.Contains(buscar));
+            }
+            ViewData["OrdenActual"] = ordenActual;
+            ViewData["FiltroActual"] = buscar;
+
+            ViewData["FiltroNombre"] = String.IsNullOrEmpty(ordenActual) ? "NombreDescendente" : "";
+
+            switch (ordenActual)
+            {
+                case "NombreDescendente":
+                    paises = paises.OrderByDescending(pais => pais.Nombre);
+                    break;
+                default:
+                    paises = paises.OrderBy(pais => pais.Nombre);
+                    break;
+            }
+
+            int cantidadregistros = 10;
+
+            return View(await Paginacion<Pai>.CrearPaginacion(paises.AsNoTracking(), numpag ?? 1, cantidadregistros));
+
         }
 
         // GET: Pais/Details/5
@@ -149,14 +179,14 @@ namespace systemquchooch.Controllers
             {
                 _context.Pais.Remove(pai);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool PaiExists(int id)
         {
-          return (_context.Pais?.Any(e => e.CodigoPais == id)).GetValueOrDefault();
+            return (_context.Pais?.Any(e => e.CodigoPais == id)).GetValueOrDefault();
         }
     }
 }
