@@ -1,5 +1,5 @@
-﻿@model IEnumerable<systemquchooch.Models.Estudiante>
-
+﻿@model Paginacion<Estudiante>
+@using systemquchooch.Data;
 @{
     ViewData["Title"] = "Index";
 }
@@ -15,41 +15,49 @@
     <a asp-controller="Estudiantes" asp-action="ImprimirEstudiantes" target="_blank" class="btn btn-info text-white">Generar PDF</a>
 </p>
 
+<form asp-controller="Estudiantes" asp-action="Index">
+    <p>
+        Buscar: <input type="text" name="buscar" class="form-text" />
+        <input type="submit" value="Buscar" class="btn btn-sm btn-dark" />
+        <a asp-action="Index" class="btn btn-outline-info">Lista completa</a>
+    </p>
+</form>
+
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Nombre)
+                Nombre
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Apellido)
+                Apellido
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.FechaNacimieto)
+                FechaNacimieto
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Genero)
+                Genero
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Estado)
+                Estado
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Sector)
+                Sector
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.NumeroCasa)
+                NumeroCasa
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Descripcion)
+                Descripcion
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.FotoPerfil)
+                FotoPerfil
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.FechaCreacion)
+                FechaCreacion
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.CodigoComunidadNavigation)
+                CodigoComunidadNavigation
             </th>
             <th></th>
         </tr>
@@ -99,3 +107,29 @@
 }
     </tbody>
 </table>
+
+@{
+    var anteriordeshabilitado = !Model.PaginasAnteriores ? "disabled" : "";
+    var siguientedeshabilitado = !Model.PaginasPosteriores ? "disabled" : "";
+}
+
+<div class="container mt-3">
+    <ul class="pagination pagination-lg justify-content-end">
+        <a asp-action="Index" asp-route-ordenActual="@ViewData["OrdenActual"]"
+           asp-route-numpag="@(Model.PaginaInicio - 1)" asp-route-filtroActual="@ViewData["FiltroActual"]"
+           class="btn btn-primary @anteriordeshabilitado">Anterior</a>
+
+        @for (var i = 1; i <= Model.PaginasTotales; i++)
+        {
+            var paginaactiva = (i == Model.PaginaInicio) ? "active" : "";
+            <a asp-action="Index" asp-route-ordenActual="@ViewData["OrdenActual"]" asp-route-numpag="@i"
+           asp-route-filtroActual="@ViewData["FiltroActual"]" class="btn btn-primary @paginaactiva">
+                @i
+            </a>
+        }
+
+        <a asp-action="Index" asp-route-ordenActual="@ViewData["OrdenActual"]"
+           asp-route-numpag="@(Model.PaginaInicio + 1)" asp-route-filtroActual="@ViewData["FiltroActual"]"
+           class="btn btn-primary @siguientedeshabilitado">Siguiente</a>
+    </ul>
+</div>
