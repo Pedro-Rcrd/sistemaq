@@ -1,511 +1,511 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\Fxep\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\pedro\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\systemquchooch.bundle.scp.css",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\systemquchooch.bundle.scp.css",
       "PackagePath": "staticwebassets\\systemquchooch.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\css\\estilos.css",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\css\\estilos.css",
       "PackagePath": "staticwebassets\\css\\estilos.css"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\css\\home.css",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\css\\home.css",
       "PackagePath": "staticwebassets\\css\\home.css"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\imagenes\\logo.jpeg",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\imagenes\\logo.jpeg",
       "PackagePath": "staticwebassets\\imagenes\\logo.jpeg"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\images\\001.jpg",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\images\\001.jpg",
       "PackagePath": "staticwebassets\\images\\001.jpg"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\images\\0010.jpg",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\images\\0010.jpg",
       "PackagePath": "staticwebassets\\images\\0010.jpg"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\images\\002.jpg",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\images\\002.jpg",
       "PackagePath": "staticwebassets\\images\\002.jpg"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\images\\003.jpg",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\images\\003.jpg",
       "PackagePath": "staticwebassets\\images\\003.jpg"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\images\\004.jpg",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\images\\004.jpg",
       "PackagePath": "staticwebassets\\images\\004.jpg"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\images\\005.jpg",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\images\\005.jpg",
       "PackagePath": "staticwebassets\\images\\005.jpg"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\images\\006.jpg",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\images\\006.jpg",
       "PackagePath": "staticwebassets\\images\\006.jpg"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\images\\007.jpg",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\images\\007.jpg",
       "PackagePath": "staticwebassets\\images\\007.jpg"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\images\\008.jpg",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\images\\008.jpg",
       "PackagePath": "staticwebassets\\images\\008.jpg"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\images\\009.jpg",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\images\\009.jpg",
       "PackagePath": "staticwebassets\\images\\009.jpg"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\images\\01.jpg",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\images\\01.jpg",
       "PackagePath": "staticwebassets\\images\\01.jpg"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\images\\02.jpg",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\images\\02.jpg",
       "PackagePath": "staticwebassets\\images\\02.jpg"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\images\\03.jpg",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\images\\03.jpg",
       "PackagePath": "staticwebassets\\images\\03.jpg"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\images\\04.jpg",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\images\\04.jpg",
       "PackagePath": "staticwebassets\\images\\04.jpg"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\images\\05.jpg",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\images\\05.jpg",
       "PackagePath": "staticwebassets\\images\\05.jpg"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\images\\06.jpg",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\images\\06.jpg",
       "PackagePath": "staticwebassets\\images\\06.jpg"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\js\\chart-area-demo.js",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\js\\chart-area-demo.js",
       "PackagePath": "staticwebassets\\js\\chart-area-demo.js"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\js\\chart-bar-demo.js",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\js\\chart-bar-demo.js",
       "PackagePath": "staticwebassets\\js\\chart-bar-demo.js"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\js\\scripts.js",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\js\\scripts.js",
       "PackagePath": "staticwebassets\\js\\scripts.js"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\Fxep\\Desktop\\software\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\pedro\\OneDrive\\Documentos\\Noveno Semestre 2023\\2. Ingenieria de Software\\4.28 Sistema Quchooch\\sistemaq\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
