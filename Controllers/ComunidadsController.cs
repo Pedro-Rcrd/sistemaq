@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Rotativa.AspNetCore;
 using systemquchooch.Models;
+using systemquchooch.Data;
 
 namespace systemquchooch.Controllers
 {
@@ -20,11 +21,37 @@ namespace systemquchooch.Controllers
         }
 
         // GET: Comunidads
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string buscar, string ordenActual, int? numpag, string filtroActual)
         {
-              return _context.Comunidads != null ? 
-                          View(await _context.Comunidads.ToListAsync()) :
-                          Problem("Entity set 'QuchoochContext.Comunidads'  is null.");
+            var comunidads = from comunidad in _context.Comunidads select comunidad;
+
+            if (buscar != null)
+                numpag = 1;
+            else
+                buscar = filtroActual;
+
+
+
+            if (!String.IsNullOrEmpty(buscar))
+            {
+                comunidads = comunidads.Where(s => s.NombreComunidad!.Contains(buscar));
+            }
+            ViewData["OrdenActual"] = ordenActual;
+            ViewData["FiltroActual"] = buscar;
+
+            ViewData["FiltroNombreComunidad"] = String.IsNullOrEmpty(ordenActual) ? "NombreComunidadDescendente" : "";
+
+            comunidads = ordenActual switch
+            {
+                "NombreComunidadDescendente" => comunidads.OrderByDescending(comunidad => comunidad.NombreComunidad),
+                _ => comunidads.OrderBy(comunidad => comunidad.NombreComunidad),
+            };
+            int cantidadregistros = 10;
+
+            return View(await Paginacion<Comunidad>.CrearPaginacion(comunidads.AsNoTracking(), numpag ?? 1, cantidadregistros));
+
+
+
         }
 
         // GET: Comunidads/Details/5

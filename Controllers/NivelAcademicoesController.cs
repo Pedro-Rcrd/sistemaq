@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Rotativa.AspNetCore;
 using systemquchooch.Models;
+using systemquchooch.Data;
 
 namespace systemquchooch.Controllers
 {
@@ -20,13 +21,36 @@ namespace systemquchooch.Controllers
         }
 
         // GET: NivelAcademicoes
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string buscar, string ordenActual, int? numpag, string filtroActual)
         {
-              return _context.NivelAcademicos != null ? 
-                          View(await _context.NivelAcademicos.ToListAsync()) :
-                          Problem("Entity set 'QuchoochContext.NivelAcademicos'  is null.");
-        }
+            var nivelacademicos = from nivelacademico in _context.NivelAcademicos select nivelacademico;
 
+            if (buscar != null)
+                numpag = 1;
+            else
+                buscar = filtroActual;
+
+
+
+            if (!String.IsNullOrEmpty(buscar))
+            {
+                nivelacademicos = nivelacademicos.Where(s => s.Nombre!.Contains(buscar));
+            }
+            ViewData["OrdenActual"] = ordenActual;
+            ViewData["FiltroActual"] = buscar;
+
+            ViewData["FiltroNombre"] = String.IsNullOrEmpty(ordenActual) ? "NombreDescendente" : "";
+
+            nivelacademicos = ordenActual switch
+            {
+                "NombreDescendente" => nivelacademicos.OrderByDescending(nivelAcademico => nivelAcademico.Nombre),
+                _ => nivelacademicos.OrderBy(nivelAcademico => nivelAcademico.Nombre),
+            };
+            int cantidadregistros = 10;
+
+            return View(await Paginacion<NivelAcademico>.CrearPaginacion(nivelacademicos.AsNoTracking(), numpag ?? 1, cantidadregistros));
+
+        }
         // GET: NivelAcademicoes/Details/5
         public async Task<IActionResult> Details(int? id)
         {
