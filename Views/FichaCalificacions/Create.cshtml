@@ -4,67 +4,97 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/formularioscrear.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
 
-<h4>FichaCalificacion</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
+    <div id="layoutSidenav_content">
+        <main>
+            <div class="container-fluid px-4">
+                <h1 class="mt-4">Create</h1>
+                <h4>FichaCalificacion</h4>
+
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="row">
+                        <div class="col-md-4">
             <div class="form-group">
                 <label asp-for="CodigoEstudiante" class="control-label"></label>
                 <select asp-for="CodigoEstudiante" class ="form-control" asp-items="ViewBag.CodigoEstudiante"></select>
-            </div>
+            </div></div>
+                        <div class="col-md-4">
             <div class="form-group">
                 <label asp-for="CodigoPeriodo" class="control-label"></label>
                 <select asp-for="CodigoPeriodo" class ="form-control" asp-items="ViewBag.CodigoPeriodo"></select>
-            </div>
+            </div></div>
+                        <div class="col-md-4">
             <div class="form-group">
                 <label asp-for="CodigoDesempeño" class="control-label"></label>
                 <select asp-for="CodigoDesempeño" class ="form-control" asp-items="ViewBag.CodigoDesempeño"></select>
-            </div>
+            </div></div></div>
+                    <div class="row">
+                        <div class="col-md-4">
             <div class="form-group">
                 <label asp-for="FechaEntrega" class="control-label"></label>
                 <input asp-for="FechaEntrega" class="form-control" />
                 <span asp-validation-for="FechaEntrega" class="text-danger"></span>
-            </div>
+            </div></div>
+                        <div class="col-md-4">
             <div class="form-group">
                 <label asp-for="Notas" class="control-label"></label>
                 <input asp-for="Notas" class="form-control" />
                 <span asp-validation-for="Notas" class="text-danger"></span>
-            </div>
+            </div></div>
+                        <div class="col-md-4">
             <div class="form-group">
                 <label asp-for="Promedio" class="control-label"></label>
                 <input asp-for="Promedio" class="form-control" />
                 <span asp-validation-for="Promedio" class="text-danger"></span>
-            </div>
+            </div></div></div>
+                    <div class="row">
+                        <div class="col-md-4">
             <div class="form-group">
                 <label asp-for="ImagenFicha" class="control-label"></label>
                 <input asp-for="ImagenFicha" class="form-control" />
                 <span asp-validation-for="ImagenFicha" class="text-danger"></span>
-            </div>
+            </div></div>
+                        <div class="col-md-4">
             <div class="form-group">
                 <label asp-for="ImagenEstudiante" class="control-label"></label>
                 <input asp-for="ImagenEstudiante" class="form-control" />
                 <span asp-validation-for="ImagenEstudiante" class="text-danger"></span>
-            </div>
+            </div></div>
+                        <div class="col-md-4">
             <div class="form-group">
                 <label asp-for="ImagenCarta" class="control-label"></label>
                 <input asp-for="ImagenCarta" class="form-control" />
                 <span asp-validation-for="ImagenCarta" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+            </div></div></div>
+
+                    <div class="d-flex justify-content-end">
+                <input type="submit" value="Create" class="btn btn-primary me-2 w-25" />
+                        <a class="btn btn-outline-info me-2 w-25" asp-action="Index">Back to List</a>
             </div>
         </form>
     </div>
+    </main>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+    
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
+
+</body>
+</html>

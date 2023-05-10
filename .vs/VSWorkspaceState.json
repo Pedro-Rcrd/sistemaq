@@ -1,21 +1,7 @@
 {
   "ExpandedNodes": [
-<<<<<<< HEAD
-    "",
-    "\\Controllers",
-    "\\Models",
-    "\\Views",
-    "\\Views\\Areas",
-    "\\Views\\Estudiantes",
-    "\\Views\\Registro",
-    "\\wwwroot",
-    "\\wwwroot\\css"
-  ],
-  "SelectedNode": "\\systemquchooch.csproj",
-=======
     ""
   ],
-  "SelectedNode": "\\appsettings.json",
->>>>>>> 314c863ec6c966686f91b9e1076cf0a036d229a2
+  "SelectedNode": "\\systemquchooch.sln",
   "PreviewInSolutionExplorer": false
 }
