@@ -1,8 +1,15 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Models"
+    "\\Controllers",
+    "\\Models",
+    "\\Views",
+    "\\Views\\Areas",
+    "\\Views\\Estudiantes",
+    "\\Views\\Registro",
+    "\\wwwroot",
+    "\\wwwroot\\css"
   ],
-  "SelectedNode": "\\Models\\Area.cs",
+  "SelectedNode": "\\systemquchooch.csproj",
   "PreviewInSolutionExplorer": false
 }
