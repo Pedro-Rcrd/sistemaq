@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Rotativa.AspNetCore;
 using systemquchooch.Models;
+using systemquchooch.Data;
 
 namespace systemquchooch.Controllers
 {
@@ -20,11 +21,34 @@ namespace systemquchooch.Controllers
         }
 
         // GET: Cursoes
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string buscar, string ordenActual, int? numpag, string filtroActual)
         {
-              return _context.Cursos != null ? 
-                          View(await _context.Cursos.ToListAsync()) :
-                          Problem("Entity set 'QuchoochContext.Cursos'  is null.");
+            var cursos = from curso in _context.Cursos select curso;
+
+            if (buscar != null)
+                numpag = 1;
+            else
+                buscar = filtroActual;
+
+
+
+            if (!String.IsNullOrEmpty(buscar))
+            {
+                cursos = cursos.Where(s => s.Nombre!.Contains(buscar));
+            }
+            ViewData["OrdenActual"] = ordenActual;
+            ViewData["FiltroActual"] = buscar;
+
+            ViewData["FiltroNombre"] = String.IsNullOrEmpty(ordenActual) ? "NombreDescendente" : "";
+
+            cursos = ordenActual switch
+            {
+                "NombreDescendente" => cursos.OrderByDescending(curso => curso.Nombre),
+                _ => cursos.OrderBy(curso => curso.Nombre),
+            };
+            int cantidadregistros = 10;
+
+            return View(await Paginacion<Curso>.CrearPaginacion(cursos.AsNoTracking(), numpag ?? 1, cantidadregistros));
         }
 
         // GET: Cursoes/Details/5

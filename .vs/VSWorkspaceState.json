@@ -1,5 +1,6 @@
 {
   "ExpandedNodes": [
+<<<<<<< HEAD
     "",
     "\\Controllers",
     "\\Models",
@@ -11,5 +12,10 @@
     "\\wwwroot\\css"
   ],
   "SelectedNode": "\\systemquchooch.csproj",
+=======
+    ""
+  ],
+  "SelectedNode": "\\appsettings.json",
+>>>>>>> 314c863ec6c966686f91b9e1076cf0a036d229a2
   "PreviewInSolutionExplorer": false
 }
