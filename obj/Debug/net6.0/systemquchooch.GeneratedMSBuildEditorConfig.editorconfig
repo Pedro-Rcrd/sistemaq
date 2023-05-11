@@ -224,6 +224,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZVR1dG9yaXVtc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Usuario/Desktop/sistemaqu/Views/EstudianteTutoriums/ImprimirEstudiante_tutoria.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZVR1dG9yaXVtc1xJbXByaW1pckVzdHVkaWFudGVfdHV0b3JpYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Usuario/Desktop/sistemaqu/Views/EstudianteTutoriums/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZVR1dG9yaXVtc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -488,6 +492,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzaW9uc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Usuario/Desktop/sistemaqu/Views/Profesions/ImprimirProfesiones.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzaW9uc1xJbXByaW1pclByb2Zlc2lvbmVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Usuario/Desktop/sistemaqu/Views/Profesions/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzaW9uc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -506,6 +514,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Usuario/Desktop/sistemaqu/Views/Proveedors/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuario/Desktop/sistemaqu/Views/Proveedors/ImprimirProveedores.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yc1xJbXByaW1pclByb3ZlZWRvcmVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Usuario/Desktop/sistemaqu/Views/Proveedors/Index.cshtml]
@@ -544,6 +556,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHV0b3JpdW1zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Usuario/Desktop/sistemaqu/Views/Tutoriums/ImprimirTutoria.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHV0b3JpdW1zXEltcHJpbWlyVHV0b3JpYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Usuario/Desktop/sistemaqu/Views/Tutoriums/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHV0b3JpdW1zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -564,6 +580,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHV0b3JzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Usuario/Desktop/sistemaqu/Views/Tutors/ImprimirTutor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHV0b3JzXEltcHJpbWlyVHV0b3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Usuario/Desktop/sistemaqu/Views/Tutors/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHV0b3JzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -582,6 +602,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Usuario/Desktop/sistemaqu/Views/TutorTuroriums/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHV0b3JUdXJvcml1bXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuario/Desktop/sistemaqu/Views/TutorTuroriums/ImprimirTutor_tutoria.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHV0b3JUdXJvcml1bXNcSW1wcmltaXJUdXRvcl90dXRvcmlhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Usuario/Desktop/sistemaqu/Views/TutorTuroriums/Index.cshtml]
