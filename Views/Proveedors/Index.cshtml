@@ -12,6 +12,10 @@
     <a asp-action="Create">Create New</a>
 </p>
 
+<p>
+    <a asp-controller="Proveedors" asp-action="ImprimirProveedores" target="_blank" class="btn btn-info text-white">Generar PDF</a>
+</p>
+
 <form asp-controller="Proveedors" asp-action="Index">
     <p>
         Buscar: <input type="text" name="buscar" class="form-text" />
@@ -20,6 +24,7 @@
     </p>
 
 </form>
+
 
 <table class="table">
     <thead>

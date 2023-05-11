@@ -1,0 +1,108 @@
+﻿@model IEnumerable<systemquchooch.Models.Tutorium>
+
+@{
+    ViewData["Title"] = "ImprimirTutoria";
+}
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ImprimirTutoria</title>
+
+    <style>
+
+        table.tbproductos {
+            border-collapse: collapse;
+            border-spacing: 4px;
+        }
+
+            table.tbproductos thead tr th {
+                background-color: #2980B9;
+                padding: 6px;
+                font-size: 15px;
+                color: white;
+                text-align: center;
+                border: 1px solid #34495E;
+            }
+
+            table.tbproductos tbody tr td {
+                padding: 10px;
+                background-color: #D4E6F1;
+                text-align: center;
+                border: 1px solid #34495E;
+            }
+
+
+        .item {
+            font-size: 15px;
+            font-weight: 100;
+            color: #757575;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <div clas="col-sm-4">
+            <img src="~/imagenes/logo.jpeg" style="width: 250px;" />
+        </div>
+        <div class="col-sm-8 text-right">
+            <h2> Listado de Tutorias</h2>
+        </div>
+    </div>
+
+    <table class="tbproductos" style="width:100%">
+        <thead>
+            <tr>
+                <th class="tbth">  #  </th>
+                <th class="tbth">  Curos  </th>
+                <th class="tbth">  Area  </th>
+                <th class="tbth">  Tutor  </th>
+                <th class="tbth">  Hora inicio  </th>
+                <th class="tbth">  Hora final  </th>
+                <th class="tbth">  Tema  </th>
+                <th class="tbth">  Fecha creación  </th>
+                               
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CodigoTutoria)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CodigoCurso)
+                    </td>
+
+                      <td>
+                        @Html.DisplayFor(modelItem => item.CodigoArea)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CodigoTutor)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.HoraInicio)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.HoraFinal)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Tema)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FechaCreacion)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</body>
+</html>

@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using systemquchooch.Models;
+using Rotativa.AspNetCore;
 using systemquchooch.Data;
 
 namespace systemquchooch.Controllers
@@ -74,6 +75,25 @@ namespace systemquchooch.Controllers
         {
             return View();
         }
+
+
+       // GET: Generar PDF
+        public async Task<IActionResult> ImprimirProveedores()
+        {
+
+            // ViewModelUsuarios modelo = _context.Usuarios.Include(dv => dv.Id)
+            //.Select(dv = new ViewModelUsuarios){
+
+            //}
+            return new ViewAsPdf("ImprimirProveedores", await _context.Proveedors.ToListAsync()/*,modelo*/)
+            {
+                FileName = $"Reporte Proveedores.pdf",
+                PageSize = Rotativa.AspNetCore.Options.Size.A4
+            };
+
+        }
+
+
 
         // POST: Proveedors/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
