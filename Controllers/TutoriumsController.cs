@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using systemquchooch.Data;
 using systemquchooch.Models;
 
 namespace systemquchooch.Controllers
@@ -19,10 +20,35 @@ namespace systemquchooch.Controllers
         }
 
         // GET: Tutoriums
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string buscar, string ordenActual, int? numpag, string filtroActual)
         {
-            var quchoochContext = _context.Tutoria.Include(t => t.CodigoAreaNavigation).Include(t => t.CodigoCursoNavigation).Include(t => t.CodigoTutorNavigation);
-            return View(await quchoochContext.ToListAsync());
+            var variables = from variable in _context.Tutoria select variable;
+
+            if (buscar != null)
+                numpag = 1;
+            else
+                buscar = filtroActual;
+
+
+
+            if (!String.IsNullOrEmpty(buscar))
+            {
+                variables = variables.Where(s => s.Tema!.Contains(buscar));
+            }
+            ViewData["OrdenActual"] = ordenActual;
+            ViewData["FiltroActual"] = buscar;
+
+            ViewData["FiltroNombre"] = String.IsNullOrEmpty(ordenActual) ? "NombreDescendente" : "";
+
+            variables = ordenActual switch
+            {
+                "NombreDescendente" => variables.OrderByDescending(grado => grado.Tema),
+                _ => variables.OrderBy(grado => grado.Tema),
+            };
+            int cantidadregistros = 10;
+
+            return View(await Paginacion<Tutorium>.CrearPaginacion(variables.AsNoTracking(), numpag ?? 1, cantidadregistros));
+
         }
 
         // GET: Tutoriums/Details/5

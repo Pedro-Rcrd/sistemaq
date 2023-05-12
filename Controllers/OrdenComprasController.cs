@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Rotativa.AspNetCore;
+using systemquchooch.Data;
 using systemquchooch.Models;
 
 namespace systemquchooch.Controllers
@@ -20,10 +21,35 @@ namespace systemquchooch.Controllers
         }
 
         // GET: OrdenCompras
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string buscar, string ordenActual, int? numpag, string filtroActual)
         {
-            var quchoochContext = _context.OrdenCompras.Include(o => o.CodigoEstudianteNavigation).Include(o => o.CodigoProveedorNavigation);
-            return View(await quchoochContext.ToListAsync());
+            var variables = from variable in _context.OrdenCompras select variable;
+
+            if (buscar != null)
+                numpag = 1;
+            else
+                buscar = filtroActual;
+
+
+
+            if (!String.IsNullOrEmpty(buscar))
+            {
+                variables = variables.Where(s => s.Descripcion!.Contains(buscar));
+            }
+            ViewData["OrdenActual"] = ordenActual;
+            ViewData["FiltroActual"] = buscar;
+
+            ViewData["FiltroNombre"] = String.IsNullOrEmpty(ordenActual) ? "NombreDescendente" : "";
+
+            variables = ordenActual switch
+            {
+                "NombreDescendente" => variables.OrderByDescending(grado => grado.Descripcion),
+                _ => variables.OrderBy(grado => grado.Descripcion),
+            };
+            int cantidadregistros = 10;
+
+            return View(await Paginacion<OrdenCompra>.CrearPaginacion(variables.AsNoTracking(), numpag ?? 1, cantidadregistros));
+
         }
 
         // GET: OrdenCompras/Details/5

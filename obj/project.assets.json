@@ -12753,11 +12753,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Fxep\\Desktop\\SOFTWAREE\\systemquchooch.csproj",
+      "projectUniqueName": "C:\\Users\\Fxep\\Desktop\\SOFTWAREE - copia\\systemquchooch.csproj",
       "projectName": "systemquchooch",
-      "projectPath": "C:\\Users\\Fxep\\Desktop\\SOFTWAREE\\systemquchooch.csproj",
+      "projectPath": "C:\\Users\\Fxep\\Desktop\\SOFTWAREE - copia\\systemquchooch.csproj",
       "packagesPath": "C:\\Users\\Fxep\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Fxep\\Desktop\\SOFTWAREE\\obj\\",
+      "outputPath": "C:\\Users\\Fxep\\Desktop\\SOFTWAREE - copia\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

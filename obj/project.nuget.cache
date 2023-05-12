@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L5mpgrDa2Ht14JzFaqzCqwAcPAoLYsGNKtlut0tVSckEyDtVLT6uqGuz7/JslHjII0XHrEga/FCyFhAUpJmE9Q==",
+  "dgSpecHash": "x227jzLjqtya8E4uMc++XpMd8ScOjJKFcYobTXT0F7oke1xFUMJaN84ufxmstNnb3xHFBvVaOURtpY+v6Xp9oQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Fxep\\Desktop\\SOFTWAREE\\systemquchooch.csproj",
+  "projectFilePath": "C:\\Users\\Fxep\\Desktop\\SOFTWAREE - copia\\systemquchooch.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Fxep\\.nuget\\packages\\antlr\\3.4.1.9004\\antlr.3.4.1.9004.nupkg.sha512",
     "C:\\Users\\Fxep\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
