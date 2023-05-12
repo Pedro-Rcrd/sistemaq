@@ -449,9 +449,7 @@ public partial class QuchoochContext : DbContext
 
             entity.ToTable("patrocinador");
 
-            entity.Property(e => e.CodigoPatrocinador)
-                .ValueGeneratedNever()
-                .HasColumnName("codigoPatrocinador");
+            entity.Property(e => e.CodigoPatrocinador).HasColumnName("codigoPatrocinador");
             entity.Property(e => e.Apellido)
                 .HasMaxLength(128)
                 .IsUnicode(false)

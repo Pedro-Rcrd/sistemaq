@@ -102,7 +102,7 @@ namespace systemquchooch.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("CodigoPatrocinador,CodigoPais,CodigoNivelAcademico,Nombre,Apellido,Estado,FotoPerfil,FechaNacimiento,FechaCreacion")] Patrocinador patrocinador)
+        public async Task<IActionResult> Create([Bind("CodigoPais,CodigoNivelAcademico,Nombre,Apellido,Estado,FotoPerfil,FechaNacimiento,FechaCreacion")] Patrocinador patrocinador)
         {
             if (ModelState != null)
             {
