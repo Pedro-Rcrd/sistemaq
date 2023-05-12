@@ -1,4 +1,5 @@
-﻿@model IEnumerable<systemquchooch.Models.Gasto>
+﻿@model Paginacion<Gasto>
+@using systemquchooch.Data;
 
 @{
     ViewData["Title"] = "Index";
@@ -14,26 +15,34 @@
     <a asp-controller="Gastoes" asp-action="ImprimirGastoes" target="_blank" class="btn btn-info text-white">Generar PDF</a>
 </p>
 
+<form asp-controller="Gastoes" asp-action="Index">
+    <p>
+        Buscar: <input type="text" name="buscar" class="form-text" />
+        <input type="submit" value="Buscar" class="btn btn-sm btn-dark" />
+        <a asp-action="Index" class="btn btn-outline-info">Lista completa</a>
+    </p>
+</form>
+
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.TipoPago)
+                TipoPago
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.FechaEntrega)
+                FechaEntrega
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.NumeroDocumento)
+                NumeroDocumento
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Monto)
+                Monto
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Descripcion)
+                Descripcion
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.CodigoEstudianteNavigation)
+                CodigoEstudianteNavigation
             </th>
             <th></th>
         </tr>
@@ -68,3 +77,29 @@
 }
     </tbody>
 </table>
+
+@{
+    var anteriordeshabilitado = !Model.PaginasAnteriores ? "disabled" : "";
+    var siguientedeshabilitado = !Model.PaginasPosteriores ? "disabled" : "";
+}
+
+<div class="container mt-3">
+    <ul class="pagination pagination-lg justify-content-end">
+        <a asp-action="Index" asp-route-ordenActual="@ViewData["OrdenActual"]"
+           asp-route-numpag="@(Model.PaginaInicio - 1)" asp-route-filtroActual="@ViewData["FiltroActual"]"
+           class="btn btn-primary @anteriordeshabilitado">Anterior</a>
+
+        @for (var i = 1; i <= Model.PaginasTotales; i++)
+        {
+            var paginaactiva = (i == Model.PaginaInicio) ? "active" : "";
+            <a asp-action="Index" asp-route-ordenActual="@ViewData["OrdenActual"]" asp-route-numpag="@i"
+           asp-route-filtroActual="@ViewData["FiltroActual"]" class="btn btn-primary @paginaactiva">
+                @i
+            </a>
+        }
+
+        <a asp-action="Index" asp-route-ordenActual="@ViewData["OrdenActual"]"
+           asp-route-numpag="@(Model.PaginaInicio + 1)" asp-route-filtroActual="@ViewData["FiltroActual"]"
+           class="btn btn-primary @siguientedeshabilitado">Siguiente</a>
+    </ul>
+</div>

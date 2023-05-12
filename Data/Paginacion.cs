@@ -25,21 +25,6 @@ namespace systemquchooch.Data
             var items = await fuente.Skip((paginaInicio - 1) * cantidadregistros).Take(cantidadregistros).ToListAsync();
             return new Paginacion<T>(items, contador, paginaInicio, cantidadregistros);
         }
-
-        internal static Task<string?> CrearPaginacion(IQueryable<Pai> pais, int v, int cantidadregistros)
-        {
-            throw new NotImplementedException();
-        }
-
-        internal static Task<string?> CrearPaginacion(IQueryable<EstudianteTutorium> estudianteTutoria, int v, int cantidadregistros)
-        {
-            throw new NotImplementedException();
-        }
-
-        internal static Task<string?> CrearPaginacion(IQueryable<Tutor> tutors, int v, int cantidadregistros)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
 

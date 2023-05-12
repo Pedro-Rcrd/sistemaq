@@ -8,6 +8,7 @@ using Rotativa.AspNetCore;
 using Microsoft.EntityFrameworkCore;
 
 using systemquchooch.Models;
+using systemquchooch.Data;
 
 namespace systemquchooch.Controllers
 {
@@ -21,10 +22,35 @@ namespace systemquchooch.Controllers
         }
 
         // GET: Tutors
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string buscar, string ordenActual, int? numpag, string filtroActual)
         {
-            var quchoochContext = _context.Tutors.Include(t => t.CodigoProfesionNavigation);
-            return View(await quchoochContext.ToListAsync());
+            var variables = from variable in _context.Tutors select variable;
+
+            if (buscar != null)
+                numpag = 1;
+            else
+                buscar = filtroActual;
+
+
+
+            if (!String.IsNullOrEmpty(buscar))
+            {
+                variables = variables.Where(s => s.Nombre!.Contains(buscar));
+            }
+            ViewData["OrdenActual"] = ordenActual;
+            ViewData["FiltroActual"] = buscar;
+
+            ViewData["FiltroNombre"] = String.IsNullOrEmpty(ordenActual) ? "NombreDescendente" : "";
+
+            variables = ordenActual switch
+            {
+                "NombreDescendente" => variables.OrderByDescending(grado => grado.Nombre),
+                _ => variables.OrderBy(grado => grado.Nombre),
+            };
+            int cantidadregistros = 10;
+
+            return View(await Paginacion<Tutor>.CrearPaginacion(variables.AsNoTracking(), numpag ?? 1, cantidadregistros));
+
         }
 
         // GET: Tutors/Details/5
