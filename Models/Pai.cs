@@ -6,7 +6,7 @@ namespace systemquchooch.Models;
 
 public partial class Pai
 {
-    [DisplayName("Código País")]
+    [DisplayName("País")]
 
     public int CodigoPais { get; set; }
 

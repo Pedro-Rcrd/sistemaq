@@ -1,32 +1,39 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 
 namespace systemquchooch.Models;
 
 public partial class Estudiante
 {
+    [DisplayName("Estudiante")]
+
     public int CodigoEstudiante { get; set; }
+    [DisplayName("Comunidad")]
 
     public int CodigoComunidad { get; set; }
-
+    [DisplayName("Nombre")]
     public string Nombre { get; set; } = null!;
-
+    [DisplayName("Apellido")]
     public string Apellido { get; set; } = null!;
+    [DisplayName("Fecha de Nacimiento")]
 
     public DateTime? FechaNacimieto { get; set; }
+    [DisplayName("Genero")]
 
     public string Genero { get; set; } = null!;
-
+    [DisplayName("Estado")]
     public string Estado { get; set; } = null!;
+    [DisplayName("Sector")]
 
     public int? Sector { get; set; }
-
+    [DisplayName("Numero de Casa")]
     public string NumeroCasa { get; set; } = null!;
-
+    [DisplayName("Descripción")]
     public string Descripcion { get; set; } = null!;
-
+    [DisplayName("Foto de Perfil")]
     public string FotoPerfil { get; set; } = null!;
-
+    [DisplayName("Fecha de Creación")]
     public DateTime? FechaCreacion { get; set; }
 
     public virtual Comunidad CodigoComunidadNavigation { get; set; } = null!;

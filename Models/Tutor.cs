@@ -6,11 +6,11 @@ namespace systemquchooch.Models;
 
 public partial class Tutor
 {
-    [DisplayName("Código de Tutor")]
+    [DisplayName("Tutor")]
 
     public int CodigoTutor { get; set; }
 
-    [DisplayName("Código de Profesión")]
+    [DisplayName("Profesión")]
 
     public int CodigoProfesion { get; set; }
 
@@ -33,10 +33,13 @@ public partial class Tutor
     [DisplayName("Fecha de Creación")]
 
     public DateTime FechaCreacion { get; set; }
+    [DisplayName("Profesión")]
 
     public virtual Profesion CodigoProfesionNavigation { get; set; } = null!;
+    [DisplayName("Tutor y Tutoria")]
 
     public virtual ICollection<TutorTurorium> TutorTuroria { get; set; } = new List<TutorTurorium>();
+    [DisplayName("Tutoria")]
 
     public virtual ICollection<Tutorium> Tutoria { get; set; } = new List<Tutorium>();
 }
