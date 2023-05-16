@@ -20,7 +20,7 @@
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <!--  <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
@@ -34,7 +34,7 @@
                         </li>
 
                     </ul>
-                </div>
+                </div>-->
             </div>
         </nav>
     </header>
@@ -60,22 +60,22 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="nav-link px-0 align-middle ">
+                            <a asp-controller="Asignacion" asp-action="Index" class="nav-link px-0 align-middle ">
                                 <i class="fs-4 bi bi-people icon"></i> <span class="ms-1 d-none d-sm-inline text-dark">Asignaciones</span>
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="nav-link px-0 align-middle">
+                            <a asp-controller="Compra" asp-action="Index" class="nav-link px-0 align-middle">
                                 <i class="fs-4 bi bi-cart icon"></i> <span class="ms-1 d-none d-sm-inline text-dark">Compras</span>
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="nav-link px-0 align-middle">
+                            <a asp-controller="Informe" asp-action="Index" class="nav-link px-0 align-middle">
                                 <i class="fs-4 bi bi-file-earmark-zip icon"></i> <span class="ms-1 d-none d-sm-inline text-dark">Informes</span>
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="nav-link px-0 align-middle">
+                            <a asp-controller="Consultas" asp-action="Index" class="nav-link px-0 align-middle">
                                 <i class="fs-4 bi bi-info-circle icon"></i> <span class="ms-1 d-none d-sm-inline text-dark">Consultas</span>
                             </a>
                         </li>

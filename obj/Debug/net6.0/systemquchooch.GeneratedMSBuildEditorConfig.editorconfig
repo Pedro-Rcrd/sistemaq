@@ -40,6 +40,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJlYXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/blq19/OneDrive/Documentos/Visual Studio 2022/PROYECTOS/principal/Views/Asignacion/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNpZ25hY2lvblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/blq19/OneDrive/Documentos/Visual Studio 2022/PROYECTOS/principal/Views/Carreras/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmVyYXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -64,6 +68,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmVyYXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/blq19/OneDrive/Documentos/Visual Studio 2022/PROYECTOS/principal/Views/Compra/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/blq19/OneDrive/Documentos/Visual Studio 2022/PROYECTOS/principal/Views/Comunidads/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tdW5pZGFkc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -86,6 +94,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/blq19/OneDrive/Documentos/Visual Studio 2022/PROYECTOS/principal/Views/Comunidads/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tdW5pZGFkc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/blq19/OneDrive/Documentos/Visual Studio 2022/PROYECTOS/principal/Views/Consultas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VsdGFzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/blq19/OneDrive/Documentos/Visual Studio 2022/PROYECTOS/principal/Views/Cursoes/Create.cshtml]
@@ -354,6 +366,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/blq19/OneDrive/Documentos/Visual Studio 2022/PROYECTOS/principal/Views/ImagenAdicionals/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2VuQWRpY2lvbmFsc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/blq19/OneDrive/Documentos/Visual Studio 2022/PROYECTOS/principal/Views/Informe/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb3JtZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/blq19/OneDrive/Documentos/Visual Studio 2022/PROYECTOS/principal/Views/NivelAcademicoes/Create.cshtml]
