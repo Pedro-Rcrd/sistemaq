@@ -8,13 +8,18 @@
 
 <!--<h1>Index</h1>-->
 
-<p>
-    <a asp-action="Create" class="btn btn-primary">Nuevo Patrocinador</a>
+<h1>Lista de Patrocinadores</h1>
+
+<p class="text-end">
+    <a class="btn btn-outline-success" asp-controller="Patrocinadors" asp-action="Create">Nuevo Patrocinador</a>
+    <a class="btn btn-success" asp-controller="Patrocinadors" asp-action="Index">Lista de Patrocinadores</a>
+
 </p>
+<hr class="LineaRecta" />
 
 
 <p>
-    <a asp-controller="Patrocinadors" asp-action="ImprimirPatrocinador" target="_blank" class="btn btn-outline-success">Generar PDF</a>
+    <a asp-controller="Patrocinadors" asp-action="ImprimirPatrocinador" target="_blank" class="btn btn-success">Generar PDF</a>
 </p>
 
 <form asp-controller="Patrocinadors" asp-action="Index">

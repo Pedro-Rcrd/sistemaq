@@ -5,11 +5,14 @@
     ViewData["Title"] = "Index";
 }
 
+<h1>Lista de Orden de Compras</h1>
 
+<p class="text-end">
+    <a class="btn btn-outline-success" asp-controller="OrdenCompras" asp-action="Create">Nueva Orden de Compra</a>
+    <a class="btn btn-success" asp-controller="OrdenCompras" asp-action="Index">Lista de Orden de Compras</a>
 
-<p>
-    <a class="btn btn-primary" asp-action="Create">Nueva Orden de Compra</a>
 </p>
+<hr class="LineaRecta" />
 
 <p>
     <a asp-controller="OrdenCompras" asp-action="ImprimirOrdenCompras" target="_blank" class="btn btn-success">Generar PDF</a>

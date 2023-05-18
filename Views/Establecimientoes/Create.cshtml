@@ -21,8 +21,14 @@
     <div id="layoutSidenav_content">
         <main>
             <div class="container-fluid px-4">
-                <h1 class="mt-4">Create</h1>
-                <h4>Establecimiento</h4>
+                <h1>Establecimiento</h1>
+
+                <p class="text-end">
+                    <a class="btn btn-success" asp-controller="Establecimientoes" asp-action="Create">Nuevo Establecimiento</a>
+                    <a class="btn btn-outline-success" asp-controller="Establecimientoes" asp-action="Index">Lista de Establecimientos</a>
+
+                </p>
+                <hr class="LineaRecta" />
 
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
@@ -36,7 +42,7 @@
 
                     <div class="d-flex justify-content-end">
                 <input type="submit" value="Create" class="btn btn-primary me-2 w-25" />
-                        <a class="btn btn-outline-info me-2 w-25" asp-action="Index">Back to List</a>
+                        <a class="btn btn-outline-info me-2 w-25" asp-controller="Registro" asp-action="Auxiliar">Cancelar</a>
             </div>
         </form>
     </div>

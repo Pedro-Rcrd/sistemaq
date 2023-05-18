@@ -5,9 +5,14 @@
     ViewData["Title"] = "Index";
 }
 
-<p>
-    <a class="btn btn-primary" asp-action="Create">Nuevo Tutorial</a>
+<h1>Lista de Tutorías</h1>
+
+<p class="text-end">
+    <a class="btn btn-outline-success" asp-controller="Tutoriums" asp-action="Create">Nueva Tutoría</a>
+    <a class="btn btn-success" asp-controller="Tutoriums" asp-action="Index">Lista de Tutorías</a>
+
 </p>
+<hr class="LineaRecta" />
 
 <p>
     <a asp-controller="Tutoriums" asp-action="ImprimirTutoria" target="_blank" class="btn btn-success">Generar PDF</a>

@@ -21,8 +21,14 @@
     <div id="layoutSidenav_content">
         <main>
             <div class="container-fluid px-4">
-                <h1 class="mt-4">Create</h1>
-                <h4>EstudiantePatrocinador</h4>
+                <h1>Registro de </h1>
+
+                <p class="text-end">
+                    <a class="btn btn-success" asp-controller="EstudiantePatrocinadors" asp-action="Create">Nuevo Estudiante-Patrocinador</a>
+                    <a class="btn btn-outline-success" asp-controller="EstudiantePatrocinadors" asp-action="Index">Lista de Estudiantes-Patrocinadores</a>
+
+                </p>
+                <hr class="LineaRecta" />
 
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>

@@ -5,11 +5,14 @@
     ViewData["Title"] = "Index";
 }
 
+<h1>Lista de Ficha de Calificaciones</h1>
 
+<p class="text-end">
+    <a class="btn btn-outline-success" asp-controller="FichaCalificacions" asp-action="Create">Nueva Ficha de Calificación</a>
+    <a class="btn btn-success" asp-controller="FichaCalificacions" asp-action="Index">Lista de Fichas de Calificaciones</a>
 
-<p>
-    <a class="btn btn-primary" asp-action="Create">Nueva Ficha de Califiación</a>
 </p>
+<hr class="LineaRecta" />
 
 <p>
     <a asp-controller="FichaCalificacions" asp-action="ImprimirFichaCalificacions" target="_blank" class="btn btn-success">Generar PDF</a>

@@ -4,14 +4,17 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Tutor-Tutoría</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
+<p class="text-end">
+    <a class="btn btn-outline-success" asp-controller="TutorTuroriums" asp-action="Create">Nuevo Tutor-Tutoría</a>
+    <a class="btn btn-success" asp-controller="TutorTuroriums" asp-action="Index">Lista de Tutor-Tutoría</a>
+
 </p>
+<hr class="LineaRecta" />
 
 <p>
-    <a asp-controller="TutorTuroriums" asp-action="ImprimirTutor_tutoria" target="_blank" class="btn btn-info text-white">Generar PDF</a>
+    <a asp-controller="TutorTuroriums" asp-action="ImprimirTutor_tutoria" target="_blank" class="btn btn-success">Generar PDF</a>
 </p>
 
 <table class="table">

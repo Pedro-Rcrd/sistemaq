@@ -24,6 +24,13 @@
                
                 <h1>Gastos</h1>
 
+                <p class="text-end">
+                    <a class="btn btn-success" asp-controller="Gastoes" asp-action="Create">Nuevo Gasto</a>
+                    <a class="btn btn-outline-success" asp-controller="Gastoes" asp-action="Index">Lista de Gastos</a>
+
+                </p>
+                <hr class="LineaRecta" />
+
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                     <div class="row">
@@ -66,8 +73,8 @@
 
                     <div class="d-flex justify-content-end">
                 <input type="submit" value="Create" class="btn btn-primary me-2 w-25" />
-                        <a class="btn btn-outline-primary me-2 w-25" asp-action="Index">Cencelar</a>
-            </div>
+                        <a class="btn btn-outline-primary me-2 w-25" asp-controller="Registro" asp-action="Principal">Cancelar</a>
+                    </div>
         </form>
     </div>
     </main>

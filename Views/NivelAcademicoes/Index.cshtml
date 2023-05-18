@@ -6,21 +6,24 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Lista de Niveles Académicos</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
+<p class="text-end">
+    <a class="btn btn-outline-success" asp-controller="NivelAcademicoes" asp-action="Create">Nuevo Nivel Académico</a>
+    <a class="btn btn-success" asp-controller="NivelAcademicoes" asp-action="Index">Lista de Niveles Académicos</a>
+
 </p>
+<hr class="LineaRecta" />
 
 <p>
-    <a asp-controller="NivelAcademicoes" asp-action="ImprimirNivel" target="_blank" class="btn btn-info text-white">Generar PDF</a>
+    <a asp-controller="NivelAcademicoes" asp-action="ImprimirNivel" target="_blank" class="btn btn-success">Generar PDF</a>
 </p>
 
 <form asp-controller="NivelAcademicoes" asp-action="Index">
     <p>
         Buscar: <input type="text" name="buscar" class="form-text" />
-        <input type="submit" value="Buscar" class="btn btn-sm btn-dark" />
-        <a asp-action="Index" class="btn btn-outline-info">Lista completa</a>
+        <input type="submit" value="Buscar" class="btn btn-success" />
+        <a asp-action="Index" class="btn btn-outline-success">Lista completa</a>
     </p>
 </form>
 
