@@ -2,15 +2,18 @@
 for details on configuring this project to bundle and minify static web assets. */
 
 a.navbar-brand[b-z6qxmccazj] {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
 }
 
 a[b-z6qxmccazj] {
   color: #0077cc;
 }
+.textoPrincipal[b-z6qxmccazj] {
+    color: #ffffff;
 
+}
 .btn-primary[b-z6qxmccazj] {
   color: #fff;
   background-color: #1b6ec2;
@@ -24,6 +27,7 @@ a[b-z6qxmccazj] {
 }
 
 .border-top[b-z6qxmccazj] {
+
   border-top: 1px solid #e5e5e5;
 }
 .border-bottom[b-z6qxmccazj] {
@@ -31,7 +35,8 @@ a[b-z6qxmccazj] {
 }
 
 .box-shadow[b-z6qxmccazj] {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+    background-color: #808000;
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
 
 button.accept-policy[b-z6qxmccazj] {

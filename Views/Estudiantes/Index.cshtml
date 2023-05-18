@@ -5,22 +5,22 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a class="btn btn-primary" asp-action="Create">Nuevo Estudiante</a>
 </p>
 
 
 <p>
-    <a asp-controller="Estudiantes" asp-action="ImprimirEstudiantes" target="_blank" class="btn btn-info text-white">Generar PDF</a>
+    <a asp-controller="Estudiantes" asp-action="ImprimirEstudiantes" target="_blank" class="btn btn-success">Generar PDF</a>
 </p>
 
 <form asp-controller="Estudiantes" asp-action="Index">
     <p>
         Buscar: <input type="text" name="buscar" class="form-text" />
-        <input type="submit" value="Buscar" class="btn btn-sm btn-dark" />
-        <a asp-action="Index" class="btn btn-outline-info">Lista completa</a>
+        <input type="submit" value="Buscar" class="btn btn-success" />
+        <a asp-action="Index" class="btn btn-outline-success">Lista completa</a>
     </p>
 </form>
 
