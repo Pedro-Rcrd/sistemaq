@@ -4,61 +4,87 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1>Edit</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/formularioscrear.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
 
-<h4>Tutorium</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
+    <div id="layoutSidenav_content">
+        <main>
+            <div class="container-fluid px-4">
+
+                <h1 class="text-center">Editar Tutoría</h1>
+
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="CodigoTutoria" />
+                    <div class="row">
+                        <div class="col-md-4">
             <div class="form-group">
                 <label asp-for="CodigoCurso" class="control-label"></label>
                 <select asp-for="CodigoCurso" class="form-control" asp-items="ViewBag.CodigoCurso"></select>
                 <span asp-validation-for="CodigoCurso" class="text-danger"></span>
-            </div>
+            </div></div>
+                        <div class="col-md-4">
             <div class="form-group">
                 <label asp-for="CodigoArea" class="control-label"></label>
                 <select asp-for="CodigoArea" class="form-control" asp-items="ViewBag.CodigoArea"></select>
                 <span asp-validation-for="CodigoArea" class="text-danger"></span>
-            </div>
+            </div></div>
+                        <div class="col-md-4">
             <div class="form-group">
                 <label asp-for="CodigoTutor" class="control-label"></label>
                 <select asp-for="CodigoTutor" class="form-control" asp-items="ViewBag.CodigoTutor"></select>
                 <span asp-validation-for="CodigoTutor" class="text-danger"></span>
-            </div>
+            </div></div></div>
+                    <div class="row">
+                        <div class="col-md-4">
             <div class="form-group">
                 <label asp-for="FechaCreacion" class="control-label"></label>
                 <input asp-for="FechaCreacion" class="form-control" />
                 <span asp-validation-for="FechaCreacion" class="text-danger"></span>
-            </div>
+            </div></div>
+                        <div class="col-md-4">
             <div class="form-group">
                 <label asp-for="HoraInicio" class="control-label"></label>
                 <input asp-for="HoraInicio" class="form-control" />
                 <span asp-validation-for="HoraInicio" class="text-danger"></span>
-            </div>
+            </div></div>
+                        <div class="col-md-4">
             <div class="form-group">
                 <label asp-for="HoraFinal" class="control-label"></label>
                 <input asp-for="HoraFinal" class="form-control" />
                 <span asp-validation-for="HoraFinal" class="text-danger"></span>
-            </div>
+            </div></div></div>
+                    <div class="row">
+                        <div class="col-md-4">
             <div class="form-group">
                 <label asp-for="Tema" class="control-label"></label>
                 <input asp-for="Tema" class="form-control" />
                 <span asp-validation-for="Tema" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+            </div></div></div>
+
+                    <div class="d-flex justify-content-end">
+                        <input type="submit" value="Guardar cambios" class="btn btn-primary me-2 w-25" />
+                        <a class="btn btn-outline-primary me-2 w-25" asp-action="Index">Cancelar</a>
+
             </div>
         </form>
     </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
+    </main>
 </div>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
+</body>
+</html>
