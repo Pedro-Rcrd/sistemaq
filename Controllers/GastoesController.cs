@@ -74,7 +74,7 @@ namespace systemquchooch.Controllers
         // GET: Gastoes/Create
         public IActionResult Create()
         {
-            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "CodigoEstudiante");
+            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "Nombre");
             return View();
         }
 
@@ -108,7 +108,7 @@ namespace systemquchooch.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "CodigoEstudiante", gasto.CodigoEstudiante);
+            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "Nombre", gasto.CodigoEstudiante);
             return View(gasto);
         }
 
@@ -125,7 +125,7 @@ namespace systemquchooch.Controllers
             {
                 return NotFound();
             }
-            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "CodigoEstudiante", gasto.CodigoEstudiante);
+            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "Nombre", gasto.CodigoEstudiante);
             return View(gasto);
         }
 
@@ -161,7 +161,7 @@ namespace systemquchooch.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "CodigoEstudiante", gasto.CodigoEstudiante);
+            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "Nombre", gasto.CodigoEstudiante);
             return View(gasto);
         }
 

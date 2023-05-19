@@ -49,7 +49,7 @@ namespace systemquchooch.Controllers
         // GET: EstudianteTutoriums/Create
         public IActionResult Create()
         {
-            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "CodigoEstudiante");
+            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "Nombre");
             ViewData["CodigoTutoria"] = new SelectList(_context.Tutoria, "CodigoTutoria", "CodigoTutoria");
             return View();
         }
@@ -84,7 +84,7 @@ namespace systemquchooch.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "CodigoEstudiante", estudianteTutorium.CodigoEstudiante);
+            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "Nombre", estudianteTutorium.CodigoEstudiante);
             ViewData["CodigoTutoria"] = new SelectList(_context.Tutoria, "CodigoTutoria", "CodigoTutoria", estudianteTutorium.CodigoTutoria);
             return View(estudianteTutorium);
         }
@@ -102,7 +102,7 @@ namespace systemquchooch.Controllers
             {
                 return NotFound();
             }
-            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "CodigoEstudiante", estudianteTutorium.CodigoEstudiante);
+            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "Nombre", estudianteTutorium.CodigoEstudiante);
             ViewData["CodigoTutoria"] = new SelectList(_context.Tutoria, "CodigoTutoria", "CodigoTutoria", estudianteTutorium.CodigoTutoria);
             return View(estudianteTutorium);
         }
@@ -139,7 +139,7 @@ namespace systemquchooch.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "CodigoEstudiante", estudianteTutorium.CodigoEstudiante);
+            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "Nombre", estudianteTutorium.CodigoEstudiante);
             ViewData["CodigoTutoria"] = new SelectList(_context.Tutoria, "CodigoTutoria", "CodigoTutoria", estudianteTutorium.CodigoTutoria);
             return View(estudianteTutorium);
         }

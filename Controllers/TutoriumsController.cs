@@ -76,9 +76,9 @@ namespace systemquchooch.Controllers
         // GET: Tutoriums/Create
         public IActionResult Create()
         {
-            ViewData["CodigoArea"] = new SelectList(_context.Areas, "CodigoArea", "CodigoArea");
-            ViewData["CodigoCurso"] = new SelectList(_context.Cursos, "CodigoCurso", "CodigoCurso");
-            ViewData["CodigoTutor"] = new SelectList(_context.Tutors, "CodigoTutor", "CodigoTutor");
+            ViewData["CodigoArea"] = new SelectList(_context.Areas, "CodigoArea", "Nombre");
+            ViewData["CodigoCurso"] = new SelectList(_context.Cursos, "CodigoCurso", "Nombre");
+            ViewData["CodigoTutor"] = new SelectList(_context.Tutors, "CodigoTutor", "Nombre");
             return View();
         }
 
@@ -114,9 +114,9 @@ namespace systemquchooch.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CodigoArea"] = new SelectList(_context.Areas, "CodigoArea", "CodigoArea", tutorium.CodigoArea);
-            ViewData["CodigoCurso"] = new SelectList(_context.Cursos, "CodigoCurso", "CodigoCurso", tutorium.CodigoCurso);
-            ViewData["CodigoTutor"] = new SelectList(_context.Tutors, "CodigoTutor", "CodigoTutor", tutorium.CodigoTutor);
+            ViewData["CodigoArea"] = new SelectList(_context.Areas, "CodigoArea", "Nombre", tutorium.CodigoArea);
+            ViewData["CodigoCurso"] = new SelectList(_context.Cursos, "CodigoCurso", "Nombre", tutorium.CodigoCurso);
+            ViewData["CodigoTutor"] = new SelectList(_context.Tutors, "CodigoTutor", "Nombre", tutorium.CodigoTutor);
             return View(tutorium);
         }
 
@@ -133,9 +133,9 @@ namespace systemquchooch.Controllers
             {
                 return NotFound();
             }
-            ViewData["CodigoArea"] = new SelectList(_context.Areas, "CodigoArea", "CodigoArea", tutorium.CodigoArea);
-            ViewData["CodigoCurso"] = new SelectList(_context.Cursos, "CodigoCurso", "CodigoCurso", tutorium.CodigoCurso);
-            ViewData["CodigoTutor"] = new SelectList(_context.Tutors, "CodigoTutor", "CodigoTutor", tutorium.CodigoTutor);
+            ViewData["CodigoArea"] = new SelectList(_context.Areas, "CodigoArea", "Nombre", tutorium.CodigoArea);
+            ViewData["CodigoCurso"] = new SelectList(_context.Cursos, "CodigoCurso", "Nombre", tutorium.CodigoCurso);
+            ViewData["CodigoTutor"] = new SelectList(_context.Tutors, "CodigoTutor", "Nombre", tutorium.CodigoTutor);
             return View(tutorium);
         }
 
@@ -171,9 +171,9 @@ namespace systemquchooch.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CodigoArea"] = new SelectList(_context.Areas, "CodigoArea", "CodigoArea", tutorium.CodigoArea);
-            ViewData["CodigoCurso"] = new SelectList(_context.Cursos, "CodigoCurso", "CodigoCurso", tutorium.CodigoCurso);
-            ViewData["CodigoTutor"] = new SelectList(_context.Tutors, "CodigoTutor", "CodigoTutor", tutorium.CodigoTutor);
+            ViewData["CodigoArea"] = new SelectList(_context.Areas, "CodigoArea", "Nombre", tutorium.CodigoArea);
+            ViewData["CodigoCurso"] = new SelectList(_context.Cursos, "CodigoCurso", "Nombre", tutorium.CodigoCurso);
+            ViewData["CodigoTutor"] = new SelectList(_context.Tutors, "CodigoTutor", "Nombre", tutorium.CodigoTutor);
             return View(tutorium);
         }
 

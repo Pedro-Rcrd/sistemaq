@@ -52,11 +52,11 @@ namespace systemquchooch.Controllers
         // GET: HistorialEstudiantes/Create
         public IActionResult Create()
         {
-            ViewData["CodigoCarrera"] = new SelectList(_context.Carreras, "CodigoCarrera", "CodigoCarrera");
-            ViewData["CodigoEstablecimiento"] = new SelectList(_context.Establecimientos, "CodigoEstablecimiento", "CodigoEstablecimiento");
-            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "CodigoEstudiante");
-            ViewData["CodigoGrado"] = new SelectList(_context.Grados, "CodigoGrado", "CodigoGrado");
-            ViewData["CodigoNivelAcademico"] = new SelectList(_context.NivelAcademicos, "CodigoNivelAcademico", "CodigoNivelAcademico");
+            ViewData["CodigoCarrera"] = new SelectList(_context.Carreras, "CodigoCarrera", "Nombre");
+            ViewData["CodigoEstablecimiento"] = new SelectList(_context.Establecimientos, "CodigoEstablecimiento", "Nombre");
+            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "Nombre");
+            ViewData["CodigoGrado"] = new SelectList(_context.Grados, "CodigoGrado", "Nombre");
+            ViewData["CodigoNivelAcademico"] = new SelectList(_context.NivelAcademicos, "CodigoNivelAcademico", "Nombre");
             return View();
         }
 
@@ -91,11 +91,11 @@ namespace systemquchooch.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CodigoCarrera"] = new SelectList(_context.Carreras, "CodigoCarrera", "CodigoCarrera", historialEstudiante.CodigoCarrera);
-            ViewData["CodigoEstablecimiento"] = new SelectList(_context.Establecimientos, "CodigoEstablecimiento", "CodigoEstablecimiento", historialEstudiante.CodigoEstablecimiento);
-            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "CodigoEstudiante", historialEstudiante.CodigoEstudiante);
-            ViewData["CodigoGrado"] = new SelectList(_context.Grados, "CodigoGrado", "CodigoGrado", historialEstudiante.CodigoGrado);
-            ViewData["CodigoNivelAcademico"] = new SelectList(_context.NivelAcademicos, "CodigoNivelAcademico", "CodigoNivelAcademico", historialEstudiante.CodigoNivelAcademico);
+            ViewData["CodigoCarrera"] = new SelectList(_context.Carreras, "CodigoCarrera", "Nombre", historialEstudiante.CodigoCarrera);
+            ViewData["CodigoEstablecimiento"] = new SelectList(_context.Establecimientos, "CodigoEstablecimiento", "Nombre", historialEstudiante.CodigoEstablecimiento);
+            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "Nombr", historialEstudiante.CodigoEstudiante);
+            ViewData["CodigoGrado"] = new SelectList(_context.Grados, "CodigoGrado", "Nombre", historialEstudiante.CodigoGrado);
+            ViewData["CodigoNivelAcademico"] = new SelectList(_context.NivelAcademicos, "CodigoNivelAcademico", "Nombre", historialEstudiante.CodigoNivelAcademico);
             return View(historialEstudiante);
         }
 
@@ -112,11 +112,11 @@ namespace systemquchooch.Controllers
             {
                 return NotFound();
             }
-            ViewData["CodigoCarrera"] = new SelectList(_context.Carreras, "CodigoCarrera", "CodigoCarrera", historialEstudiante.CodigoCarrera);
-            ViewData["CodigoEstablecimiento"] = new SelectList(_context.Establecimientos, "CodigoEstablecimiento", "CodigoEstablecimiento", historialEstudiante.CodigoEstablecimiento);
-            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "CodigoEstudiante", historialEstudiante.CodigoEstudiante);
-            ViewData["CodigoGrado"] = new SelectList(_context.Grados, "CodigoGrado", "CodigoGrado", historialEstudiante.CodigoGrado);
-            ViewData["CodigoNivelAcademico"] = new SelectList(_context.NivelAcademicos, "CodigoNivelAcademico", "CodigoNivelAcademico", historialEstudiante.CodigoNivelAcademico);
+            ViewData["CodigoCarrera"] = new SelectList(_context.Carreras, "CodigoCarrera", "Nombre", historialEstudiante.CodigoCarrera);
+            ViewData["CodigoEstablecimiento"] = new SelectList(_context.Establecimientos, "CodigoEstablecimiento", "Nombre", historialEstudiante.CodigoEstablecimiento);
+            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "Nombre", historialEstudiante.CodigoEstudiante);
+            ViewData["CodigoGrado"] = new SelectList(_context.Grados, "CodigoGrado", "Nombre", historialEstudiante.CodigoGrado);
+            ViewData["CodigoNivelAcademico"] = new SelectList(_context.NivelAcademicos, "CodigoNivelAcademico", "Nombre", historialEstudiante.CodigoNivelAcademico);
             return View(historialEstudiante);
         }
 
@@ -152,11 +152,11 @@ namespace systemquchooch.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CodigoCarrera"] = new SelectList(_context.Carreras, "CodigoCarrera", "CodigoCarrera", historialEstudiante.CodigoCarrera);
-            ViewData["CodigoEstablecimiento"] = new SelectList(_context.Establecimientos, "CodigoEstablecimiento", "CodigoEstablecimiento", historialEstudiante.CodigoEstablecimiento);
-            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "CodigoEstudiante", historialEstudiante.CodigoEstudiante);
-            ViewData["CodigoGrado"] = new SelectList(_context.Grados, "CodigoGrado", "CodigoGrado", historialEstudiante.CodigoGrado);
-            ViewData["CodigoNivelAcademico"] = new SelectList(_context.NivelAcademicos, "CodigoNivelAcademico", "CodigoNivelAcademico", historialEstudiante.CodigoNivelAcademico);
+            ViewData["CodigoCarrera"] = new SelectList(_context.Carreras, "CodigoCarrera", "Nombre", historialEstudiante.CodigoCarrera);
+            ViewData["CodigoEstablecimiento"] = new SelectList(_context.Establecimientos, "CodigoEstablecimiento", "Nombre", historialEstudiante.CodigoEstablecimiento);
+            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "Nombre", historialEstudiante.CodigoEstudiante);
+            ViewData["CodigoGrado"] = new SelectList(_context.Grados, "CodigoGrado", "Nombre", historialEstudiante.CodigoGrado);
+            ViewData["CodigoNivelAcademico"] = new SelectList(_context.NivelAcademicos, "CodigoNivelAcademico", "Nombre", historialEstudiante.CodigoNivelAcademico);
             return View(historialEstudiante);
         }
 

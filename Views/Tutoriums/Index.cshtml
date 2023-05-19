@@ -68,13 +68,13 @@
                 @Html.DisplayFor(modelItem => item.Tema)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.CodigoAreaNavigation.CodigoArea)
+                @Html.DisplayFor(modelItem => item.CodigoAreaNavigation.Nombre)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.CodigoCursoNavigation.CodigoCurso)
+                @Html.DisplayFor(modelItem => item.CodigoCursoNavigation.Nombre)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.CodigoTutorNavigation.CodigoTutor)
+                @Html.DisplayFor(modelItem => item.CodigoTutorNavigation.Nombre)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.CodigoTutoria">Edit</a> |

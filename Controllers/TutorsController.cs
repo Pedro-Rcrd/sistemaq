@@ -75,7 +75,7 @@ namespace systemquchooch.Controllers
         // GET: Tutors/Create
         public IActionResult Create()
         {
-            ViewData["CodigoProfesion"] = new SelectList(_context.Profesions, "CodigoProfesion", "CodigoProfesion");
+            ViewData["CodigoProfesion"] = new SelectList(_context.Profesions, "Nombre", "CodigoProfesion");
             return View();
         }
 
@@ -111,7 +111,7 @@ namespace systemquchooch.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CodigoProfesion"] = new SelectList(_context.Profesions, "CodigoProfesion", "CodigoProfesion", tutor.CodigoProfesion);
+            ViewData["CodigoProfesion"] = new SelectList(_context.Profesions, "Nombre", "CodigoProfesion", tutor.CodigoProfesion);
             return View(tutor);
         }
 
@@ -128,7 +128,7 @@ namespace systemquchooch.Controllers
             {
                 return NotFound();
             }
-            ViewData["CodigoProfesion"] = new SelectList(_context.Profesions, "CodigoProfesion", "CodigoProfesion", tutor.CodigoProfesion);
+            ViewData["CodigoProfesion"] = new SelectList(_context.Profesions, "Nombre", "CodigoProfesion", tutor.CodigoProfesion);
             return View(tutor);
         }
 
@@ -164,7 +164,7 @@ namespace systemquchooch.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CodigoProfesion"] = new SelectList(_context.Profesions, "CodigoProfesion", "CodigoProfesion", tutor.CodigoProfesion);
+            ViewData["CodigoProfesion"] = new SelectList(_context.Profesions, "Nombre", "CodigoProfesion", tutor.CodigoProfesion);
             return View(tutor);
         }
 

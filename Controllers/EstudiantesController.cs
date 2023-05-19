@@ -80,7 +80,7 @@ namespace systemquchooch.Controllers
         // GET: Estudiantes/Create
         public IActionResult Create()
         {
-            ViewData["CodigoComunidad"] = new SelectList(_context.Comunidads, "CodigoComunidad", "CodigoComunidad");
+            ViewData["CodigoComunidad"] = new SelectList(_context.Comunidads, "CodigoComunidad", "NombreComunidad");
             return View();
         }
 
@@ -121,7 +121,7 @@ namespace systemquchooch.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CodigoComunidad"] = new SelectList(_context.Comunidads, "CodigoComunidad", "CodigoComunidad", estudiante.CodigoComunidad);
+            ViewData["CodigoComunidad"] = new SelectList(_context.Comunidads, "CodigoComunidad", "NombreComunidad", estudiante.CodigoComunidad);
             return View(estudiante);
         }
 
@@ -138,7 +138,7 @@ namespace systemquchooch.Controllers
             {
                 return NotFound();
             }
-            ViewData["CodigoComunidad"] = new SelectList(_context.Comunidads, "CodigoComunidad", "CodigoComunidad", estudiante.CodigoComunidad);
+            ViewData["CodigoComunidad"] = new SelectList(_context.Comunidads, "CodigoComunidad", "NombreComunidad", estudiante.CodigoComunidad);
             return View(estudiante);
         }
 
@@ -174,7 +174,7 @@ namespace systemquchooch.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CodigoComunidad"] = new SelectList(_context.Comunidads, "CodigoComunidad", "CodigoComunidad", estudiante.CodigoComunidad);
+            ViewData["CodigoComunidad"] = new SelectList(_context.Comunidads, "CodigoComunidad", "NombreComunidad", estudiante.CodigoComunidad);
             return View(estudiante);
         }
 

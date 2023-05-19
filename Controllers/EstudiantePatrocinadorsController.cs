@@ -49,8 +49,8 @@ namespace systemquchooch.Controllers
         // GET: EstudiantePatrocinadors/Create
         public IActionResult Create()
         {
-            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "CodigoEstudiante");
-            ViewData["CodigoPatrocinador"] = new SelectList(_context.Patrocinadors, "CodigoPatrocinador", "CodigoPatrocinador");
+            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "Nombre");
+            ViewData["CodigoPatrocinador"] = new SelectList(_context.Patrocinadors, "CodigoPatrocinador", "Nombre");
             return View();
         }
 
@@ -84,8 +84,8 @@ namespace systemquchooch.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "CodigoEstudiante", estudiantePatrocinador.CodigoEstudiante);
-            ViewData["CodigoPatrocinador"] = new SelectList(_context.Patrocinadors, "CodigoPatrocinador", "CodigoPatrocinador", estudiantePatrocinador.CodigoPatrocinador);
+            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "Nombre", estudiantePatrocinador.CodigoEstudiante);
+            ViewData["CodigoPatrocinador"] = new SelectList(_context.Patrocinadors, "CodigoPatrocinador", "Nombre", estudiantePatrocinador.CodigoPatrocinador);
             return View(estudiantePatrocinador);
         }
 
@@ -102,8 +102,8 @@ namespace systemquchooch.Controllers
             {
                 return NotFound();
             }
-            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "CodigoEstudiante", estudiantePatrocinador.CodigoEstudiante);
-            ViewData["CodigoPatrocinador"] = new SelectList(_context.Patrocinadors, "CodigoPatrocinador", "CodigoPatrocinador", estudiantePatrocinador.CodigoPatrocinador);
+            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "Nombre", estudiantePatrocinador.CodigoEstudiante);
+            ViewData["CodigoPatrocinador"] = new SelectList(_context.Patrocinadors, "CodigoPatrocinador", "Nombre", estudiantePatrocinador.CodigoPatrocinador);
             return View(estudiantePatrocinador);
         }
 
@@ -139,8 +139,8 @@ namespace systemquchooch.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "CodigoEstudiante", estudiantePatrocinador.CodigoEstudiante);
-            ViewData["CodigoPatrocinador"] = new SelectList(_context.Patrocinadors, "CodigoPatrocinador", "CodigoPatrocinador", estudiantePatrocinador.CodigoPatrocinador);
+            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "Nombre", estudiantePatrocinador.CodigoEstudiante);
+            ViewData["CodigoPatrocinador"] = new SelectList(_context.Patrocinadors, "CodigoPatrocinador", "Nombre", estudiantePatrocinador.CodigoPatrocinador);
             return View(estudiantePatrocinador);
         }
 

@@ -75,8 +75,8 @@ namespace systemquchooch.Controllers
         // GET: Patrocinadors/Create
         public IActionResult Create()
         {
-            ViewData["CodigoNivelAcademico"] = new SelectList(_context.NivelAcademicos, "CodigoNivelAcademico", "CodigoNivelAcademico");
-            ViewData["CodigoPais"] = new SelectList(_context.Pais, "CodigoPais", "CodigoPais");
+            ViewData["CodigoNivelAcademico"] = new SelectList(_context.NivelAcademicos, "CodigoNivelAcademico", "Nombre");
+            ViewData["CodigoPais"] = new SelectList(_context.Pais, "CodigoPais", "Nombre");
             return View();
         }
 
@@ -110,8 +110,8 @@ namespace systemquchooch.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CodigoNivelAcademico"] = new SelectList(_context.NivelAcademicos, "CodigoNivelAcademico", "CodigoNivelAcademico", patrocinador.CodigoNivelAcademico);
-            ViewData["CodigoPais"] = new SelectList(_context.Pais, "CodigoPais", "CodigoPais", patrocinador.CodigoPais);
+            ViewData["CodigoNivelAcademico"] = new SelectList(_context.NivelAcademicos, "CodigoNivelAcademico", "Nombre", patrocinador.CodigoNivelAcademico);
+            ViewData["CodigoPais"] = new SelectList(_context.Pais, "CodigoPais", "Nombre", patrocinador.CodigoPais);
             return View(patrocinador);
         }
 
@@ -128,8 +128,8 @@ namespace systemquchooch.Controllers
             {
                 return NotFound();
             }
-            ViewData["CodigoNivelAcademico"] = new SelectList(_context.NivelAcademicos, "CodigoNivelAcademico", "CodigoNivelAcademico", patrocinador.CodigoNivelAcademico);
-            ViewData["CodigoPais"] = new SelectList(_context.Pais, "CodigoPais", "CodigoPais", patrocinador.CodigoPais);
+            ViewData["CodigoNivelAcademico"] = new SelectList(_context.NivelAcademicos, "CodigoNivelAcademico", "Nombre", patrocinador.CodigoNivelAcademico);
+            ViewData["CodigoPais"] = new SelectList(_context.Pais, "CodigoPais", "Nombre", patrocinador.CodigoPais);
             return View(patrocinador);
         }
 
@@ -165,8 +165,8 @@ namespace systemquchooch.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CodigoNivelAcademico"] = new SelectList(_context.NivelAcademicos, "CodigoNivelAcademico", "CodigoNivelAcademico", patrocinador.CodigoNivelAcademico);
-            ViewData["CodigoPais"] = new SelectList(_context.Pais, "CodigoPais", "CodigoPais", patrocinador.CodigoPais);
+            ViewData["CodigoNivelAcademico"] = new SelectList(_context.NivelAcademicos, "CodigoNivelAcademico", "Nombre", patrocinador.CodigoNivelAcademico);
+            ViewData["CodigoPais"] = new SelectList(_context.Pais, "CodigoPais", "Nombre", patrocinador.CodigoPais);
             return View(patrocinador);
         }
 

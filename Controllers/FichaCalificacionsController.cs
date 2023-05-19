@@ -76,9 +76,9 @@ namespace systemquchooch.Controllers
         // GET: FichaCalificacions/Create
         public IActionResult Create()
         {
-            ViewData["CodigoDesempeño"] = new SelectList(_context.Desempeños, "CodigoDesempeño", "CodigoDesempeño");
-            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "CodigoEstudiante");
-            ViewData["CodigoPeriodo"] = new SelectList(_context.Periodos, "CodigoPeriodo", "CodigoPeriodo");
+            ViewData["CodigoDesempeño"] = new SelectList(_context.Desempeños, "CodigoDesempeño", "Nombre");
+            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "Nombre");
+            ViewData["CodigoPeriodo"] = new SelectList(_context.Periodos, "CodigoPeriodo", "Nombre");
             return View();
         }
 
@@ -112,9 +112,9 @@ namespace systemquchooch.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CodigoDesempeño"] = new SelectList(_context.Desempeños, "CodigoDesempeño", "CodigoDesempeño", fichaCalificacion.CodigoDesempeño);
-            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "CodigoEstudiante", fichaCalificacion.CodigoEstudiante);
-            ViewData["CodigoPeriodo"] = new SelectList(_context.Periodos, "CodigoPeriodo", "CodigoPeriodo", fichaCalificacion.CodigoPeriodo);
+            ViewData["CodigoDesempeño"] = new SelectList(_context.Desempeños, "CodigoDesempeño", "Nombre", fichaCalificacion.CodigoDesempeño);
+            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "Nombre", fichaCalificacion.CodigoEstudiante);
+            ViewData["CodigoPeriodo"] = new SelectList(_context.Periodos, "CodigoPeriodo", "Nombre", fichaCalificacion.CodigoPeriodo);
             return View(fichaCalificacion);
         }
 
@@ -131,9 +131,9 @@ namespace systemquchooch.Controllers
             {
                 return NotFound();
             }
-            ViewData["CodigoDesempeño"] = new SelectList(_context.Desempeños, "CodigoDesempeño", "CodigoDesempeño", fichaCalificacion.CodigoDesempeño);
-            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "CodigoEstudiante", fichaCalificacion.CodigoEstudiante);
-            ViewData["CodigoPeriodo"] = new SelectList(_context.Periodos, "CodigoPeriodo", "CodigoPeriodo", fichaCalificacion.CodigoPeriodo);
+            ViewData["CodigoDesempeño"] = new SelectList(_context.Desempeños, "CodigoDesempeño", "Nombre", fichaCalificacion.CodigoDesempeño);
+            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "Nombre", fichaCalificacion.CodigoEstudiante);
+            ViewData["CodigoPeriodo"] = new SelectList(_context.Periodos, "CodigoPeriodo", "Nombre", fichaCalificacion.CodigoPeriodo);
             return View(fichaCalificacion);
         }
 
@@ -169,9 +169,9 @@ namespace systemquchooch.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CodigoDesempeño"] = new SelectList(_context.Desempeños, "CodigoDesempeño", "CodigoDesempeño", fichaCalificacion.CodigoDesempeño);
-            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "CodigoEstudiante", fichaCalificacion.CodigoEstudiante);
-            ViewData["CodigoPeriodo"] = new SelectList(_context.Periodos, "CodigoPeriodo", "CodigoPeriodo", fichaCalificacion.CodigoPeriodo);
+            ViewData["CodigoDesempeño"] = new SelectList(_context.Desempeños, "CodigoDesempeño", "Nombre", fichaCalificacion.CodigoDesempeño);
+            ViewData["CodigoEstudiante"] = new SelectList(_context.Estudiantes, "CodigoEstudiante", "Nombre", fichaCalificacion.CodigoEstudiante);
+            ViewData["CodigoPeriodo"] = new SelectList(_context.Periodos, "CodigoPeriodo", "Nombre", fichaCalificacion.CodigoPeriodo);
             return View(fichaCalificacion);
         }
 

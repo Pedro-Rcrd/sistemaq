@@ -49,7 +49,7 @@ namespace systemquchooch.Controllers
         // GET: TutorTuroriums/Create
         public IActionResult Create()
         {
-            ViewData["CodigoTutor"] = new SelectList(_context.Tutors, "CodigoTutor", "CodigoTutor");
+            ViewData["CodigoTutor"] = new SelectList(_context.Tutors, "CodigoTutor", "Nombre");
             ViewData["CodigoTutoria"] = new SelectList(_context.Tutoria, "CodigoTutoria", "CodigoTutoria");
             return View();
         }
@@ -86,7 +86,7 @@ namespace systemquchooch.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CodigoTutor"] = new SelectList(_context.Tutors, "CodigoTutor", "CodigoTutor", tutorTurorium.CodigoTutor);
+            ViewData["CodigoTutor"] = new SelectList(_context.Tutors, "CodigoTutor", "Nombre", tutorTurorium.CodigoTutor);
             ViewData["CodigoTutoria"] = new SelectList(_context.Tutoria, "CodigoTutoria", "CodigoTutoria", tutorTurorium.CodigoTutoria);
             return View(tutorTurorium);
         }
@@ -104,7 +104,7 @@ namespace systemquchooch.Controllers
             {
                 return NotFound();
             }
-            ViewData["CodigoTutor"] = new SelectList(_context.Tutors, "CodigoTutor", "CodigoTutor", tutorTurorium.CodigoTutor);
+            ViewData["CodigoTutor"] = new SelectList(_context.Tutors, "CodigoTutor", "Nombre", tutorTurorium.CodigoTutor);
             ViewData["CodigoTutoria"] = new SelectList(_context.Tutoria, "CodigoTutoria", "CodigoTutoria", tutorTurorium.CodigoTutoria);
             return View(tutorTurorium);
         }
@@ -141,7 +141,7 @@ namespace systemquchooch.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CodigoTutor"] = new SelectList(_context.Tutors, "CodigoTutor", "CodigoTutor", tutorTurorium.CodigoTutor);
+            ViewData["CodigoTutor"] = new SelectList(_context.Tutors, "CodigoTutor", "Nombre", tutorTurorium.CodigoTutor);
             ViewData["CodigoTutoria"] = new SelectList(_context.Tutoria, "CodigoTutoria", "CodigoTutoria", tutorTurorium.CodigoTutoria);
             return View(tutorTurorium);
         }

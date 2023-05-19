@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\sistemaqu\\systemquchooch.csproj": {}
+    "C:\\Users\\mica2\\Desktop\\PROYECTO DE software\\sistema rama principal10-V1\\sistemaq\\systemquchooch.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\sistemaqu\\systemquchooch.csproj": {
+    "C:\\Users\\mica2\\Desktop\\PROYECTO DE software\\sistema rama principal10-V1\\sistemaq\\systemquchooch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\sistemaqu\\systemquchooch.csproj",
+        "projectUniqueName": "C:\\Users\\mica2\\Desktop\\PROYECTO DE software\\sistema rama principal10-V1\\sistemaq\\systemquchooch.csproj",
         "projectName": "systemquchooch",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\sistemaqu\\systemquchooch.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\sistemaqu\\obj\\",
+        "projectPath": "C:\\Users\\mica2\\Desktop\\PROYECTO DE software\\sistema rama principal10-V1\\sistemaq\\systemquchooch.csproj",
+        "packagesPath": "C:\\Users\\mica2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mica2\\Desktop\\PROYECTO DE software\\sistema rama principal10-V1\\sistemaq\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mica2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -90,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
