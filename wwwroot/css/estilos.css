@@ -1,3 +1,18 @@
 ﻿.icon {
     color: black;
 }
+
+thead{
+    background-color: #808000;
+    color: white;
+}
+
+.icon-container {
+    width: 100%;
+    text-align: right;
+}
+
+.icon-container span {
+    display: inline-block;
+    margin-left: 5px; /* Ajusta el margen según tus necesidades */
+}
