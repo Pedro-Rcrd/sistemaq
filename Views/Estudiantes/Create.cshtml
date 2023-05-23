@@ -31,9 +31,9 @@
 
                 </p>
                 <hr class="LineaRecta" />
-              
 
-        <form asp-action="Create">
+
+                <form asp-action="Create" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                     <div class="row">
                         <h4>Información del estudiante</h4>
@@ -98,7 +98,7 @@
                         <div class="col-md-4">
             <div class="form-group">
                 <label asp-for="FotoPerfil" class="control-label"></label>
-                <input asp-for="FotoPerfil" class="form-control" />
+                <input asp-for="FotoPerfil" class="form-control" name="imageFile" id="imageFile" type="file" />
                 <span asp-validation-for="FotoPerfil" class="text-danger"></span>
             </div></div>
                         <div class="col-md-4">
