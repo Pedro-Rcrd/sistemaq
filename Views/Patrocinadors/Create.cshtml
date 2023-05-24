@@ -61,11 +61,16 @@
                 <span asp-validation-for="Apellido" class="text-danger"></span>
             </div></div>
                         <div class="col-md-4">
-            <div class="form-group">
+           <div class="form-group">
                 <label asp-for="Estado" class="control-label"></label>
-                <input asp-for="Estado" class="form-control" />
+                <div>
+                    <label><input type="radio" name="estado" value="a" checked> Activo</label>
+                    <label><input type="radio" name="estado" value="i"> Inactivo</label>
+                    <input type="hidden" name="Estado" value="" />
+                </div>
                 <span asp-validation-for="Estado" class="text-danger"></span>
-            </div></div>
+            </div>
+            </div>
                         <div class="col-md-4">
             <div class="form-group">
                 <label asp-for="FotoPerfil" class="control-label"></label>
