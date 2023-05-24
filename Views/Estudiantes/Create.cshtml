@@ -58,21 +58,33 @@
                         <div class="col-md-4">
             <div class="form-group">
                 <label asp-for="FechaNacimieto" class="control-label"></label>
-                                <input asp-for="FechaNacimieto" class="form-control" data-val-required="Complete este campo." />
+                <input asp-for="FechaNacimieto" class="form-control" type="date" data-val-required="Complete este campo." />
+
                 <span asp-validation-for="FechaNacimieto" class="text-danger"></span>
             </div></div>
                         <div class="col-md-4">
             <div class="form-group">
                 <label asp-for="Genero" class="control-label"></label>
-                                <input asp-for="Genero" class="form-control" data-val-required="Complete este campo." />
+                <div>
+                    <label><input type="radio" name="genero" value="m" checked> Masculino</label>
+                    <label><input type="radio" name="genero" value="f"> Femenino</label>
+                    <input type="hidden" asp-for="Genero" />
+                </div>
                 <span asp-validation-for="Genero" class="text-danger"></span>
-            </div></div>
+            </div>
+            </div>
                         <div class="col-md-4">
             <div class="form-group">
                 <label asp-for="Estado" class="control-label"></label>
-                                <input asp-for="Estado" class="form-control" data-val-required="Complete este campo." />
+                <div>
+                    <label><input type="radio" name="estado" value="a" checked> Activo</label>
+                    <label><input type="radio" name="estado" value="i"> Inactivo</label>
+                    <input type="hidden" name="Estado" value="" />
+                </div>
                 <span asp-validation-for="Estado" class="text-danger"></span>
-            </div></div></div>
+            </div>
+            </div>
+            </div>
                     <div class="row">
                         <h4>Información de residencia</h4>
                         <div class="col-md-4">
@@ -98,11 +110,8 @@
                         <div class="col-md-4">
             <div class="form-group">
                 <label asp-for="FotoPerfil" class="control-label"></label>
-<<<<<<< HEAD
-                                <input asp-for="FotoPerfil" class="form-control" data-val-required="Complete este campo." />
-=======
-                <input asp-for="FotoPerfil" class="form-control" name="imageFile" id="imageFile" type="file" />
->>>>>>> bd8a41b24596518f50e966d6d1e46714c2b68efc
+                <input asp-for="FotoPerfil" class="form-control" name="imageFile" id="imageFile" type="file" data-val-required="Complete este campo." />
+
                 <span asp-validation-for="FotoPerfil" class="text-danger"></span>
             </div></div>
                         <div class="col-md-4">
