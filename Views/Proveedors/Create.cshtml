@@ -38,13 +38,13 @@
                         <div class="col-md-6">
             <div class="form-group">
                 <label asp-for="Nombre" class="control-label"></label>
-                <input asp-for="Nombre" class="form-control" />
+                                <input asp-for="Nombre" class="form-control" data-val-required="Complete este campo." />
                 <span asp-validation-for="Nombre" class="text-danger"></span>
             </div></div>
                         <div class="col-md-6">
             <div class="form-group">
                 <label asp-for="Descripcion" class="control-label"></label>
-                <textarea asp-for="Descripcion" class="form-control campo-descripcion"></textarea>
+                                <textarea asp-for="Descripcion" class="form-control campo-descripcion" data-val-required="Complete este campo."></textarea>
                 <span asp-validation-for="Descripcion" class="text-danger"></span>
             </div></div></div>
 

@@ -3955,3 +3955,4 @@ C:\Users\pedro\OneDrive\Escritorio\SystemaQuchooch\obj\Debug\net6.0\systemquchoo
 C:\Users\pedro\OneDrive\Escritorio\SystemaQuchooch\obj\Debug\net6.0\ref\systemquchooch.dll
 C:\Users\pedro\OneDrive\Escritorio\SystemaQuchooch\bin\Debug\net6.0\CloudinaryDotNet.dll
 C:\Users\Usuario\Desktop\sistemaqu\bin\Debug\net6.0\CloudinaryDotNet.dll
+C:\Users\blq19\OneDrive\Documentos\Visual Studio 2022\PROYECTOS\PRINCIPAL 01\bin\Debug\net6.0\CloudinaryDotNet.dll
