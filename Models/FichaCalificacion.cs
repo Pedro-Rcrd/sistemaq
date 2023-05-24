@@ -26,7 +26,7 @@ public partial class FichaCalificacion
     public string Notas { get; set; } = null!;
     [DisplayName("Promedio")]
 
-    public int Promedio { get; set; }
+    public decimal Promedio { get; set; }
     [DisplayName("Imagen de Ficha")]
 
     public string ImagenFicha { get; set; } = null!;

@@ -23,7 +23,7 @@
             <div class="container-fluid px-4">
                 <h1 class="text-center">Editar Estudiante</h1>
 
-        <form asp-action="Edit">
+        <form asp-action="Edit" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="CodigoEstudiante" />
                     <div class="row">
@@ -89,10 +89,19 @@
                     <div class="row">
                         <div class="col-md-4">
             <div class="form-group">
-                <label asp-for="FotoPerfil" class="control-label"></label>
-                <input asp-for="FotoPerfil" class="form-control" />
-                <span asp-validation-for="FotoPerfil" class="text-danger"></span>
+                <label class="control-label"></label>
+                <input class="form-control" name="imageFile" id="imageFile" type="file" />
+                <span class="text-danger"></span>
             </div></div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label asp-for="FotoPerfil" class="control-label"></label>
+                                <input asp-for="FotoPerfil" class="form-control" readonly hidden />
+                                <img src="@Model.FotoPerfil" class="img-thumbnail" width="200" />
+                                <span asp-validation-for="FotoPerfil" class="text-danger"></span>
+                            </div>
+                        </div>
+
                         <div class="col-md-4">
             <div class="form-group">
                 <label asp-for="FechaCreacion" class="control-label"></label>

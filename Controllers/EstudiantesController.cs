@@ -8,6 +8,8 @@ using Microsoft.EntityFrameworkCore;
 using Rotativa.AspNetCore;
 using systemquchooch.Models;
 using systemquchooch.Data;
+using CloudinaryDotNet;
+using CloudinaryDotNet.Actions;
 
 namespace systemquchooch.Controllers
 {
@@ -109,14 +111,14 @@ namespace systemquchooch.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("CodigoEstudiante,CodigoComunidad,Nombre,Apellido,FechaNacimieto,Genero,Estado,Sector,NumeroCasa,Descripcion,FotoPerfil,FechaCreacion")] Estudiante estudiante)
+        public async Task<IActionResult> Create([Bind("CodigoEstudiante,CodigoComunidad,Nombre,Apellido,FechaNacimieto,Genero,Estado,Sector,NumeroCasa,Descripcion,FotoPerfil,FechaCreacion")] Estudiante estudiante, IFormFile imageFile)
         {
-            //AQUI SE HIZO LA MODIFICACION
-            //Borre
-         
-
             if (ModelState != null)
             {
+                var resultado = AlmacenarImagen(imageFile);
+                estudiante.FotoPerfil = resultado;
+
+                //Proceso del guardado
                 _context.Add(estudiante);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -147,15 +149,22 @@ namespace systemquchooch.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("CodigoEstudiante,CodigoComunidad,Nombre,Apellido,FechaNacimieto,Genero,Estado,Sector,NumeroCasa,Descripcion,FotoPerfil,FechaCreacion")] Estudiante estudiante)
+        public async Task<IActionResult> Edit(int id, [Bind("CodigoEstudiante,CodigoComunidad,Nombre,Apellido,FechaNacimieto,Genero,Estado,Sector,NumeroCasa,Descripcion,FotoPerfil,FechaCreacion")] Estudiante estudiante, IFormFile imageFile)
         {
             if (id != estudiante.CodigoEstudiante)
             {
                 return NotFound();
             }
 
+
             if (ModelState != null)
             {
+                if (imageFile != null)
+                {
+                    var resultado = AlmacenarImagen(imageFile);
+                    estudiante.FotoPerfil = resultado;
+                }
+
                 try
                 {
                     _context.Update(estudiante);
@@ -219,6 +228,33 @@ namespace systemquchooch.Controllers
         private bool EstudianteExists(int id)
         {
           return (_context.Estudiantes?.Any(e => e.CodigoEstudiante == id)).GetValueOrDefault();
+        }
+
+        public string AlmacenarImagen(IFormFile imageFile)
+        {
+            var cloudinary = new Cloudinary(new Account("ddxnadexi", "822983787533177", "kXxNIEGQi2SwV71mmtT5XGfmiso"));
+            string fileName = Path.GetFileNameWithoutExtension(imageFile.FileName);
+            string fileExtension = Path.GetExtension(imageFile.FileName);
+            string uniqueFileName = $"{fileName}_{DateTime.Now:yyyyMMddHHmmss}{fileExtension}";
+            // Upload
+            var uploadParams = new ImageUploadParams()
+            {
+                File = new FileDescription(imageFile.FileName, imageFile.OpenReadStream()),
+                PublicId = uniqueFileName,
+                Folder = "Quchooch"
+            };
+
+            var uploadResult = cloudinary.Upload(uploadParams);
+
+
+            //Transformation
+            cloudinary.Api.UrlImgUp.Transform(new Transformation().Width(100).Height(150).Crop("fill")).BuildUrl("olympic_flag");
+
+
+            // Obtener la URL de la imagen guardada en Cloudinary
+            var resultadoUrl = uploadResult.SecureUri.ToString();
+
+            return (resultadoUrl);
         }
     }
 }

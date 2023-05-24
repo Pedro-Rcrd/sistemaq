@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CloudinaryDotNet.Actions;
+using CloudinaryDotNet;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -104,10 +106,20 @@ namespace systemquchooch.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("CodigoFichaCalificacion,CodigoEstudiante,CodigoPeriodo,CodigoDesempeño,FechaEntrega,Notas,Promedio,ImagenFicha,ImagenEstudiante,ImagenCarta")] FichaCalificacion fichaCalificacion)
+        public async Task<IActionResult> Create([Bind("CodigoFichaCalificacion,CodigoEstudiante,CodigoPeriodo,CodigoDesempeño,FechaEntrega,Notas,Promedio,ImagenFicha,ImagenEstudiante,ImagenCarta")] FichaCalificacion fichaCalificacion, IFormFile imgFicha, IFormFile imgEstudiante, IFormFile imgCarta)
         {
             if (ModelState != null)
             {
+                
+                var resultadoFicha = AlmacenarImagen(imgFicha);
+                fichaCalificacion.ImagenFicha = resultadoFicha;
+                
+                var resultadoEstudiante = AlmacenarImagen(imgEstudiante);
+                fichaCalificacion.ImagenEstudiante = resultadoEstudiante;
+
+                var resultadoCarta = AlmacenarImagen(imgCarta);
+                fichaCalificacion.ImagenCarta = resultadoCarta;
+
                 _context.Add(fichaCalificacion);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -142,7 +154,8 @@ namespace systemquchooch.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("CodigoFichaCalificacion,CodigoEstudiante,CodigoPeriodo,CodigoDesempeño,FechaEntrega,Notas,Promedio,ImagenFicha,ImagenEstudiante,ImagenCarta")] FichaCalificacion fichaCalificacion)
+        public async Task<IActionResult> Edit(int id, [Bind("CodigoFichaCalificacion,CodigoEstudiante,CodigoPeriodo,CodigoDesempeño,FechaEntrega,Notas,Promedio,ImagenFicha,ImagenEstudiante,ImagenCarta")] FichaCalificacion fichaCalificacion, 
+            IFormFile imgFicha, IFormFile imgEstudiante, IFormFile imgCarta)
         {
             if (id != fichaCalificacion.CodigoFichaCalificacion)
             {
@@ -151,6 +164,21 @@ namespace systemquchooch.Controllers
 
             if (ModelState != null)
             {
+                if (imgFicha != null)
+                {
+                    var resultadoFicha = AlmacenarImagen(imgFicha);
+                    fichaCalificacion.ImagenFicha = resultadoFicha;
+                }
+                if (imgEstudiante != null)
+                {
+                    var resultadoEstudiante = AlmacenarImagen(imgEstudiante);
+                    fichaCalificacion.ImagenEstudiante = resultadoEstudiante;
+                }
+                if (imgCarta != null)
+                {
+                    var resultadoCarta = AlmacenarImagen(imgCarta);
+                    fichaCalificacion.ImagenCarta = resultadoCarta;
+                }
                 try
                 {
                     _context.Update(fichaCalificacion);
@@ -218,6 +246,33 @@ namespace systemquchooch.Controllers
         private bool FichaCalificacionExists(int id)
         {
           return (_context.FichaCalificacions?.Any(e => e.CodigoFichaCalificacion == id)).GetValueOrDefault();
+        }
+
+        public string AlmacenarImagen(IFormFile imageFile)
+        {
+            var cloudinary = new Cloudinary(new Account("ddxnadexi", "822983787533177", "kXxNIEGQi2SwV71mmtT5XGfmiso"));
+            string fileName = Path.GetFileNameWithoutExtension(imageFile.FileName);
+            string fileExtension = Path.GetExtension(imageFile.FileName);
+            string uniqueFileName = $"{fileName}_{DateTime.Now:yyyyMMddHHmmss}{fileExtension}";
+            // Upload
+            var uploadParams = new ImageUploadParams()
+            {
+                File = new FileDescription(imageFile.FileName, imageFile.OpenReadStream()),
+                PublicId = uniqueFileName,
+                Folder = "FichaCalificaciones"
+            };
+
+            var uploadResult = cloudinary.Upload(uploadParams);
+
+
+            //Transformation
+            cloudinary.Api.UrlImgUp.Transform(new Transformation().Width(100).Height(150).Crop("fill")).BuildUrl("olympic_flag");
+
+
+            // Obtener la URL de la imagen guardada en Cloudinary
+            var resultadoUrl = uploadResult.SecureUri.ToString();
+
+            return (resultadoUrl);
         }
     }
 }
