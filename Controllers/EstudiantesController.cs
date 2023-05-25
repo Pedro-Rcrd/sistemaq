@@ -85,8 +85,8 @@ namespace systemquchooch.Controllers
         }
 
 
-	
-	 // GET: Generar PDF
+
+        // GET: Generar PDF
         public async Task<IActionResult> ImprimirEstudiantes()
         {
 
@@ -102,7 +102,7 @@ namespace systemquchooch.Controllers
 
         }
 
-	
+
 
         // POST: Estudiantes/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
@@ -113,7 +113,7 @@ namespace systemquchooch.Controllers
         {
             //AQUI SE HIZO LA MODIFICACION
             //Borre
-         
+
 
             if (ModelState != null)
             {
@@ -211,14 +211,14 @@ namespace systemquchooch.Controllers
             {
                 _context.Estudiantes.Remove(estudiante);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool EstudianteExists(int id)
         {
-          return (_context.Estudiantes?.Any(e => e.CodigoEstudiante == id)).GetValueOrDefault();
+            return (_context.Estudiantes?.Any(e => e.CodigoEstudiante == id)).GetValueOrDefault();
         }
     }
 }

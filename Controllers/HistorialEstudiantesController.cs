@@ -197,14 +197,14 @@ namespace systemquchooch.Controllers
             {
                 _context.HistorialEstudiantes.Remove(historialEstudiante);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool HistorialEstudianteExists(int id)
         {
-          return (_context.HistorialEstudiantes?.Any(e => e.CodigoHistorialEstudiante == id)).GetValueOrDefault();
+            return (_context.HistorialEstudiantes?.Any(e => e.CodigoHistorialEstudiante == id)).GetValueOrDefault();
         }
     }
 }

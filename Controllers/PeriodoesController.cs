@@ -192,14 +192,14 @@ namespace systemquchooch.Controllers
             {
                 _context.Periodos.Remove(periodo);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool PeriodoExists(int id)
         {
-          return (_context.Periodos?.Any(e => e.CodigoPeriodo == id)).GetValueOrDefault();
+            return (_context.Periodos?.Any(e => e.CodigoPeriodo == id)).GetValueOrDefault();
         }
     }
 }

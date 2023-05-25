@@ -77,7 +77,7 @@ namespace systemquchooch.Controllers
         }
 
 
-       // GET: Generar PDF
+        // GET: Generar PDF
         public async Task<IActionResult> ImprimirProveedores()
         {
 
@@ -194,14 +194,14 @@ namespace systemquchooch.Controllers
             {
                 _context.Proveedors.Remove(proveedor);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool ProveedorExists(int id)
         {
-          return (_context.Proveedors?.Any(e => e.CodigoProveedor == id)).GetValueOrDefault();
+            return (_context.Proveedors?.Any(e => e.CodigoProveedor == id)).GetValueOrDefault();
         }
     }
 }

@@ -75,10 +75,10 @@ namespace systemquchooch.Controllers
             return View();
         }
 
-		 // GET: Cursoes/PDF
+        // GET: Cursoes/PDF
         public async Task<IActionResult> ImprimirCurso()
         {
-            return new ViewAsPdf("ImprimirCurso", await _context.Cursos.ToListAsync()) 
+            return new ViewAsPdf("ImprimirCurso", await _context.Cursos.ToListAsync())
             {
                 FileName = $"Reporte Cursos.pdf",
                 PageSize = Rotativa.AspNetCore.Options.Size.A4
@@ -186,14 +186,14 @@ namespace systemquchooch.Controllers
             {
                 _context.Cursos.Remove(curso);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool CursoExists(int id)
         {
-          return (_context.Cursos?.Any(e => e.CodigoCurso == id)).GetValueOrDefault();
+            return (_context.Cursos?.Any(e => e.CodigoCurso == id)).GetValueOrDefault();
         }
     }
 }

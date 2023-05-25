@@ -6,6 +6,8 @@ namespace systemquchooch.Models;
 
 public partial class QuchoochContext : DbContext
 {
+    internal object Usuarios;
+
     public QuchoochContext()
     {
     }
@@ -63,9 +65,11 @@ public partial class QuchoochContext : DbContext
 
     public virtual DbSet<Tutorium> Tutoria { get; set; }
 
-  //  protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-//#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-  //      => optionsBuilder.UseSqlServer("server=localhost; database=quchooch; integrated security=true; Trusted_Connection=True; TrustServerCertificate=True");
+    public virtual DbSet<Usuario> Usuario { get; set; }
+
+    //  protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    //#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
+    //      => optionsBuilder.UseSqlServer("server=localhost; database=quchooch; integrated security=true; Trusted_Connection=True; TrustServerCertificate=True");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -624,8 +628,28 @@ public partial class QuchoochContext : DbContext
                 .HasConstraintName("fk_tutoria_tutor_codigoTutor");
         });
 
+        modelBuilder.Entity<Usuario>(entity =>
+        {
+            entity.HasKey(e => e.CodigoUsuario).HasName("pk_usuario_codigoUsuario");
+
+            entity.ToTable("usuario");
+
+            entity.Property(e => e.CodigoUsuario).HasColumnName("codigoUsuario");
+            entity.Property(e => e.Apellido)
+                .HasMaxLength(128)
+                .IsUnicode(false)
+                .HasColumnName("apellido");
+            entity.Property(e => e.Contrasena)
+                .HasMaxLength(16)
+                .IsUnicode(false)
+                .HasColumnName("contrasena");
+            entity.Property(e => e.Email)
+                .HasMaxLength(32)
+                .IsUnicode(false)
+                .HasColumnName("email");
+        });
+
         OnModelCreatingPartial(modelBuilder);
     }
-
     partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
 }

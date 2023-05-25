@@ -79,7 +79,7 @@ namespace systemquchooch.Controllers
         }
 
 
-	 // GET: Generar PDF
+        // GET: Generar PDF
         public async Task<IActionResult> ImprimirGastoes()
         {
 
@@ -198,14 +198,14 @@ namespace systemquchooch.Controllers
             {
                 _context.Gastos.Remove(gasto);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool GastoExists(int id)
         {
-          return (_context.Gastos?.Any(e => e.CodigoGasto == id)).GetValueOrDefault();
+            return (_context.Gastos?.Any(e => e.CodigoGasto == id)).GetValueOrDefault();
         }
     }
 }

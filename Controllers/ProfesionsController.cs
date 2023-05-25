@@ -193,14 +193,14 @@ namespace systemquchooch.Controllers
             {
                 _context.Profesions.Remove(profesion);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool ProfesionExists(int id)
         {
-          return (_context.Profesions?.Any(e => e.CodigoProfesion == id)).GetValueOrDefault();
+            return (_context.Profesions?.Any(e => e.CodigoProfesion == id)).GetValueOrDefault();
         }
     }
 }

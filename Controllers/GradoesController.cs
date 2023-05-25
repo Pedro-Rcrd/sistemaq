@@ -76,9 +76,9 @@ namespace systemquchooch.Controllers
             return View();
         }
 
-		 // GET: Gradoes/PDF
+        // GET: Gradoes/PDF
 
-	        public async Task<IActionResult> ImprimirGrado()
+        public async Task<IActionResult> ImprimirGrado()
         {
 
             // ViewModelUsuarios modelo = _context.Usuarios.Include(dv => dv.Id)
@@ -192,14 +192,14 @@ namespace systemquchooch.Controllers
             {
                 _context.Grados.Remove(grado);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool GradoExists(int id)
         {
-          return (_context.Grados?.Any(e => e.CodigoGrado == id)).GetValueOrDefault();
+            return (_context.Grados?.Any(e => e.CodigoGrado == id)).GetValueOrDefault();
         }
     }
 }

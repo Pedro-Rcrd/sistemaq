@@ -83,7 +83,7 @@ namespace systemquchooch.Controllers
         }
 
 
-	 // GET: Generar PDF
+        // GET: Generar PDF
         public async Task<IActionResult> ImprimirFichaCalificacions()
         {
 
@@ -210,14 +210,14 @@ namespace systemquchooch.Controllers
             {
                 _context.FichaCalificacions.Remove(fichaCalificacion);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool FichaCalificacionExists(int id)
         {
-          return (_context.FichaCalificacions?.Any(e => e.CodigoFichaCalificacion == id)).GetValueOrDefault();
+            return (_context.FichaCalificacions?.Any(e => e.CodigoFichaCalificacion == id)).GetValueOrDefault();
         }
     }
 }

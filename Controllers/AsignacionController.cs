@@ -18,7 +18,7 @@ namespace systemquchooch.Controllers
         {
             return View();
         }
-      
+
 
     }
 }

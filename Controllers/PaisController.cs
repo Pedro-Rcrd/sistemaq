@@ -77,7 +77,7 @@ namespace systemquchooch.Controllers
         }
 
 
-	// GET: Generar PDF
+        // GET: Generar PDF
         public async Task<IActionResult> ImprimirPais()
         {
 
@@ -193,14 +193,14 @@ namespace systemquchooch.Controllers
             {
                 _context.Pais.Remove(pai);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool PaiExists(int id)
         {
-          return (_context.Pais?.Any(e => e.CodigoPais == id)).GetValueOrDefault();
+            return (_context.Pais?.Any(e => e.CodigoPais == id)).GetValueOrDefault();
         }
     }
 }

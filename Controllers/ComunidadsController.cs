@@ -78,7 +78,7 @@ namespace systemquchooch.Controllers
             return View();
         }
 
-	  // GET: Generar PDF
+        // GET: Generar PDF
         public async Task<IActionResult> ImprimirComunidad()
         {
 
@@ -93,7 +93,7 @@ namespace systemquchooch.Controllers
             };
 
         }
-	
+
 
         // POST: Comunidads/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
@@ -194,14 +194,14 @@ namespace systemquchooch.Controllers
             {
                 _context.Comunidads.Remove(comunidad);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool ComunidadExists(int id)
         {
-          return (_context.Comunidads?.Any(e => e.CodigoComunidad == id)).GetValueOrDefault();
+            return (_context.Comunidads?.Any(e => e.CodigoComunidad == id)).GetValueOrDefault();
         }
     }
 }

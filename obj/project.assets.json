@@ -331,11 +331,11 @@
       "MessagePackAnalyzer/2.1.152": {
         "type": "package"
       },
-      "Microsoft.AspNet.Mvc/5.2.3": {
+      "Microsoft.AspNet.Mvc/5.2.5-preview1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNet.Razor": "[3.2.3, 3.3.0)",
-          "Microsoft.AspNet.WebPages": "[3.2.3, 3.3.0)"
+          "Microsoft.AspNet.Razor": "[3.2.5-preview1, 3.3.0)",
+          "Microsoft.AspNet.WebPages": "[3.2.5-preview1, 3.3.0)"
         },
         "compile": {
           "lib/net45/System.Web.Mvc.dll": {
@@ -348,7 +348,7 @@
           }
         }
       },
-      "Microsoft.AspNet.Razor/3.2.3": {
+      "Microsoft.AspNet.Razor/3.2.5-preview1": {
         "type": "package",
         "compile": {
           "lib/net45/System.Web.Razor.dll": {
@@ -374,10 +374,10 @@
           "lib/net40/System.Web.Optimization.dll": {}
         }
       },
-      "Microsoft.AspNet.WebPages/3.2.3": {
+      "Microsoft.AspNet.WebPages/3.2.5-preview1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNet.Razor": "[3.2.3, 3.3.0)",
+          "Microsoft.AspNet.Razor": "[3.2.5-preview1, 3.3.0)",
           "Microsoft.Web.Infrastructure": "1.0.0"
         },
         "compile": {
@@ -5155,10 +5155,10 @@
         "tools/uninstall.ps1"
       ]
     },
-    "Microsoft.AspNet.Mvc/5.2.3": {
-      "sha512": "i8jZf5QrbcFmjiYWRD7o7qTak/oXKxV80MgP4cZ33A8GC0RBtBIdZ1VHaloGUg+qsHUz5rVkGpwenM+ugDz5PA==",
+    "Microsoft.AspNet.Mvc/5.2.5-preview1": {
+      "sha512": "UI5+m/mMQYEezLQlWdzvSYUdM6sQFU9Udd5FYzWc/Uaq0iRls7wxJoklpAUYd7U4VNHWfP3Ei5BnT6S+PxpYmQ==",
       "type": "package",
-      "path": "microsoft.aspnet.mvc/5.2.3",
+      "path": "microsoft.aspnet.mvc/5.2.5-preview1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5166,20 +5166,20 @@
         "Content/Web.config.uninstall.xdt",
         "lib/net45/System.Web.Mvc.dll",
         "lib/net45/System.Web.Mvc.xml",
-        "microsoft.aspnet.mvc.5.2.3.nupkg.sha512",
+        "microsoft.aspnet.mvc.5.2.5-preview1.nupkg.sha512",
         "microsoft.aspnet.mvc.nuspec"
       ]
     },
-    "Microsoft.AspNet.Razor/3.2.3": {
-      "sha512": "leta+Q73O7+pR8ThTqXmwaNMSqwZQQ3BHfpUHd8S1XaUWe1jRVLitMHqo1AmY7wPNLyankPA1beiUKEGj8Q3Dw==",
+    "Microsoft.AspNet.Razor/3.2.5-preview1": {
+      "sha512": "bDsYYyIlwOg5RTd8dy0ppFz3V43xS2SxevZVc0v6fyNpBQ/6S53teXvZP3JUTLNeXm+dCYcdtPoUk1xUQiQmKw==",
       "type": "package",
-      "path": "microsoft.aspnet.razor/3.2.3",
+      "path": "microsoft.aspnet.razor/3.2.5-preview1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net45/System.Web.Razor.dll",
         "lib/net45/System.Web.Razor.xml",
-        "microsoft.aspnet.razor.3.2.3.nupkg.sha512",
+        "microsoft.aspnet.razor.3.2.5-preview1.nupkg.sha512",
         "microsoft.aspnet.razor.nuspec"
       ]
     },
@@ -5196,10 +5196,10 @@
         "microsoft.aspnet.web.optimization.nuspec"
       ]
     },
-    "Microsoft.AspNet.WebPages/3.2.3": {
-      "sha512": "zbtxBERla5RE/mhftwbrXOzc0r6lh8WcnjpGW7QQe+PvSDDx1BgsTUGzfCXO/vJznHNpY5oCSYLt8Q5vUu7F0g==",
+    "Microsoft.AspNet.WebPages/3.2.5-preview1": {
+      "sha512": "3AKi3Qm+wZGJiF8gRwwE4yB7x+6WgpDNZaYqO3FeUoGOa8oeJ66nST5XQkF0OxcSTAayE3vqS29Rz1OjNJP9qw==",
       "type": "package",
-      "path": "microsoft.aspnet.webpages/3.2.3",
+      "path": "microsoft.aspnet.webpages/3.2.5-preview1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5213,7 +5213,7 @@
         "lib/net45/System.Web.WebPages.Razor.xml",
         "lib/net45/System.Web.WebPages.dll",
         "lib/net45/System.Web.WebPages.xml",
-        "microsoft.aspnet.webpages.3.2.3.nupkg.sha512",
+        "microsoft.aspnet.webpages.3.2.5-preview1.nupkg.sha512",
         "microsoft.aspnet.webpages.nuspec"
       ]
     },
@@ -12737,6 +12737,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Microsoft.AspNet.Mvc >= 5.2.5-preview1",
+      "Microsoft.EntityFrameworkCore >= 7.0.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.5",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.5",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.13",
@@ -12747,19 +12749,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\blq19\\.nuget\\packages\\": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\blq19\\OneDrive\\Documentos\\Visual Studio 2022\\PROYECTOS\\principal\\systemquchooch.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Downloads\\proyect_Ing_Sof\\sistemaq\\systemquchooch.csproj",
       "projectName": "systemquchooch",
-      "projectPath": "C:\\Users\\blq19\\OneDrive\\Documentos\\Visual Studio 2022\\PROYECTOS\\principal\\systemquchooch.csproj",
-      "packagesPath": "C:\\Users\\blq19\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\blq19\\OneDrive\\Documentos\\Visual Studio 2022\\PROYECTOS\\principal\\obj\\",
+      "projectPath": "C:\\Users\\user\\Downloads\\proyect_Ing_Sof\\sistemaq\\systemquchooch.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\Downloads\\proyect_Ing_Sof\\sistemaq\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\blq19\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12785,6 +12787,14 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Microsoft.AspNet.Mvc": {
+            "target": "Package",
+            "version": "[5.2.5-preview1, )"
+          },
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[7.0.5, )"
+          },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[7.0.5, )"
@@ -12854,7 +12864,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "El paquete \"Microsoft.AspNet.Mvc 5.2.3\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net6.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "message": "El paquete \"Microsoft.AspNet.Mvc 5.2.5-preview1\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net6.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
       "libraryId": "Microsoft.AspNet.Mvc",
       "targetGraphs": [
         "net6.0"
@@ -12864,7 +12874,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "El paquete \"Microsoft.AspNet.Razor 3.2.3\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net6.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "message": "El paquete \"Microsoft.AspNet.Razor 3.2.5-preview1\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net6.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
       "libraryId": "Microsoft.AspNet.Razor",
       "targetGraphs": [
         "net6.0"
@@ -12884,7 +12894,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "El paquete \"Microsoft.AspNet.WebPages 3.2.3\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net6.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "message": "El paquete \"Microsoft.AspNet.WebPages 3.2.5-preview1\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net6.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
       "libraryId": "Microsoft.AspNet.WebPages",
       "targetGraphs": [
         "net6.0"

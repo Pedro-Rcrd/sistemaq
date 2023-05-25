@@ -70,7 +70,7 @@ namespace systemquchooch.Controllers
 
         }
 
-	
+
         // POST: EstudianteTutoriums/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
@@ -178,14 +178,14 @@ namespace systemquchooch.Controllers
             {
                 _context.EstudianteTutoria.Remove(estudianteTutorium);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool EstudianteTutoriumExists(int id)
         {
-          return (_context.EstudianteTutoria?.Any(e => e.CodigoEstudianteTutoria == id)).GetValueOrDefault();
+            return (_context.EstudianteTutoria?.Any(e => e.CodigoEstudianteTutoria == id)).GetValueOrDefault();
         }
     }
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\blq19\\OneDrive\\Documentos\\Visual Studio 2022\\PROYECTOS\\principal\\systemquchooch.csproj": {}
+    "C:\\Users\\user\\Downloads\\proyect_Ing_Sof\\sistemaq\\systemquchooch.csproj": {}
   },
   "projects": {
-    "C:\\Users\\blq19\\OneDrive\\Documentos\\Visual Studio 2022\\PROYECTOS\\principal\\systemquchooch.csproj": {
+    "C:\\Users\\user\\Downloads\\proyect_Ing_Sof\\sistemaq\\systemquchooch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\blq19\\OneDrive\\Documentos\\Visual Studio 2022\\PROYECTOS\\principal\\systemquchooch.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Downloads\\proyect_Ing_Sof\\sistemaq\\systemquchooch.csproj",
         "projectName": "systemquchooch",
-        "projectPath": "C:\\Users\\blq19\\OneDrive\\Documentos\\Visual Studio 2022\\PROYECTOS\\principal\\systemquchooch.csproj",
-        "packagesPath": "C:\\Users\\blq19\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\blq19\\OneDrive\\Documentos\\Visual Studio 2022\\PROYECTOS\\principal\\obj\\",
+        "projectPath": "C:\\Users\\user\\Downloads\\proyect_Ing_Sof\\sistemaq\\systemquchooch.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Downloads\\proyect_Ing_Sof\\sistemaq\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\blq19\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.2.5-preview1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.5, )"

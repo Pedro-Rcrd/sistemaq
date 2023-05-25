@@ -55,7 +55,7 @@ namespace systemquchooch.Controllers
         }
 
 
-	 // GET: Generar PDF
+        // GET: Generar PDF
         public async Task<IActionResult> ImprimirEstudiantePatrocinadors()
         {
 
@@ -178,14 +178,14 @@ namespace systemquchooch.Controllers
             {
                 _context.EstudiantePatrocinadors.Remove(estudiantePatrocinador);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool EstudiantePatrocinadorExists(int id)
         {
-          return (_context.EstudiantePatrocinadors?.Any(e => e.CodigoEstudiantePatrocinador == id)).GetValueOrDefault();
+            return (_context.EstudiantePatrocinadors?.Any(e => e.CodigoEstudiantePatrocinador == id)).GetValueOrDefault();
         }
     }
 }
