@@ -12784,19 +12784,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\blq19\\.nuget\\packages\\": {}
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\blq19\\OneDrive\\Documentos\\Visual Studio 2022\\PROYECTOS\\PRINCIPAL 01\\systemquchooch.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\sistemaqu\\systemquchooch.csproj",
       "projectName": "systemquchooch",
-      "projectPath": "C:\\Users\\blq19\\OneDrive\\Documentos\\Visual Studio 2022\\PROYECTOS\\PRINCIPAL 01\\systemquchooch.csproj",
-      "packagesPath": "C:\\Users\\blq19\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\blq19\\OneDrive\\Documentos\\Visual Studio 2022\\PROYECTOS\\PRINCIPAL 01\\obj\\",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\sistemaqu\\systemquchooch.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\sistemaqu\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\blq19\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12804,7 +12804,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -12877,7 +12876,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   },

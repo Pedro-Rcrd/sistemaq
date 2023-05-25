@@ -88,9 +88,9 @@
                 @Html.DisplayFor(modelItem => item.CodigoPaisNavigation.Nombre)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.CodigoPatrocinador">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.CodigoPatrocinador">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.CodigoPatrocinador">Delete</a>
+                    <a asp-action="Edit" asp-route-id="@item.CodigoPatrocinador"><i class="fs-4 bi bi-pencil-fill text-success"></i></a>
+                    <a asp-action="Details" asp-route-id="@item.CodigoPatrocinador"><i class="fs-4 bi bi-eye-fill text-success"></i></a>
+                    <a asp-action="Delete" asp-route-id="@item.CodigoPatrocinador"><i class="fs-4 bi bi-trash3-fill text-success"></i></a>
             </td>
         </tr>
 }
