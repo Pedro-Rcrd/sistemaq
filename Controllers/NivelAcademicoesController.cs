@@ -76,7 +76,7 @@ namespace systemquchooch.Controllers
         }
 
 
-	 // GET: Generar PDF
+        // GET: Generar PDF
         public async Task<IActionResult> ImprimirNivel()
         {
 
@@ -192,14 +192,14 @@ namespace systemquchooch.Controllers
             {
                 _context.NivelAcademicos.Remove(nivelAcademico);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool NivelAcademicoExists(int id)
         {
-          return (_context.NivelAcademicos?.Any(e => e.CodigoNivelAcademico == id)).GetValueOrDefault();
+            return (_context.NivelAcademicos?.Any(e => e.CodigoNivelAcademico == id)).GetValueOrDefault();
         }
     }
 }

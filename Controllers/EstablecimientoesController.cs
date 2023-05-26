@@ -78,7 +78,7 @@ namespace systemquchooch.Controllers
 
 
 
-	public async Task<IActionResult> ImprimirEstablecimiento()
+        public async Task<IActionResult> ImprimirEstablecimiento()
         {
 
             // ViewModelUsuarios modelo = _context.Usuarios.Include(dv => dv.Id)
@@ -193,14 +193,14 @@ namespace systemquchooch.Controllers
             {
                 _context.Establecimientos.Remove(establecimiento);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool EstablecimientoExists(int id)
         {
-          return (_context.Establecimientos?.Any(e => e.CodigoEstablecimiento == id)).GetValueOrDefault();
+            return (_context.Establecimientos?.Any(e => e.CodigoEstablecimiento == id)).GetValueOrDefault();
         }
     }
 }

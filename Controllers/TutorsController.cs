@@ -201,14 +201,14 @@ namespace systemquchooch.Controllers
             {
                 _context.Tutors.Remove(tutor);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool TutorExists(int id)
         {
-          return (_context.Tutors?.Any(e => e.CodigoTutor == id)).GetValueOrDefault();
+            return (_context.Tutors?.Any(e => e.CodigoTutor == id)).GetValueOrDefault();
         }
     }
 }

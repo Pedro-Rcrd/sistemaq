@@ -75,7 +75,7 @@ namespace systemquchooch.Controllers
             return View();
         }
 
-	// GET: Carreras/PDF
+        // GET: Carreras/PDF
         public async Task<IActionResult> ImprimirCarrera()
         {
             return new ViewAsPdf("ImprimirCarrera", await _context.Carreras.ToListAsync()/*,modelo*/)
@@ -185,14 +185,14 @@ namespace systemquchooch.Controllers
             {
                 _context.Carreras.Remove(carrera);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool CarreraExists(int id)
         {
-          return (_context.Carreras?.Any(e => e.CodigoCarrera == id)).GetValueOrDefault();
+            return (_context.Carreras?.Any(e => e.CodigoCarrera == id)).GetValueOrDefault();
         }
     }
 }

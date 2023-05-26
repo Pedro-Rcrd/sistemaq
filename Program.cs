@@ -1,20 +1,47 @@
 using Microsoft.EntityFrameworkCore;
 using systemquchooch.Models;
 
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.DependencyInjection;
+using systemquchooch.Servicios.Contrato;
+using systemquchooch.Servicios.Implementacion;
+
+
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
+
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddControllersWithViews();
-
-
+// Registrar la implementación de UsuarioService en el contenedor de servicios
+builder.Services.AddScoped<IUsuarioService, UsuarioService>();
 //INYECCION DE DEPENDENCIA
 builder.Services.AddDbContext<QuchoochContext>(options => //CONSTRUYENDO UN OBJETO DE TIPO QUCHOOCHCONTEXT
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("QuchoochContext"));
 });
 
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+    {
+        options.LoginPath = "/Inicio/IniaciarSesion";
+        options.ExpireTimeSpan = TimeSpan.FromMinutes(20);
+    });
+
 //Contexco para generar el pedf
 builder.Services.AddDbContext<QuchoochContext>();
+builder.Services.AddControllersWithViews(option =>
+{
+    option.Filters.Add(
+        new ResponseCacheAttribute
+        {
+            NoStore= true,
+            Location = ResponseCacheLocation.None,
+        }
+        );
+});
 
 var app = builder.Build();
 
@@ -31,11 +58,13 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
+
 app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Inicio}/{action=IniciarSesion}/{id?}");
 
 
 IWebHostEnvironment env = app.Environment;

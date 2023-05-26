@@ -1,13 +1,19 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using systemquchooch.Models;
+using System.Security.Claims;
 
 namespace systemquchooch.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
 
+        public string? Apellido { get; private set; }
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
@@ -15,9 +21,19 @@ namespace systemquchooch.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            ClaimsPrincipal claimuser = HttpContext.User;
+            string Apellido = "";
+
+            if(claimuser.Identity.IsAuthenticated)
+            {
+             Apellido = claimuser.Claims.Where(c => c.Type == ClaimTypes.Name)
+            .Select(c => c.Value).SingleOrDefault();
         }
 
+            ViewData["Apellido"] = Apellido;
+
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();
@@ -28,5 +44,12 @@ namespace systemquchooch.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-    }
+
+        public async Task<IActionResult> CerrarSesion()
+        {
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+
+            return RedirectToAction("IniciarSesion", "Inicio");
+        }
+}
 }

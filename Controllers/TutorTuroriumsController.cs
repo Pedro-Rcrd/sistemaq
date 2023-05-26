@@ -180,14 +180,14 @@ namespace systemquchooch.Controllers
             {
                 _context.TutorTuroria.Remove(tutorTurorium);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool TutorTuroriumExists(int id)
         {
-          return (_context.TutorTuroria?.Any(e => e.CodigoTutorTutoria == id)).GetValueOrDefault();
+            return (_context.TutorTuroria?.Any(e => e.CodigoTutorTutoria == id)).GetValueOrDefault();
         }
     }
 }

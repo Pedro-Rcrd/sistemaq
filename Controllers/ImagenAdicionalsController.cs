@@ -180,14 +180,14 @@ namespace systemquchooch.Controllers
             {
                 _context.ImagenAdicionals.Remove(imagenAdicional);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool ImagenAdicionalExists(int id)
         {
-          return (_context.ImagenAdicionals?.Any(e => e.CodigoImagenAdicional == id)).GetValueOrDefault();
+            return (_context.ImagenAdicionals?.Any(e => e.CodigoImagenAdicional == id)).GetValueOrDefault();
         }
     }
 }

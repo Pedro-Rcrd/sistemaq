@@ -1,7 +1,16 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Servicios",
+    "\\Servicios\\Contrato",
+    "\\Servicios\\Implementacion",
+    "\\Views",
+    "\\Views\\Compra",
+    "\\Views\\Estudiantes",
+    "\\Views\\Patrocinadors",
+    "\\wwwroot",
+    "\\wwwroot\\css"
   ],
-  "SelectedNode": "\\systemquchooch.sln",
+  "SelectedNode": "\\Servicios\\Implementacion\\UsuarioService.cs",
   "PreviewInSolutionExplorer": false
 }

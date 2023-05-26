@@ -124,28 +124,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29lc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Escritorio/SystemaQuchooch/Views/Desempeño/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzZW1wZcOxb1xDcmVhdGUuY3NodG1s
+[C:/Users/pedro/OneDrive/Escritorio/SystemaQuchooch/Views/Desempeคo/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzZW1wZeC4hG9cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Escritorio/SystemaQuchooch/Views/Desempeño/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzZW1wZcOxb1xEZWxldGUuY3NodG1s
+[C:/Users/pedro/OneDrive/Escritorio/SystemaQuchooch/Views/Desempeคo/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzZW1wZeC4hG9cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Escritorio/SystemaQuchooch/Views/Desempeño/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzZW1wZcOxb1xEZXRhaWxzLmNzaHRtbA==
+[C:/Users/pedro/OneDrive/Escritorio/SystemaQuchooch/Views/Desempeคo/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzZW1wZeC4hG9cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Escritorio/SystemaQuchooch/Views/Desempeño/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzZW1wZcOxb1xFZGl0LmNzaHRtbA==
+[C:/Users/pedro/OneDrive/Escritorio/SystemaQuchooch/Views/Desempeคo/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzZW1wZeC4hG9cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Escritorio/SystemaQuchooch/Views/Desempeño/ImprimirDesempeño.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzZW1wZcOxb1xJbXByaW1pckRlc2VtcGXDsW8uY3NodG1s
+[C:/Users/pedro/OneDrive/Escritorio/SystemaQuchooch/Views/Desempeคo/ImprimirDesempeคo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzZW1wZeC4hG9cSW1wcmltaXJEZXNlbXBl4LiEby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pedro/OneDrive/Escritorio/SystemaQuchooch/Views/Desempeño/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzZW1wZcOxb1xJbmRleC5jc2h0bWw=
+[C:/Users/pedro/OneDrive/Escritorio/SystemaQuchooch/Views/Desempeคo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzZW1wZeC4hG9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/pedro/OneDrive/Escritorio/SystemaQuchooch/Views/Establecimientoes/Create.cshtml]
@@ -370,6 +370,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/pedro/OneDrive/Escritorio/SystemaQuchooch/Views/Informe/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb3JtZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pedro/OneDrive/Escritorio/SystemaQuchooch/Views/Inicio/IniciarSesion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5pY2lvXEluaWNpYXJTZXNpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pedro/OneDrive/Escritorio/SystemaQuchooch/Views/Inicio/Registrarse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5pY2lvXFJlZ2lzdHJhcnNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/pedro/OneDrive/Escritorio/SystemaQuchooch/Views/NivelAcademicoes/Create.cshtml]

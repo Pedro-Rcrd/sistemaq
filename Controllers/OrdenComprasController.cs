@@ -204,14 +204,14 @@ namespace systemquchooch.Controllers
             {
                 _context.OrdenCompras.Remove(ordenCompra);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool OrdenCompraExists(int id)
         {
-          return (_context.OrdenCompras?.Any(e => e.CodigoOrdenCompra == id)).GetValueOrDefault();
+            return (_context.OrdenCompras?.Any(e => e.CodigoOrdenCompra == id)).GetValueOrDefault();
         }
     }
 }

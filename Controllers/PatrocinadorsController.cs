@@ -204,14 +204,14 @@ namespace systemquchooch.Controllers
             {
                 _context.Patrocinadors.Remove(patrocinador);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool PatrocinadorExists(int id)
         {
-          return (_context.Patrocinadors?.Any(e => e.CodigoPatrocinador == id)).GetValueOrDefault();
+            return (_context.Patrocinadors?.Any(e => e.CodigoPatrocinador == id)).GetValueOrDefault();
         }
     }
 }

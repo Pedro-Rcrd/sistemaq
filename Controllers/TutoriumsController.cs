@@ -83,9 +83,9 @@ namespace systemquchooch.Controllers
         }
 
 
-	// GET: Tutoriums/PDF
+        // GET: Tutoriums/PDF
 
-  public async Task<IActionResult> ImprimirTutoria()
+        public async Task<IActionResult> ImprimirTutoria()
         {
 
             // ViewModelUsuarios modelo = _context.Usuarios.Include(dv => dv.Id)
@@ -212,14 +212,14 @@ namespace systemquchooch.Controllers
             {
                 _context.Tutoria.Remove(tutorium);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool TutoriumExists(int id)
         {
-          return (_context.Tutoria?.Any(e => e.CodigoTutoria == id)).GetValueOrDefault();
+            return (_context.Tutoria?.Any(e => e.CodigoTutoria == id)).GetValueOrDefault();
         }
     }
 }

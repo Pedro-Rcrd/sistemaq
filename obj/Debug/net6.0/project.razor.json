@@ -18379,6 +18379,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Escritorio\\SystemaQuchooch\\Views\\Desempeคo\\Edit.cshtml",
+      "TargetPath": "Views\\Desempeคo\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\pedro\\OneDrive\\Escritorio\\SystemaQuchooch\\Views\\NivelAcademicoes\\Delete.cshtml",
       "TargetPath": "Views\\NivelAcademicoes\\Delete.cshtml",
       "FileKind": "mvc"
@@ -18449,11 +18454,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Escritorio\\SystemaQuchooch\\Views\\Desempeño\\ImprimirDesempeño.cshtml",
-      "TargetPath": "Views\\Desempeño\\ImprimirDesempeño.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\pedro\\OneDrive\\Escritorio\\SystemaQuchooch\\Views\\TutorTuroriums\\ImprimirTutor_tutoria.cshtml",
       "TargetPath": "Views\\TutorTuroriums\\ImprimirTutor_tutoria.cshtml",
       "FileKind": "mvc"
@@ -18489,11 +18489,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Escritorio\\SystemaQuchooch\\Views\\Desempeño\\Index.cshtml",
-      "TargetPath": "Views\\Desempeño\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\pedro\\OneDrive\\Escritorio\\SystemaQuchooch\\Views\\Carreras\\Delete.cshtml",
       "TargetPath": "Views\\Carreras\\Delete.cshtml",
       "FileKind": "mvc"
@@ -18526,11 +18521,6 @@
     {
       "FilePath": "c:\\Users\\pedro\\OneDrive\\Escritorio\\SystemaQuchooch\\Views\\HistorialEstudiantes\\Details.cshtml",
       "TargetPath": "Views\\HistorialEstudiantes\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Escritorio\\SystemaQuchooch\\Views\\Desempeño\\Delete.cshtml",
-      "TargetPath": "Views\\Desempeño\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18599,6 +18589,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Escritorio\\SystemaQuchooch\\Views\\Desempeคo\\Details.cshtml",
+      "TargetPath": "Views\\Desempeคo\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\pedro\\OneDrive\\Escritorio\\SystemaQuchooch\\Views\\Pais\\Details.cshtml",
       "TargetPath": "Views\\Pais\\Details.cshtml",
       "FileKind": "mvc"
@@ -18626,11 +18621,6 @@
     {
       "FilePath": "c:\\Users\\pedro\\OneDrive\\Escritorio\\SystemaQuchooch\\Views\\Gastoes\\Create.cshtml",
       "TargetPath": "Views\\Gastoes\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Escritorio\\SystemaQuchooch\\Views\\Desempeño\\Details.cshtml",
-      "TargetPath": "Views\\Desempeño\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18704,6 +18694,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Escritorio\\SystemaQuchooch\\Views\\Inicio\\IniciarSesion.cshtml",
+      "TargetPath": "Views\\Inicio\\IniciarSesion.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\pedro\\OneDrive\\Escritorio\\SystemaQuchooch\\Views\\Carreras\\ImprimirCarrera.cshtml",
       "TargetPath": "Views\\Carreras\\ImprimirCarrera.cshtml",
       "FileKind": "mvc"
@@ -18756,6 +18751,11 @@
     {
       "FilePath": "c:\\Users\\pedro\\OneDrive\\Escritorio\\SystemaQuchooch\\Views\\Periodoes\\Delete.cshtml",
       "TargetPath": "Views\\Periodoes\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Escritorio\\SystemaQuchooch\\Views\\Desempeคo\\ImprimirDesempeคo.cshtml",
+      "TargetPath": "Views\\Desempeคo\\ImprimirDesempeคo.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18979,16 +18979,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Escritorio\\SystemaQuchooch\\Views\\Desempeño\\Create.cshtml",
-      "TargetPath": "Views\\Desempeño\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\pedro\\OneDrive\\Escritorio\\SystemaQuchooch\\Views\\Desempeño\\Edit.cshtml",
-      "TargetPath": "Views\\Desempeño\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\pedro\\OneDrive\\Escritorio\\SystemaQuchooch\\Views\\TutorTuroriums\\Delete.cshtml",
       "TargetPath": "Views\\TutorTuroriums\\Delete.cshtml",
       "FileKind": "mvc"
@@ -19064,6 +19054,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Escritorio\\SystemaQuchooch\\Views\\Inicio\\Registrarse.cshtml",
+      "TargetPath": "Views\\Inicio\\Registrarse.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\pedro\\OneDrive\\Escritorio\\SystemaQuchooch\\Views\\Profesions\\Delete.cshtml",
       "TargetPath": "Views\\Profesions\\Delete.cshtml",
       "FileKind": "mvc"
@@ -19076,6 +19071,11 @@
     {
       "FilePath": "c:\\Users\\pedro\\OneDrive\\Escritorio\\SystemaQuchooch\\Views\\Informe\\Index.cshtml",
       "TargetPath": "Views\\Informe\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Escritorio\\SystemaQuchooch\\Views\\Desempeคo\\Delete.cshtml",
+      "TargetPath": "Views\\Desempeคo\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -19101,6 +19101,11 @@
     {
       "FilePath": "c:\\Users\\pedro\\OneDrive\\Escritorio\\SystemaQuchooch\\Views\\Pais\\ImprimirPais.cshtml",
       "TargetPath": "Views\\Pais\\ImprimirPais.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Escritorio\\SystemaQuchooch\\Views\\Desempeคo\\Index.cshtml",
+      "TargetPath": "Views\\Desempeคo\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -19141,6 +19146,11 @@
     {
       "FilePath": "c:\\Users\\pedro\\OneDrive\\Escritorio\\SystemaQuchooch\\Views\\Gastoes\\Index.cshtml",
       "TargetPath": "Views\\Gastoes\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pedro\\OneDrive\\Escritorio\\SystemaQuchooch\\Views\\Desempeคo\\Create.cshtml",
+      "TargetPath": "Views\\Desempeคo\\Create.cshtml",
       "FileKind": "mvc"
     },
     {

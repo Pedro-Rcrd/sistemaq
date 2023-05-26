@@ -74,9 +74,9 @@ namespace systemquchooch.Controllers
         public IActionResult Create()
         {
             return View();
-        } 
+        }
 
-	// GET: Areas/PDF
+        // GET: Areas/PDF
         public async Task<IActionResult> ImprimirArea()
         {
             return new ViewAsPdf("ImprimirArea", await _context.Areas.ToListAsync()/*,modelo*/)
@@ -185,14 +185,14 @@ namespace systemquchooch.Controllers
             {
                 _context.Areas.Remove(area);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool AreaExists(int id)
         {
-          return (_context.Areas?.Any(e => e.CodigoArea == id)).GetValueOrDefault();
+            return (_context.Areas?.Any(e => e.CodigoArea == id)).GetValueOrDefault();
         }
     }
 }
