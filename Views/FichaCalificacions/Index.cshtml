@@ -38,22 +38,7 @@
                 Promedio
             </th>
             <th>
-                ImagenFicha
-            </th>
-            <th>
-                ImagenEstudiante
-            </th>
-            <th>
-                ImagenCarta
-            </th>
-            <th>
-                CodigoDesempeñoNavigation
-            </th>
-            <th>
                 CodigoEstudianteNavigation
-            </th>
-            <th>
-                CodigoPeriodoNavigation
             </th>
             <th></th>
         </tr>
@@ -71,22 +56,7 @@
                 @Html.DisplayFor(modelItem => item.Promedio)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.ImagenFicha)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ImagenEstudiante)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ImagenCarta)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CodigoDesempeñoNavigation.Nombre)
-            </td>
-            <td>
                 @Html.DisplayFor(modelItem => item.CodigoEstudianteNavigation.Nombre)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CodigoPeriodoNavigation.Nombre)
             </td>
             <td>
                     <a asp-action="Edit" asp-route-id="@item.CodigoFichaCalificacion"><i class="fs-4 bi bi-pencil-fill text-success"></i></a>

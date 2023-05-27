@@ -22,9 +22,6 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.FechaCreacion)
-            </th>
-            <th>
                 @Html.DisplayNameFor(model => model.CodigoCarreraNavigation)
             </th>
             <th>
@@ -36,18 +33,12 @@
             <th>
                 @Html.DisplayNameFor(model => model.CodigoGradoNavigation)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CodigoNivelAcademicoNavigation)
-            </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
 @foreach (var item in Model) {
         <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.FechaCreacion)
-            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.CodigoCarreraNavigation.Nombre)
             </td>
@@ -59,9 +50,6 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.CodigoGradoNavigation.Nombre)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CodigoNivelAcademicoNavigation.Nombre)
             </td>
             <td>
                     <a asp-action="Edit" asp-route-id="@item.CodigoHistorialEstudiante"><i class="fs-4 bi bi-pencil-fill text-success"></i></a>
