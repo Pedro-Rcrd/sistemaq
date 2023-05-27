@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 
 namespace systemquchooch.Models;
 
@@ -16,7 +17,7 @@ public partial class OrdenCompra
 
     public int CodigoProveedor { get; set; }
     [DisplayName("Fecha de Creación")]
-
+    [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
     public DateTime FechaCreacion { get; set; }
     [DisplayName("Código de Estudiante de Navegación")]
 

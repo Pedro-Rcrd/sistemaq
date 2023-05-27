@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 
 namespace systemquchooch.Models;
 
@@ -19,9 +20,11 @@ public partial class Tutorium
 
     public int CodigoTutor { get; set; }
     [DisplayName("Fecha de Creación")]
+    [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
 
     public DateTime FechaCreacion { get; set; }
     [DisplayName("Hora de Inicio")]
+    [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
 
     public string HoraInicio { get; set; } = null!;
     [DisplayName("Hora de Finalización")]

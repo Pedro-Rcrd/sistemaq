@@ -55,19 +55,20 @@
                         <div class="col-md-4">
             <div class="form-group">
                 <label asp-for="FechaCreacion" class="control-label"></label>
-                                <input asp-for="FechaCreacion" class="form-control" data-val-required="Complete este campo." />
+                                <input asp-for="FechaCreacion" class="form-control" data-val-required="Complete este campo." type="date" />
                 <span asp-validation-for="FechaCreacion" class="text-danger"></span>
             </div></div>
                         <div class="col-md-4">
             <div class="form-group">
                 <label asp-for="HoraInicio" class="control-label"></label>
-                <input asp-for="HoraInicio" class="form-control" type="time data-val-required="Complete este campo." />
+                                <input asp-for="HoraInicio" class="form-control" type="time data-val-required="Complete este campo." type="date" data-val-required="Complete este campo." />
                 <span asp-validation-for="HoraInicio" class="text-danger"></span>
             </div></div>
                         <div class="col-md-4">
             <div class="form-group">
                 <label asp-for="HoraFinal" class="control-label"></label>
-                <input asp-for="HoraFinal" class="form-control" type="time"/>
+                                <input asp-for="HoraFinal" class="form-control" data-val-required="Complete este campo."
+                                        type="time" />
                 <span asp-validation-for="HoraFinal" class="text-danger"></span>
             </div></div></div>
                     <div class="row">
@@ -80,7 +81,7 @@
 
                     <div class="d-flex justify-content-end">
                         <input type="submit" value="Crear" class="btn btn-primary me-2 w-25" />
-                        <a class="btn btn-outline-primary me-2 w-25" asp-controller="Registro" asp-action="Principal">Cancelar</a>
+                        <a class="btn btn-outline-primary me-2 w-25" asp-controller="Asignacion" asp-action="Index">Cancelar</a>
 
             </div>
         </form>
