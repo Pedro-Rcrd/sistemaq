@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace systemquchooch.Models;
 
@@ -26,7 +27,7 @@ public partial class Estudiante
     public string Descripcion { get; set; } = null!;
 
     public string FotoPerfil { get; set; } = null!;
-
+    [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)] 
     public DateTime? FechaCreacion { get; set; }
 
     public virtual Comunidad CodigoComunidadNavigation { get; set; } = null!;

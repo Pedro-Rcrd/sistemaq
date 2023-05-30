@@ -51,9 +51,43 @@
 </div>
 
 
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}
-
 </body>
 </html>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('form').submit(function (event) {
+                // Evita que el formulario se envíe normalmente
+                event.preventDefault();
+
+                // Envía el formulario a través de AJAX
+                $.ajax({
+                    url: '@Url.Action("Create", "Carreras")',
+                    type: 'POST',
+                    data: $(this).serialize(),
+                    success: function (result) {
+                        // Muestra una alerta de notificación usando SweetAlert
+                        swal("Registro guardado correctamente", "", "success");
+
+                        // Puedes redirigir al usuario a otra página después de mostrar la alerta
+                        //window.location.href = '/Tutoriums/Create';
+
+                        setTimeout(function () {
+                            window.location.href = '/Carreras/Create';
+                        }, 2000); // 2000 milisegundos = 2 segundos
+                    },
+                    error: function (result) {
+                        // Muestra una alerta de error si el registro no se guardó correctamente
+                        swal("Error al guardar el registro", "", "error");
+                    }
+                });
+            });
+        });
+    </script>
+
+}
